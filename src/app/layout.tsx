@@ -1,8 +1,11 @@
+import Typography from '@/components/Typography'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Fira_Sans as FiraSans } from 'next/font/google'
+import Image from 'next/image'
+import menuH from '@/assets/menuh.svg'
 
-const inter = Inter({ subsets: ['latin'] })
+const firaSans = FiraSans({ subsets: ['latin'], weight: ['400', '700'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,8 +18,21 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-br" className="bg-bgcolor-500">
-      <body className={inter.className}>{children}</body>
+    <html
+      lang="pt-br"
+      className="to-bgcolor-500 min-h-screen bg-gradient-to-b from-slate-900"
+    >
+      <body className={firaSans.className}>
+        <header className="m-4 flex items-center justify-between">
+          <Image alt="Menu" src={menuH} />
+          <div>
+            <Typography Tag="h1" aparentTag="h1" ornament>
+              Gustavo Pereira
+            </Typography>
+          </div>
+        </header>
+        {children}
+      </body>
     </html>
   )
 }
