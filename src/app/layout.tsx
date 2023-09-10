@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-br"
-      className="to-bgcolor-500 min-h-screen bg-gradient-to-b from-slate-900"
+      className="min-h-screen bg-gradient-to-b from-slate-900 to-bgcolor-500"
     >
       <body className={firaSans.className}>
         <header className="m-4 flex items-center justify-between">
