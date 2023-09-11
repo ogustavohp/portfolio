@@ -1,115 +1,24 @@
 import Image from 'next/image'
 import Typography from '@/components/Typography'
 import Link from 'next/link'
-import tag from '@/assets/tag.svg'
 import cardBanner from '@/assets/Banner Card.png'
 import AboutMe from '@/components/AboutMe'
 import SkillsAndTechnologies from '@/components/SkillsAndTechnologies'
+import Differences from '@/components/Differences'
 
 export default function Home() {
   return (
     <main className="mx-5 flex flex-col gap-10">
       {/* Sobre mim */}
       <AboutMe />
+
       {/* Habilidades e tecnologias */}
       <SkillsAndTechnologies />
+
       {/* Diferenciais */}
-      <section className="flex flex-col items-center gap-3">
-        <Typography Tag="h2" aparentTag="h1" ornament>
-          Diferenciais
-        </Typography>
-        {/* diferencial card */}
-        <div className="flex w-60 flex-col items-center gap-3 rounded-xl border border-iconcolor-500 bg-gradient-to-b from-slate-900 to-bgcolor-500 px-2 pb-3 pt-2">
-          <Image alt="Icone </>" src={tag} />
-          <div className="text-center">
-            <Typography
-              Tag="h3"
-              aparentTag="cardDifferencesTitle"
-              style={'text-primary-500'}
-            >
-              Clean Code
-            </Typography>
-            <Typography Tag="p" aparentTag="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-              doloremque nesciunt ipsam illum, aliquid ipsa numquam quaerat
-              dolore at sapiente dolorum reiciendis animi architecto neque
-              maxime? Totam sit nam a.
-            </Typography>
-          </div>
-        </div>
-        <div className="flex w-60 flex-col items-center gap-3 rounded-xl border border-iconcolor-500 bg-gradient-to-b from-slate-900 to-bgcolor-500 px-2 pb-3 pt-2">
-          <Image alt="Icone </>" src={tag} />
-          <div className="text-center">
-            <Typography
-              Tag="h3"
-              aparentTag="cardDifferencesTitle"
-              style={'text-primary-500'}
-            >
-              Clean Code
-            </Typography>
-            <Typography Tag="p" aparentTag="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-              doloremque nesciunt ipsam illum, aliquid ipsa numquam quaerat
-              dolore at sapiente dolorum reiciendis animi architecto neque
-              maxime? Totam sit nam a.
-            </Typography>
-          </div>
-        </div>
-        <div className="flex w-60 flex-col items-center gap-3 rounded-xl border border-iconcolor-500 bg-gradient-to-b from-slate-900 to-bgcolor-500 px-2 pb-3 pt-2">
-          <Image alt="Icone </>" src={tag} />
-          <div className="text-center">
-            <Typography
-              Tag="h3"
-              aparentTag="cardDifferencesTitle"
-              style={'text-primary-500'}
-            >
-              Clean Code
-            </Typography>
-            <Typography Tag="p" aparentTag="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-              doloremque nesciunt ipsam illum, aliquid ipsa numquam quaerat
-              dolore at sapiente dolorum reiciendis animi architecto neque
-              maxime? Totam sit nam a.
-            </Typography>
-          </div>
-        </div>
-        <div className="flex w-60 flex-col items-center gap-3 rounded-xl border border-iconcolor-500 bg-gradient-to-b from-slate-900 to-bgcolor-500 px-2 pb-3 pt-2">
-          <Image alt="Icone </>" src={tag} />
-          <div className="text-center">
-            <Typography
-              Tag="h3"
-              aparentTag="cardDifferencesTitle"
-              style={'text-primary-500'}
-            >
-              Clean Code
-            </Typography>
-            <Typography Tag="p" aparentTag="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-              doloremque nesciunt ipsam illum, aliquid ipsa numquam quaerat
-              dolore at sapiente dolorum reiciendis animi architecto neque
-              maxime? Totam sit nam a.
-            </Typography>
-          </div>
-        </div>
-        <div className="flex w-60 flex-col items-center gap-3 rounded-xl border border-iconcolor-500 bg-gradient-to-b from-slate-900 to-bgcolor-500 px-2 pb-3 pt-2">
-          <Image alt="Icone </>" src={tag} />
-          <div className="text-center">
-            <Typography
-              Tag="h3"
-              aparentTag="cardDifferencesTitle"
-              style={'text-primary-500'}
-            >
-              Clean Code
-            </Typography>
-            <Typography Tag="p" aparentTag="p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-              doloremque nesciunt ipsam illum, aliquid ipsa numquam quaerat
-              dolore at sapiente dolorum reiciendis animi architecto neque
-              maxime? Totam sit nam a.
-            </Typography>
-          </div>
-        </div>
-      </section>
+      <Differences />
+
+      {/* O que eu faço */}
       <section className="flex flex-col items-center gap-3">
         <Typography Tag="h2" aparentTag="h2" ornament>
           O Que eu faço
