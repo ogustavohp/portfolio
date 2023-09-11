@@ -7,7 +7,7 @@ export default function CurriculumAboutMe() {
   return (
     <div className="flex flex-col items-center gap-4">
       <Button icon={eye}>Ver Curriculo Online</Button>
-      <Button icon={download} secondaryColor>
+      <Button icon={download} variant="FillSecondary">
         Baixar Curriculo
       </Button>
     </div>
