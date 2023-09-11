@@ -15,6 +15,7 @@ interface ITypography {
     | 'cardDifferencesTitle'
   ornament?: boolean
   style?: string | null
+  botBorder?: boolean
 }
 
 export default function Typography({
@@ -23,6 +24,7 @@ export default function Typography({
   Tag,
   ornament = false,
   style = null,
+  botBorder = false,
 }: ITypography) {
   const tagStyle = {
     h1: 'text-2xl font-bold',
@@ -40,7 +42,7 @@ export default function Typography({
         <Tag
           className={`${tagStyle[aparentTag]} inline-block ${
             style || 'text-white'
-          }`}
+          } ${botBorder ? 'border-b border-primary-500' : ''}`}
         >
           {children}
         </Tag>
@@ -52,7 +54,7 @@ export default function Typography({
     <Tag
       className={`${tagStyle[aparentTag]} inline-block ${
         style || 'text-white'
-      }`}
+      } ${botBorder ? 'border-b border-primary-500' : ''}`}
     >
       {children}
     </Tag>

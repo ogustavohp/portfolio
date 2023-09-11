@@ -5,7 +5,7 @@ import Typography from '../Typography'
 export default function TextAboutMeSummarized() {
   return (
     <>
-      <Typography Tag="h2" aparentTag="h1" ornament>
+      <Typography Tag="h2" aparentTag="h1" ornament botBorder>
         Olá! Eu sou o Gustavo
       </Typography>
       <Typography Tag="p" aparentTag="p">
