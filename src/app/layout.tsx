@@ -1,9 +1,7 @@
-import Typography from '@/components/Typography'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Fira_Sans as FiraSans } from 'next/font/google'
-import Image from 'next/image'
-import menuH from '@/assets/menuh.svg'
+import Menu from '@/components/Menu'
 
 const firaSans = FiraSans({ subsets: ['latin'], weight: ['400', '700'] })
 
@@ -23,14 +21,7 @@ export default function RootLayout({
       className="min-h-screen bg-gradient-to-b from-slate-900 to-bgcolor-500"
     >
       <body className={firaSans.className}>
-        <header className="m-4 flex items-center justify-between">
-          <Image alt="Menu" src={menuH} />
-          <div>
-            <Typography Tag="h1" apparentTag="h1" ornament>
-              Gustavo Pereira
-            </Typography>
-          </div>
-        </header>
+        <Menu />
         {children}
       </body>
     </html>
