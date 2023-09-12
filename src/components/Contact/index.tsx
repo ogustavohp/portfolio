@@ -59,7 +59,7 @@ export default function Contact() {
       </div>
 
       {/* Telefone */}
-      <div className="ml-5 flex gap-2">
+      <div className="ml-5 mt-5 flex gap-2">
         <Image alt="icone de um telefone" src={iconTel} />
         <Typography Tag="span" apparentTag="contact">
           +55 (11) 93333-3333
@@ -86,7 +86,7 @@ export default function Contact() {
       </div>
 
       {/* Me encontre em */}
-      <div className="flex flex-col items-center">
+      <div className="mt-7 flex flex-col items-center">
         <Typography Tag="h2" apparentTag="h1" ornament>
           Me encontre em:
         </Typography>
