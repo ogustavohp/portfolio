@@ -27,7 +27,7 @@ export default function Button({
       {icon && <Image alt="icone de um olho" src={icon} />}
       <Typography
         Tag="p"
-        aparentTag="p"
+        apparentTag="p"
         style={
           variant === 'FillPrimary' || variant === 'FillSecondary'
             ? 'text-bgcolor-900'

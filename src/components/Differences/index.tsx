@@ -6,7 +6,7 @@ import iconTag from '@/assets/tag.svg'
 export default function Differences() {
   return (
     <section className="flex flex-col items-center gap-3">
-      <Typography Tag="h2" aparentTag="h1" ornament botBorder>
+      <Typography Tag="h2" apparentTag="h1" ornament botBorder>
         Diferenciais
       </Typography>
 

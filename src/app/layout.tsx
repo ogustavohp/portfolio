@@ -26,7 +26,7 @@ export default function RootLayout({
         <header className="m-4 flex items-center justify-between">
           <Image alt="Menu" src={menuH} />
           <div>
-            <Typography Tag="h1" aparentTag="h1" ornament>
+            <Typography Tag="h1" apparentTag="h1" ornament>
               Gustavo Pereira
             </Typography>
           </div>

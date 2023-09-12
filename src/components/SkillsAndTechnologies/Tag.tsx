@@ -47,7 +47,7 @@ export default function Tag({ skillName }: ITag) {
   return (
     <div className="flex items-center gap-2 rounded-3xl border border-iconcolor-500 bg-slate-900 px-4 py-1">
       <div className={`h-2 w-2 rounded-full ${colorVariants[skillName]}`} />
-      <Typography Tag="p" aparentTag="skillName">
+      <Typography Tag="p" apparentTag="skillName">
         {skillName}
       </Typography>
     </div>

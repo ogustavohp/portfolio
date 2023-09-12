@@ -4,7 +4,7 @@ import OrnamentTag from './OrnamentTag'
 interface ITypography {
   children: ReactNode
   Tag: 'h1' | 'h2' | 'h3' | 'h4' | 'p' | 'span'
-  aparentTag:
+  apparentTag:
     | 'h1'
     | 'h2'
     | 'h3'
@@ -20,7 +20,7 @@ interface ITypography {
 
 export default function Typography({
   children,
-  aparentTag,
+  apparentTag,
   Tag,
   ornament = false,
   style = null,
@@ -40,7 +40,7 @@ export default function Typography({
     return (
       <OrnamentTag>
         <Tag
-          className={`${tagStyle[aparentTag]} inline-block ${
+          className={`${tagStyle[apparentTag]} inline-block ${
             style || 'text-white'
           } ${botBorder ? 'border-b border-primary-500' : ''}`}
         >
@@ -52,7 +52,7 @@ export default function Typography({
 
   return (
     <Tag
-      className={`${tagStyle[aparentTag]} inline-block ${
+      className={`${tagStyle[apparentTag]} inline-block ${
         style || 'text-white'
       } ${botBorder ? 'border-b border-primary-500' : ''}`}
     >

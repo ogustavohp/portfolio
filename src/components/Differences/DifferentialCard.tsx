@@ -19,12 +19,12 @@ export default function DifferentialCard({
       <div className="text-center">
         <Typography
           Tag="h3"
-          aparentTag="cardDifferencesTitle"
+          apparentTag="cardDifferencesTitle"
           style={'text-primary-500'}
         >
           {title}
         </Typography>
-        <Typography Tag="p" aparentTag="p">
+        <Typography Tag="p" apparentTag="p">
           {children}
         </Typography>
       </div>

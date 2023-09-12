@@ -18,11 +18,11 @@ export default function HighlightCard({
       <Image alt="icone de uma balão de conversa" src={icon} />
       <div className="flex flex-col">
         <span className="self-center">
-          <Typography Tag="p" aparentTag="h1">
+          <Typography Tag="p" apparentTag="h1">
             {topText}
           </Typography>
         </span>
-        <Typography Tag="p" aparentTag="p">
+        <Typography Tag="p" apparentTag="p">
           {bottomText}
         </Typography>
       </div>

@@ -5,10 +5,10 @@ import Typography from '../Typography'
 export default function TextAboutMeSummarized() {
   return (
     <>
-      <Typography Tag="h2" aparentTag="h1" ornament botBorder>
+      <Typography Tag="h2" apparentTag="h1" ornament botBorder>
         Olá! Eu sou o Gustavo
       </Typography>
-      <Typography Tag="p" aparentTag="p">
+      <Typography Tag="p" apparentTag="p">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem,
         dolores explicabo repellendus repudiandae ut tempore id. Est repudiandae
         a, voluptatem perferendis error nesciunt facere maxime, asperiores
