@@ -13,6 +13,7 @@ interface ITypography {
     | 'subTitleCard'
     | 'skillName'
     | 'cardDifferencesTitle'
+    | 'contact'
   ornament?: boolean
   style?: string | null
   botBorder?: boolean
@@ -35,6 +36,7 @@ export default function Typography({
     subTitleCard: 'font-bold leading-relaxed',
     skillName: 'text-sm',
     cardDifferencesTitle: 'text-xl',
+    contact: 'text-2xl',
   }
   if (ornament) {
     return (

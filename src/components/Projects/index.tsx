@@ -59,6 +59,8 @@ export default function Projects() {
         distinctio, laudantium voluptas sit vitae aperiam facere illum! Quia,
         sequi suscipit!
       </ProjectCard>
+      {/* Botão carregar mais */}
+      <div></div>
     </section>
   )
 }
