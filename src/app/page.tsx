@@ -3,7 +3,6 @@ import SkillsAndTechnologies from '@/components/SkillsAndTechnologies'
 import Differences from '@/components/Differences'
 import WhatIDo from '@/components/WhatIDo'
 import Projects from '@/components/Projects'
-import Contact from '@/components/Contact'
 
 export default function Home() {
   return (
@@ -22,9 +21,6 @@ export default function Home() {
 
       {/* Projetos */}
       <Projects />
-
-      {/* Contato */}
-      <Contact />
     </main>
   )
 }

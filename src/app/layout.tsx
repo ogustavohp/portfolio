@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Fira_Sans as FiraSans } from 'next/font/google'
 import Menu from '@/components/Menu'
+import Footer from '@/components/Footer'
 
 const firaSans = FiraSans({ subsets: ['latin'], weight: ['400', '700'] })
 
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={firaSans.className}>
         <Menu />
         {children}
+        <Footer />
       </body>
     </html>
   )

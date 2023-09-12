@@ -9,9 +9,9 @@ import iconDownload from '@/assets/download.svg'
 import iconLinkedIn from '@/assets/linkedinIcon.svg'
 import iconGitHub from '@/assets/githubIcon.svg'
 
-export default function Contact() {
+export default function Footer() {
   return (
-    <section className="flex flex-col gap-3">
+    <footer className="mx-5 mt-10 flex flex-col gap-3">
       {/* title */}
       <div className="mb-7 self-center">
         <Typography Tag="h2" apparentTag="h1" ornament>
@@ -99,6 +99,6 @@ export default function Contact() {
           </a>
         </div>
       </div>
-    </section>
+    </footer>
   )
 }
