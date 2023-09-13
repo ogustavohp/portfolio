@@ -28,7 +28,7 @@ export default function Button({
         large ? 'text-xl' : ''
       } px-4 py-1`}
     >
-      {icon && <Image alt="icone de um olho" src={icon} />}
+      {icon && <Image alt="ícone de um olho" src={icon} />}
       <Typography
         Tag="p"
         apparentTag="p"
