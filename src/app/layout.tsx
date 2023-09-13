@@ -19,9 +19,9 @@ export default function RootLayout({
   return (
     <html
       lang="pt-br"
-      className="min-h-screen bg-gradient-to-b from-slate-900 to-bgcolor-500"
+      className="mx-auto min-h-screen max-w-[1436px] bg-gradient-to-b from-slate-900 to-bgcolor-500"
     >
-      <body className={firaSans.className}>
+      <body className={`${firaSans.className}`}>
         <Menu />
         {children}
         <Footer />
