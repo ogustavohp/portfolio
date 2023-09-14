@@ -19,42 +19,47 @@ export default function Menu() {
           <Image alt="Menu" src={iconMenuh} />
         </div>
         <div>
-          <Typography Tag="h1" apparentTag="h1" ornament>
-            Gustavo Pereira
-          </Typography>
+          <Link href={'/'}>
+            <Typography Tag="h1" apparentTag="h1" ornament>
+              Gustavo Pereira
+            </Typography>
+          </Link>
         </div>
       </div>
-      {/* Parte inferior */}
-      {/* {visible && ( */}
+
       <div
         className={`absolute flex w-full flex-col items-start gap-5 bg-slate-900/95 pb-4 pl-16 transition-all ${
           visible ? 'left-0' : '-left-full'
         }`}
       >
-        <Link href={'#'}>
+        <Link href={'/aboutme'}>
           <Typography Tag="span" apparentTag="cardDifferencesTitle">
             Sobre mim
           </Typography>
         </Link>
-        <Link href={'#'}>
+        <Link href={'/formations'}>
           <Typography Tag="span" apparentTag="cardDifferencesTitle">
             Formações
           </Typography>
         </Link>
-        <Link href={'#'}>
+        <Link href={'/skills'}>
           <Typography Tag="span" apparentTag="cardDifferencesTitle">
             Habilidades
           </Typography>
         </Link>
-        <Link href={'#'}>
+        <Link href={'/projects'}>
           <Typography Tag="span" apparentTag="cardDifferencesTitle">
             Projetos
           </Typography>
         </Link>
-        <Button large>Currículo</Button>
-        <Button variant="primary" large>
-          Contato
-        </Button>
+        <Link href={'#'}>
+          <Button large>Currículo</Button>
+        </Link>
+        <Link href={'#'}>
+          <Button variant="primary" large>
+            Contato
+          </Button>
+        </Link>
       </div>
       {/* )} */}
     </header>

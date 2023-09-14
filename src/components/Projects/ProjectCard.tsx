@@ -4,13 +4,14 @@ import Typography from '../Typography'
 import Image, { StaticImageData } from 'next/image'
 import { ITag } from '@/lib/tag'
 import Tag from '../SkillsAndTechnologies/Tag'
+import TypeOfProject from './TypeOfProject'
 
 interface IProjectCard {
   title: string
   children: ReactNode
   imgBanner: StaticImageData
   skills: ITag[]
-  SideProject?: boolean
+  sideProject?: boolean
   inProgress?: boolean
 }
 
@@ -19,7 +20,7 @@ export default function ProjectCard({
   children,
   imgBanner,
   skills,
-  SideProject = false,
+  sideProject = false,
   inProgress = false,
 }: IProjectCard) {
   return (
@@ -33,22 +34,7 @@ export default function ProjectCard({
             {title}
           </Typography>
           {/* Tipo do projeto */}
-          <div className="mb-2 flex gap-2">
-            <div className="rounded-3xl border border-iconcolor-500 bg-slate-900 px-3">
-              <Typography Tag="span" apparentTag="skillName">
-                {SideProject ? 'Side project' : 'Work'}
-              </Typography>
-            </div>
-            <div className="rounded-3xl border border-iconcolor-500 bg-yellow-200 px-3">
-              <Typography
-                Tag="span"
-                apparentTag="skillName"
-                style={'text-bgcolor-900'}
-              >
-                {inProgress ? 'Em andamento' : 'Finalizado'}
-              </Typography>
-            </div>
-          </div>
+          <TypeOfProject inProgress={inProgress} sideProject={sideProject} />
           {/* Texto */}
           <div>
             <Typography Tag="p" apparentTag="p">
