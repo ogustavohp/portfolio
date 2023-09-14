@@ -51,7 +51,9 @@ export default function Menu() {
             </Typography>
           </Link>
           <Link href={'#'} onClick={change}>
-            <Button large>Currículo</Button>
+            <Button large variant="FillSecondary">
+              Currículo
+            </Button>
           </Link>
           <Link href={'#'} onClick={change}>
             <Button variant="primary" large>
