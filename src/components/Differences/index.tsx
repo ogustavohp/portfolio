@@ -10,29 +10,31 @@ export default function Differences() {
         Diferenciais
       </Typography>
 
-      <DifferentialCard icon={iconTag} title="Clean Code">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae odio
-        laudantium tenetur quas suscipit sint ut consequatur neque officia id
-        placeat nesciunt eos in, aliquam nam nulla blanditiis quod minus?
-      </DifferentialCard>
+      <div className="flex flex-wrap justify-center gap-3 ">
+        <DifferentialCard icon={iconTag} title="Clean Code">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae odio
+          laudantium tenetur quas suscipit sint ut consequatur neque officia id
+          placeat nesciunt eos in, aliquam nam nulla blanditiis quod minus?
+        </DifferentialCard>
 
-      <DifferentialCard icon={iconTag} title="Clean Code">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae odio
-        laudantium tenetur quas suscipit sint ut consequatur neque officia id
-        placeat nesciunt eos in, aliquam nam nulla blanditiis quod minus?
-      </DifferentialCard>
+        <DifferentialCard icon={iconTag} title="Clean Code">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae odio
+          laudantium tenetur quas suscipit sint ut consequatur neque officia id
+          placeat nesciunt eos in, aliquam nam nulla blanditiis quod minus?
+        </DifferentialCard>
 
-      <DifferentialCard icon={iconTag} title="Clean Code">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae odio
-        laudantium tenetur quas suscipit sint ut consequatur neque officia id
-        placeat nesciunt eos in, aliquam nam nulla blanditiis quod minus?
-      </DifferentialCard>
+        <DifferentialCard icon={iconTag} title="Clean Code">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae odio
+          laudantium tenetur quas suscipit sint ut consequatur neque officia id
+          placeat nesciunt eos in, aliquam nam nulla blanditiis quod minus?
+        </DifferentialCard>
 
-      <DifferentialCard icon={iconTag} title="Clean Code">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae odio
-        laudantium tenetur quas suscipit sint ut consequatur neque officia id
-        placeat nesciunt eos in, aliquam nam nulla blanditiis quod minus?
-      </DifferentialCard>
+        <DifferentialCard icon={iconTag} title="Clean Code">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae odio
+          laudantium tenetur quas suscipit sint ut consequatur neque officia id
+          placeat nesciunt eos in, aliquam nam nulla blanditiis quod minus?
+        </DifferentialCard>
+      </div>
     </section>
   )
 }

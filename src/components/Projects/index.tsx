@@ -21,44 +21,46 @@ export default function Projects() {
       {/* Botão ver todos os projetos */}
       <div></div>
       {/* Card */}
-      <ProjectCard
-        imgBanner={cardBanner}
-        skills={formatter}
-        title="Time Vault"
-        inProgress
-        SideProject
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempora
-        accusamus saepe eveniet nobis vel quisquam deserunt minus necessitatibus
-        distinctio, laudantium voluptas sit vitae aperiam facere illum! Quia,
-        sequi suscipit!
-      </ProjectCard>
+      <div className="flex flex-wrap justify-center gap-3 ">
+        <ProjectCard
+          imgBanner={cardBanner}
+          skills={formatter}
+          title="Time Vault"
+          inProgress
+          sideProject
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempora
+          accusamus saepe eveniet nobis vel quisquam deserunt minus
+          necessitatibus distinctio, laudantium voluptas sit vitae aperiam
+          facere illum! Quia, sequi suscipit!
+        </ProjectCard>
 
-      <ProjectCard
-        imgBanner={cardBanner}
-        skills={formatter}
-        title="Time Vault"
-        inProgress
-        SideProject
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempora
-        accusamus saepe eveniet nobis vel quisquam deserunt minus necessitatibus
-        distinctio, laudantium voluptas sit vitae aperiam facere illum! Quia,
-        sequi suscipit!
-      </ProjectCard>
+        <ProjectCard
+          imgBanner={cardBanner}
+          skills={formatter}
+          title="Time Vault"
+          inProgress
+          sideProject
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempora
+          accusamus saepe eveniet nobis vel quisquam deserunt minus
+          necessitatibus distinctio, laudantium voluptas sit vitae aperiam
+          facere illum! Quia, sequi suscipit!
+        </ProjectCard>
 
-      <ProjectCard
-        imgBanner={cardBanner}
-        skills={formatter}
-        title="Time Vault"
-        inProgress
-        SideProject
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempora
-        accusamus saepe eveniet nobis vel quisquam deserunt minus necessitatibus
-        distinctio, laudantium voluptas sit vitae aperiam facere illum! Quia,
-        sequi suscipit!
-      </ProjectCard>
+        <ProjectCard
+          imgBanner={cardBanner}
+          skills={formatter}
+          title="Time Vault"
+          inProgress
+          sideProject
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempora
+          accusamus saepe eveniet nobis vel quisquam deserunt minus
+          necessitatibus distinctio, laudantium voluptas sit vitae aperiam
+          facere illum! Quia, sequi suscipit!
+        </ProjectCard>
+      </div>
       {/* Botão carregar mais */}
       <div></div>
     </section>

@@ -32,30 +32,30 @@ export default function Menu() {
           visible ? 'left-0' : '-left-full'
         }`}
       >
-        <Link href={'/aboutme'}>
+        <Link href={'/aboutme'} onClick={change}>
           <Typography Tag="span" apparentTag="cardDifferencesTitle">
             Sobre mim
           </Typography>
         </Link>
-        <Link href={'/formations'}>
+        <Link href={'/formations'} onClick={change}>
           <Typography Tag="span" apparentTag="cardDifferencesTitle">
             Formações
           </Typography>
         </Link>
-        <Link href={'/skills'}>
+        <Link href={'/skills'} onClick={change}>
           <Typography Tag="span" apparentTag="cardDifferencesTitle">
             Habilidades
           </Typography>
         </Link>
-        <Link href={'/projects'}>
+        <Link href={'/projects'} onClick={change}>
           <Typography Tag="span" apparentTag="cardDifferencesTitle">
             Projetos
           </Typography>
         </Link>
-        <Link href={'#'}>
+        <Link href={'#'} onClick={change}>
           <Button large>Currículo</Button>
         </Link>
-        <Link href={'#'}>
+        <Link href={'#'} onClick={change}>
           <Button variant="primary" large>
             Contato
           </Button>

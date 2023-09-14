@@ -9,7 +9,10 @@ export default function SkillsAndTechnologies() {
       <Typography Tag="h2" apparentTag="h2" ornament botBorder>
         Habilidades <OrnamentE /> Tecnologias
       </Typography>
-      <Technologies />
+
+      <div className="flex flex-wrap justify-center gap-3 ">
+        <Technologies />
+      </div>
     </section>
   )
 }
