@@ -13,9 +13,11 @@ interface IProjectCard {
   skills: ITag[]
   sideProject?: boolean
   inProgress?: boolean
+  id: string
 }
 
 export default function ProjectCard({
+  id,
   title,
   children,
   imgBanner,
@@ -24,37 +26,40 @@ export default function ProjectCard({
   inProgress = false,
 }: IProjectCard) {
   return (
-    <div className="flex w-72 flex-col hover:scale-105">
-      {/* Imagem do card */}
-      <Image alt="Imagem do Projeto" src={imgBanner} className="w-full" />
-      {/* Parte de baixo do Card */}
-      <div className="rounded-b-[10px] border border-iconcolor-500 bg-gradient-to-b from-slate-900 to-bgcolor-500">
-        <div className="m-2">
-          <Typography Tag="h3" apparentTag="h2" style={'text-primary-500 mb-2'}>
-            {title}
-          </Typography>
-          {/* Tipo do projeto */}
-          <TypeOfProject inProgress={inProgress} sideProject={sideProject} />
-          {/* Texto */}
-          <div>
-            <Typography Tag="p" apparentTag="p">
-              {children}
-            </Typography>
-            <Link
-              href={'#'}
-              className="self-start leading-relaxed text-primary-500"
+    <Link href={`/projects/${id}`}>
+      <div className="flex w-72 flex-col hover:scale-105">
+        {/* Imagem do card */}
+        <Image alt="Imagem do Projeto" src={imgBanner} className="w-full" />
+        {/* Parte de baixo do Card */}
+        <div className="rounded-b-[10px] border border-iconcolor-500 bg-gradient-to-b from-slate-900 to-bgcolor-500">
+          <div className="m-2">
+            <Typography
+              Tag="h3"
+              apparentTag="h2"
+              style={'text-primary-500 mb-2'}
             >
-              Ver mais
-            </Link>
-          </div>
-          <div className="mb-4 mt-2 flex flex-wrap">
-            {/* skill */}
-            {skills.map((e) => (
-              <Tag key={e.skillName} skillName={e.skillName} />
-            ))}
+              {title}
+            </Typography>
+            {/* Tipo do projeto */}
+            <TypeOfProject inProgress={inProgress} sideProject={sideProject} />
+            {/* Texto */}
+            <div>
+              <Typography Tag="p" apparentTag="p">
+                {children}
+              </Typography>
+              <span className="self-start leading-relaxed text-primary-500">
+                Ver mais
+              </span>
+            </div>
+            <div className="mb-4 mt-2 flex flex-wrap">
+              {/* skill */}
+              {skills.map((e) => (
+                <Tag key={e.skillName} skillName={e.skillName} />
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }

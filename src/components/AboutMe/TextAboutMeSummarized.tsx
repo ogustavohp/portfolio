@@ -5,9 +5,11 @@ import Typography from '../Typography'
 export default function TextAboutMeSummarized() {
   return (
     <>
-      <Typography Tag="h2" apparentTag="h1" ornament botBorder>
-        Olá! Eu sou o Gustavo
-      </Typography>
+      <Link href={'/aboutme'}>
+        <Typography Tag="h2" apparentTag="h1" ornament botBorder>
+          Olá! Eu sou o Gustavo
+        </Typography>
+      </Link>
       <Typography Tag="p" apparentTag="p">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem,
         dolores explicabo repellendus repudiandae ut tempore id. Est repudiandae
@@ -18,7 +20,7 @@ export default function TextAboutMeSummarized() {
         exercitationem hic atque! Amet, laudantium commodi.
       </Typography>
       <Link
-        href={'#'}
+        href={'/aboutme'}
         className="self-start font-bold leading-relaxed text-primary-500"
       >
         Ver mais

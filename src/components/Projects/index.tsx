@@ -3,8 +3,15 @@ import Typography from '../Typography'
 import cardBanner from '@/assets/Banner Card.png'
 import ProjectCard from './ProjectCard'
 import { ITag } from '@/lib/tag'
+import Link from 'next/link'
 
-export default function Projects() {
+interface IProjectsComponent {
+  noProjectTitle?: boolean
+}
+
+export default function Projects({
+  noProjectTitle = false,
+}: IProjectsComponent) {
   const formatter: ITag[] = [
     {
       skillName: 'ESLint',
@@ -15,9 +22,14 @@ export default function Projects() {
   ]
   return (
     <section className="flex flex-col items-center gap-3">
-      <Typography Tag="h2" apparentTag="h1" ornament>
-        Projetos
-      </Typography>
+      {!noProjectTitle && (
+        <Link href={'/projects'}>
+          <Typography Tag="h2" apparentTag="h1" ornament botBorder>
+            Projetos
+          </Typography>
+        </Link>
+      )}
+
       {/* Botão ver todos os projetos */}
       <div></div>
       {/* Card */}
@@ -28,6 +40,7 @@ export default function Projects() {
           title="Time Vault"
           inProgress
           sideProject
+          id="1"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempora
           accusamus saepe eveniet nobis vel quisquam deserunt minus
@@ -36,6 +49,7 @@ export default function Projects() {
         </ProjectCard>
 
         <ProjectCard
+          id="2"
           imgBanner={cardBanner}
           skills={formatter}
           title="Time Vault"
@@ -49,6 +63,7 @@ export default function Projects() {
         </ProjectCard>
 
         <ProjectCard
+          id="3"
           imgBanner={cardBanner}
           skills={formatter}
           title="Time Vault"

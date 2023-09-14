@@ -14,7 +14,7 @@ export default function Footer() {
     <footer className="mx-5 mt-10 flex flex-col gap-3">
       {/* title */}
       <div className="mb-7 self-center">
-        <Typography Tag="h2" apparentTag="h1" ornament>
+        <Typography Tag="h2" apparentTag="h1" ornament botBorder>
           Contato
         </Typography>
       </div>

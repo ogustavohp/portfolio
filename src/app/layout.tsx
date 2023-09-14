@@ -19,12 +19,16 @@ export default function RootLayout({
   return (
     <html
       lang="pt-br"
-      className="mx-auto min-h-screen max-w-[1436px] bg-gradient-to-b from-slate-900 to-bgcolor-500"
+      className="bg-gradient-to-b from-slate-900 to-bgcolor-500"
     >
-      <body className={`${firaSans.className}`}>
-        <Menu />
-        {children}
-        <Footer />
+      <body
+        className={`${firaSans.className} bg-[url(../assets/bg-stars.svg)] bg-repeat`}
+      >
+        <div className="mx-auto min-h-screen max-w-[1436px]">
+          <Menu />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   )

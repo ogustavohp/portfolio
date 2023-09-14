@@ -5,7 +5,7 @@ import WhatIDoCard from './WhatIDoCard'
 export default function WhatIDo() {
   return (
     <section className="flex flex-col items-center gap-3">
-      <Typography Tag="h2" apparentTag="h2" ornament>
+      <Typography Tag="h2" apparentTag="h2" ornament botBorder>
         O Que eu faço?
       </Typography>
       {/* Card oq eu faço */}
