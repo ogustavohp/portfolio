@@ -26,7 +26,7 @@ export default function Menu() {
           </Link>
         </div>
         <div
-          className={`absolute flex w-full flex-col items-start gap-5 bg-slate-900/95 pb-4 pl-16 transition-all ${
+          className={`absolute z-50 flex w-full flex-col items-start gap-5 bg-slate-900/95 pb-4 pl-16 transition-all ${
             visible ? 'left-0 top-16' : '-left-full'
           } md:static md:w-auto md:flex-row md:items-center md:justify-center md:bg-transparent md:pb-0 md:pl-0`}
         >
