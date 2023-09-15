@@ -7,9 +7,9 @@ interface IOrnament {
 export default function OrnamentTag({ children }: IOrnament) {
   return (
     <span>
-      <span className="text-primary-500 text-2xl font-bold">&lt; </span>
+      <span className="text-2xl font-bold text-primary-500">&lt; </span>
       {children}
-      <span className="text-primary-500 text-2xl font-bold"> /&gt;</span>
+      <span className="text-2xl font-bold text-primary-500"> /&gt;</span>
     </span>
   )
 }

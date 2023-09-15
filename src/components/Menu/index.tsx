@@ -55,7 +55,7 @@ export default function Menu() {
               Currículo
             </Button>
           </Link>
-          <Link href={'#'} onClick={change}>
+          <Link href={'#contact'} onClick={change}>
             <Button variant="primary" large>
               Contato
             </Button>

@@ -5,10 +5,10 @@ import download from '@/assets/download.svg'
 
 export default function CurriculumAboutMe() {
   return (
-    <div className="flex flex-col items-center gap-4">
-      <Button icon={eye}>Ver Curriculo Online</Button>
+    <div className="flex flex-wrap justify-center gap-3">
+      <Button icon={eye}>Ver Currículo Online</Button>
       <Button icon={download} variant="FillSecondary">
-        Baixar Curriculo
+        Baixar Currículo
       </Button>
     </div>
   )

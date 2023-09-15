@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-br"
-      className="bg-gradient-to-b from-slate-900 to-bgcolor-500"
+      className="scroll-smooth bg-gradient-to-b from-slate-900 to-bgcolor-500"
     >
       <body
         className={`${firaSans.className} bg-[url(../assets/bg-stars.svg)] bg-repeat`}

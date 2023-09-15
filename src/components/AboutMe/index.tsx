@@ -6,11 +6,13 @@ import CurriculumAboutMe from './CurriculumAboutMe'
 
 export default function AboutMe() {
   return (
-    <section className="mt-10 flex flex-col items-center gap-3">
+    <section className="mt-10 flex flex-wrap items-center justify-evenly gap-9">
       <ProfileImage />
-      <TextAboutMeSummarized />
-      <Highlights />
-      <CurriculumAboutMe />
+      <div className="flex max-w-[30rem] flex-col items-center gap-3">
+        <TextAboutMeSummarized />
+        <Highlights />
+        <CurriculumAboutMe />
+      </div>
     </section>
   )
 }
