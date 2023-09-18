@@ -1,9 +1,25 @@
 {
-  "title": "Olá! Eu sou o Gustavoo",
-  "bio": "Lorem aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "DetailedBio": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-  "cvLink": "https/dwadwadwa",
-  "cvDownload": "dadwadwadwa",
+  "aboutMe": {
+    "title": "Olá! Eu sou o Gustavo",
+    "bio": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim corporis vero dolores aliquid voluptatem animi quidem nesciunt magnam veritatis eveniet inventore ex et tenetur, reiciendis facilis, aliquam ut aperiam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia a nulla animi sed nesciunt fugiat ea velit corporis odio. Aperiam voluptatem perspiciatis commodi tenetur dolores repellat quas magnam facere illum.",
+    "readMore": "Ver mais",
+    "cvOnline": {
+      "text" : "Ver Currículo Online",
+      "link": "https:dwadwadw"
+    },
+    "cvDownload": {
+      "text": "Baixar Currículo",
+      "download": "httpsdawlda"
+    },
+    "bookCard": {
+      "topText": "+ de 100",
+      "botText": "cursos finalizados"
+    },
+    "balloonsCard": {
+      "topText": "Inglês",
+      "botText": "Intermediário"
+    }
+  },
   "skillsAndTechnologies": {
     "title1": "Habilidades",
     "title2": "Tecnologias",
@@ -145,10 +161,6 @@
     "message": "Mensagem",
     "messagePlaceHolder": "Digite o seu texto",
     "seeAllProjects": "Ver todos os projetos"
-  },
-  "cv": {
-    "seeCvOnline": "Ver Currículo Online",
-    "downloadCv": "Baixar Currículo"
   },
   "findMeOn": {
     "title": "Me encontre em:"
