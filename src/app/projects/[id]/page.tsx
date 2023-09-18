@@ -6,7 +6,6 @@ import Tag from '@/components/SkillsAndTechnologies/Tag'
 import TypeOfProject from '@/components/Projects/TypeOfProject'
 import gitHubGreenIcon from '@/assets/githubIconGreen.svg'
 import eyeIcon from '@/assets/eye.svg'
-import projectsDb from '@/db/projects.json'
 
 interface ParamsType {
   id: string
@@ -14,7 +13,6 @@ interface ParamsType {
 
 export default function Page({ params }: { params: ParamsType }) {
   console.log(params.id)
-  console.log(projectsDb.sobre)
   return (
     <main className="flex flex-col gap-4">
       {/* Imagem */}
