@@ -1,0 +1,156 @@
+{
+  "title": "Olá! Eu sou o Gustavoo",
+  "bio": "Lorem aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "DetailedBio": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "cvLink": "https/dwadwadwa",
+  "cvDownload": "dadwadwadwa",
+  "skillsAndTechnologies": {
+    "title1": "Habilidades",
+    "title2": "Tecnologias",
+    "skillsAndTechnologiesList": [
+      {
+        "title": "Linguagens e Frameworks Front-end",
+        "technologies": [
+          "HTML5",
+          "CSS3",
+          "Sass",
+          "JavaScript",
+          "TypeScript",
+          "JavaScript",
+          "React",
+          "Next.js",
+          "GraphQL",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "title": "Linguagens e Frameworks Back-end",
+        "technologies": [
+          "Node.js",
+          "Fastify",
+          "Prisma",
+          "Express",
+          "TypeScript",
+          "GraphQL",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Ferramentas e Tecnologias de Versionamento",
+        "technologies": ["Git"]
+      },
+      {
+        "title": "Mobile Development",
+        "technologies": ["React Native", "Expo"]
+      },
+      {
+        "title": "Ferramentas de Desenvolvimento e Formatação de Código",
+        "technologies": ["ESLint", "Prettier"]
+      }
+    ]
+  },
+  "differences": {
+    "title": "Diferenciais",
+    "differencesList": [
+      {
+        "title": "Clean Code",
+        "description": "lorem dawdawdadawdawgawdawdwldkawdlkawd",
+        "icon": "svgName, or link"
+      },
+      {
+        "title": "Clean Code",
+        "description": "lorem dawdawdadawdawgawdawdwldkawdlkawd",
+        "icon": "svgName, or link"
+      },
+      {
+        "title": "Clean Code",
+        "description": "lorem dawdawdadawdawgawdawdwldkawdlkawd",
+        "icon": "svgName, or link"
+      },
+      {
+        "title": "Clean Code",
+        "description": "lorem dawdawdadawdawgawdawdwldkawdlkawd",
+        "icon": "svgName, or link"
+      }
+    ]
+  },
+  "WhatIDo": {
+    "title": "O Que eu faço?",
+    "WhatIDoList": [
+      {
+        "title": "Front-end",
+        "description": "lorem loredawdahwdkahjwdklawd"
+      },
+      {
+        "title": "Back-end",
+        "description": "lorem loredawdahwdkahjwdklawd"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projetos",
+    "projectsList": [
+      {
+        "title": "Time Vault",
+        "image": "link",
+        "sideProject": true,
+        "inProgress": false,
+        "shortDescription": "loremadwhadhwakjdhawkjhdakjwdhakwdhakljwhdakljhwdkajhwdawd",
+        "fullDescription": "dawdakwjdlkawjdlajwdlajwdlawd",
+        "technologies": [
+          "ESLint",
+          "Prettier",
+          "CSS3",
+          "Git",
+          "Expo",
+          "Fastify",
+          "HTML5",
+          "Next.js",
+          "Node.js",
+          "TypeScript",
+          "JavaScript",
+          "React"
+        ]
+      },
+      {
+        "title": "Time Vault",
+        "image": "link",
+        "sideProject": true,
+        "inProgress": false,
+        "shortDescription": "loremadwhadhwakjdhawkjhdakjwdhakwdhakljwhdakljhwdkajhwdawd",
+        "fullDescription": "dawdakwjdlkawjdlajwdlajwdlawd",
+        "technologies": [
+          "ESLint",
+          "Prettier",
+          "CSS3",
+          "Git",
+          "Expo",
+          "Fastify",
+          "HTML5",
+          "Next.js",
+          "Node.js",
+          "TypeScript",
+          "JavaScript",
+          "React"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "contact",
+    "name": "nome",
+    "namePlaceholder": "Seu nome",
+    "email": "E-mail",
+    "emailPlaceholder": "email@exemplo.com",
+    "message": "Mensagem",
+    "messagePlaceHolder": "Digite o seu texto",
+    "seeAllProjects": "Ver todos os projetos"
+  },
+  "cv": {
+    "seeCvOnline": "Ver Currículo Online",
+    "downloadCv": "Baixar Currículo"
+  },
+  "findMeOn": {
+    "title": "Me encontre em:"
+  }
+}
