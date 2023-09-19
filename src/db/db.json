@@ -173,12 +173,14 @@
     "title": "O Que eu faço?",
     "WhatIDoList": [
       {
+        "id": "e34147d1-12f0-4a1d-8617-cbd977f311e3",
         "title": "Front-end",
-        "description": "lorem loredawdahwdkahjwdklawd"
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis unde laudantium in fuga quisquam ducimus eligendi magni ex accusamus amet incidunt officia repellendus voluptatibus at tempora, magnam veniam sit. Deleniti."
       },
       {
+        "id": "7bbc9eba-36c8-49f2-a2ad-433c07ba7503",
         "title": "Back-end",
-        "description": "lorem loredawdahwdkahjwdklawd"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facere tenetur neque quis repudiandae? Accusamus quas, officia, aliquam maiores magni illo iusto, vel porro tempora repellendus molestiae ratione facilis culpa."
       }
     ]
   },
