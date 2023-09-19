@@ -4,7 +4,7 @@
     "bio": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim corporis vero dolores aliquid voluptatem animi quidem nesciunt magnam veritatis eveniet inventore ex et tenetur, reiciendis facilis, aliquam ut aperiam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia a nulla animi sed nesciunt fugiat ea velit corporis odio. Aperiam voluptatem perspiciatis commodi tenetur dolores repellat quas magnam facere illum.",
     "readMore": "Ver mais",
     "cvOnline": {
-      "text" : "Ver Currículo Online",
+      "text": "Ver Currículo Online",
       "link": "https:dwadwadw"
     },
     "cvDownload": {
@@ -25,43 +25,118 @@
     "title2": "Tecnologias",
     "skillsAndTechnologiesList": [
       {
+        "id": "d6ef716f-7fe6-43f0-8cc4-b8628aea15bd",
         "title": "Linguagens e Frameworks Front-end",
         "technologies": [
-          "HTML5",
-          "CSS3",
-          "Sass",
-          "JavaScript",
-          "TypeScript",
-          "JavaScript",
-          "React",
-          "Next.js",
-          "GraphQL",
-          "Tailwind CSS"
+          {
+            "id": "05625b62-7d62-4a05-951b-e87c29c22674",
+            "skillName": "HTML5"
+          },
+          {
+            "id": "b0515a6b-7d48-4971-845c-4b1f6d23dbfe",
+            "skillName": "CSS3"
+          },
+          {
+            "id": "5adb80fd-3148-49cb-996e-abe6f3448d58",
+            "skillName": "Sass"
+          },
+          {
+            "id": "36fbdd3e-6511-4429-a315-fd3a8e8f8f24",
+            "skillName": "JavaScript"
+          },
+          {
+            "id": "33105bdf-37a7-4286-9a70-dbebe6511a11",
+            "skillName": "TypeScript"
+          },
+          {
+            "id": "57a0bd8b-645b-4524-aa61-d6d51aa7618c",
+            "skillName": "React"
+          },
+          {
+            "id": "daf75bbd-51f8-4d20-9fae-a5328c165731",
+            "skillName": "Next.js"
+          },
+          {
+            "id": "9d840598-c75e-416c-81bd-80462edc450b",
+            "skillName": "GraphQL"
+          },
+          {
+            "id": "55dbc74d-d95d-412c-a0ed-2891252b0f0d",
+            "skillName": "Tailwind CSS"
+          }
         ]
       },
       {
+        "id": "21f88390-4e60-4aae-a53e-a9f826da5283",
         "title": "Linguagens e Frameworks Back-end",
         "technologies": [
-          "Node.js",
-          "Fastify",
-          "Prisma",
-          "Express",
-          "TypeScript",
-          "GraphQL",
-          "JavaScript"
+          {
+            "id": "a47e57ca-52f7-48d2-8a6b-67ffda5119ed",
+            "skillName": "Node.js"
+          },
+          {
+            "id": "5194cb21-14c3-4702-a1cb-a15558f17125",
+            "skillName": "Fastify"
+          },
+          {
+            "id": "2bd3e70d-712c-4354-a0f3-ba376fc955cc",
+            "skillName": "Prisma"
+          },
+          {
+            "id": "8812b813-7bb2-41e6-88b4-6ad3bd0c6119",
+            "skillName": "Express"
+          },
+          {
+            "id": "aeac994d-3ce9-494a-90da-1fac3438ea66",
+            "skillName": "TypeScript"
+          },
+          {
+            "id": "cd538642-08da-4d2a-81ad-37428dc2212a",
+            "skillName": "GraphQL"
+          },
+          {
+            "id": "bc8662c3-a5aa-42f9-9db2-be8c8d234299",
+            "skillName": "JavaScript"
+          }
         ]
       },
       {
+        "id": "1aa5d701-e6af-4f9e-8986-214aa7f18ef8",
         "title": "Ferramentas e Tecnologias de Versionamento",
-        "technologies": ["Git"]
+        "technologies": [
+          {
+            "id": "99a42bb7-71ae-4645-b00c-ea35d2681f5c",
+            "skillName": "Git"
+          }
+        ]
       },
       {
+        "id": "8ea1e032-051e-464e-b7d3-d0191e4e3277",
         "title": "Mobile Development",
-        "technologies": ["React Native", "Expo"]
+        "technologies": [
+          {
+            "id": "442308f6-19c3-40c9-954b-b7fe2cbca401",
+            "skillName": "React Native"
+          },
+          {
+            "id": "84570141-cf99-452c-a04e-ad9ebad1334f",
+            "skillName": "Expo"
+          }
+        ]
       },
       {
+        "id": "4aceb2a0-3ed9-4ddd-9d12-49982713e5b9",
         "title": "Ferramentas de Desenvolvimento e Formatação de Código",
-        "technologies": ["ESLint", "Prettier"]
+        "technologies": [
+          {
+            "id": "a1ce210d-d925-42d7-89cb-a092651a7fc9",
+            "skillName": "ESLint"
+          },
+          {
+            "id": "2f38f1b8-7019-45c9-9037-6072a2d0063a",
+            "skillName": "Prettier"
+          }
+        ]
       }
     ]
   },

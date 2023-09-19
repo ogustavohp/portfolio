@@ -1,21 +1,4 @@
 export interface ITag {
-  skillName:
-    | 'HTML5'
-    | 'CSS3'
-    | 'Sass'
-    | 'JavaScript'
-    | 'TypeScript'
-    | 'React'
-    | 'Next.js'
-    | 'Tailwind CSS'
-    | 'GraphQL'
-    | 'Node.js'
-    | 'Fastify'
-    | 'Express'
-    | 'Prisma'
-    | 'Git'
-    | 'React Native'
-    | 'Expo'
-    | 'ESLint'
-    | 'Prettier'
+  id: string
+  skillName: string
 }

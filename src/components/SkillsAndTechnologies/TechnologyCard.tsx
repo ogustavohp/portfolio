@@ -3,12 +3,12 @@ import Typography from '../Typography'
 import Tag from './Tag'
 import { ITag } from '@/lib/tag'
 
-interface ITechnologieCard {
+interface ITechnologyCard {
   title: string
   list: ITag[]
 }
 
-export default function TechnologieCard({ title, list }: ITechnologieCard) {
+export default function TechnologyCard({ title, list }: ITechnologyCard) {
   return (
     <div className="flex min-h-[16rem] w-60 flex-col gap-3 rounded-xl border border-iconcolor-500 bg-gradient-to-b from-slate-900 to-bgcolor-500 px-3 py-6">
       <div className="text-center">
