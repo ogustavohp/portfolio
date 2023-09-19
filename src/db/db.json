@@ -144,24 +144,28 @@
     "title": "Diferenciais",
     "differencesList": [
       {
+        "id": "737ea0d0-8779-4ce6-8131-f79974217d5a",
         "title": "Clean Code",
-        "description": "lorem dawdawdadawdawgawdawdwldkawdlkawd",
-        "icon": "svgName, or link"
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt beatae itaque magnam in quasi veritatis, perspiciatis corrupti velit natus quos dolor rerum, earum ut, nisi id minus et. Iste, tempora!",
+        "icon": "iconTag"
       },
       {
+        "id": "1391797c-cbf5-4a1b-a556-5cb1aa3ebdb4",
         "title": "Clean Code",
-        "description": "lorem dawdawdadawdawgawdawdwldkawdlkawd",
-        "icon": "svgName, or link"
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit blanditiis aut vitae? Animi deserunt ipsum velit sunt voluptas eos incidunt fugiat ipsa aut voluptatibus. Repellendus est delectus natus pariatur?",
+        "icon": "iconTag"
       },
       {
+        "id": "7ac46895-fbb8-4ba7-a7ce-a02c8feebb42",
         "title": "Clean Code",
-        "description": "lorem dawdawdadawdawgawdawdwldkawdlkawd",
-        "icon": "svgName, or link"
+        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam assumenda pariatur ab vero accusamus porro velit suscipit corporis laudantium, vel cum corrupti veritatis impedit officiis incidunt distinctio est doloremque cumque!",
+        "icon": "iconTag"
       },
       {
+        "id": "f3da14f8-d4ce-42e0-9015-9c7209cc7f13",
         "title": "Clean Code",
-        "description": "lorem dawdawdadawdawgawdawdwldkawdlkawd",
-        "icon": "svgName, or link"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores rem officiis facilis tempora quos voluptatem molestias labore pariatur nemo, perferendis iusto aperiam quod veritatis magnam consectetur, veniam debitis placeat porro!",
+        "icon": "iconTag"
       }
     ]
   },
