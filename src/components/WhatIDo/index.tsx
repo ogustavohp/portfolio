@@ -7,11 +7,11 @@ export default function WhatIDo() {
   return (
     <section className="flex flex-col items-center gap-3">
       <Typography Tag="h2" apparentTag="h2" ornament botBorder>
-        {db.WhatIDo.title}
+        {db.whatIDo.title}
       </Typography>
       {/* Card oq eu faço */}
       <div className="flex flex-wrap justify-center gap-7">
-        {db.WhatIDo.WhatIDoList.map((e) => (
+        {db.whatIDo.whatIDoList.map((e) => (
           <WhatIDoCard key={e.id} title={e.title}>
             {e.description}
           </WhatIDoCard>

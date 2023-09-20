@@ -177,9 +177,9 @@
       }
     ]
   },
-  "WhatIDo": {
+  "whatIDo": {
     "title": "O Que eu faço?",
-    "WhatIDoList": [
+    "whatIDoList": [
       {
         "id": "e34147d1-12f0-4a1d-8617-cbd977f311e3",
         "title": "Front-end",
