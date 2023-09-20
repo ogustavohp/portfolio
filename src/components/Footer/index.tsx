@@ -10,6 +10,7 @@ import db from '@/db/db.json'
 import CurriculumLinks from '../AboutMe/CurriculumLinks'
 
 const contact = db.contact
+const findMeOn = db.findMeOn
 
 export default function Footer() {
   return (
@@ -70,7 +71,7 @@ export default function Footer() {
       <div className="flex flex-col items-start justify-center">
         {/* Telefone */}
         <div className="ml-5 mt-5 flex gap-2">
-          <Image alt="icone de um telefone" src={iconTel} />
+          <Image alt="ícone de um telefone" src={iconTel} />
           <Typography Tag="span" apparentTag="contact">
             +55 (11) 93333-3333
           </Typography>
@@ -78,13 +79,13 @@ export default function Footer() {
 
         {/* email */}
         <div className="ml-5 flex gap-2">
-          <Image alt="icone de uma carta" src={iconEmail} />
+          <Image alt="ícone de uma carta" src={iconEmail} />
           <Typography Tag="span" apparentTag="contact">
             email@gmail.com
           </Typography>
         </div>
         <div className="ml-5 mt-7 flex flex-col items-start gap-4">
-          <Button variant="primary">Ver todos os projetos</Button>
+          <Button variant="primary">{contact.seeAllProjects}</Button>
           <CurriculumLinks col />
         </div>
       </div>
@@ -92,7 +93,7 @@ export default function Footer() {
       {/* Me encontre em */}
       <div className="mt-7 flex w-full flex-col items-center">
         <Typography Tag="h2" apparentTag="h1" ornament>
-          Me encontre em:
+          {findMeOn.title}
         </Typography>
         <div className="my-5 flex items-center gap-3">
           <a href="#" target="_blank">

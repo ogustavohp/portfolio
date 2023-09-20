@@ -1,4 +1,12 @@
 {
+  "menu": {
+    "aboutMe": "Sobre min",
+    "formations": "Formações",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "cv": "Currículo",
+    "contact": "Contato"
+  },
   "aboutMe": {
     "title": "Olá! Eu sou o Gustavo",
     "bio": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim corporis vero dolores aliquid voluptatem animi quidem nesciunt magnam veritatis eveniet inventore ex et tenetur, reiciendis facilis, aliquam ut aperiam maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia a nulla animi sed nesciunt fugiat ea velit corporis odio. Aperiam voluptatem perspiciatis commodi tenetur dolores repellat quas magnam facere illum.",
