@@ -4,9 +4,17 @@ import eye from '@/assets/eye.svg'
 import download from '@/assets/download.svg'
 import db from '@/db/db.json'
 
-export default function CurriculumAboutMe() {
+interface ICurriculum {
+  col?: boolean
+}
+
+export default function CurriculumLinks({ col = false }: ICurriculum) {
   return (
-    <div className="flex flex-wrap justify-center gap-3">
+    <div
+      className={`flex flex-wrap justify-center gap-3 ${
+        col ? 'flex-col items-start ' : ''
+      }`}
+    >
       <Button icon={eye}>{db.aboutMe.cvOnline.text}</Button>
       <Button icon={download} variant="FillSecondary">
         {db.aboutMe.cvDownload.text}

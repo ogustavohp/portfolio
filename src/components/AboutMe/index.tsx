@@ -2,7 +2,7 @@ import React from 'react'
 import ProfileImage from './ProfileImage'
 import TextAboutMeSummarized from './TextAboutMeSummarized'
 import Highlights from './Highlights'
-import CurriculumAboutMe from './CurriculumAboutMe'
+import CurriculumLinks from './CurriculumLinks'
 
 export default function AboutMe() {
   return (
@@ -11,7 +11,7 @@ export default function AboutMe() {
       <div className="flex max-w-[30rem] flex-col items-center gap-3">
         <TextAboutMeSummarized />
         <Highlights />
-        <CurriculumAboutMe />
+        <CurriculumLinks />
       </div>
     </section>
   )

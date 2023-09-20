@@ -309,8 +309,8 @@
     ]
   },
   "contact": {
-    "title": "contact",
-    "name": "nome",
+    "title": "Contato",
+    "name": "Nome",
     "namePlaceholder": "Seu nome",
     "email": "E-mail",
     "emailPlaceholder": "email@exemplo.com",

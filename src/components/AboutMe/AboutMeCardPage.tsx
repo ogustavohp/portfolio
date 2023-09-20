@@ -1,7 +1,7 @@
 import React from 'react'
 import HighlightCard from './HighlightCard'
 import ProfileImage from './ProfileImage'
-import CurriculumAboutMe from './CurriculumAboutMe'
+import CurriculumLinks from './CurriculumLinks'
 
 export default function AboutMeCardPage() {
   return (
@@ -13,7 +13,7 @@ export default function AboutMeCardPage() {
         <HighlightCard bottomText="Barbacena, MG" />
       </div>
 
-      <CurriculumAboutMe />
+      <CurriculumLinks />
     </div>
   )
 }
