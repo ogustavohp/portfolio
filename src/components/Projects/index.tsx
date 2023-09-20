@@ -37,47 +37,6 @@ export default function Projects({
             {e.shortDescription}
           </ProjectCard>
         ))}
-        {/* <ProjectCard
-          imgBanner={cardBanner}
-          skills={formatter}
-          title="Time Vault"
-          inProgress
-          sideProject
-          id="1"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempora
-          accusamus saepe eveniet nobis vel quisquam deserunt minus
-          necessitatibus distinctio, laudantium voluptas sit vitae aperiam
-          facere illum! Quia, sequi suscipit!
-        </ProjectCard> */}
-
-        {/* <ProjectCard
-          id="2"
-          imgBanner={cardBanner}
-          skills={formatter}
-          title="Time Vault"
-          inProgress
-          sideProject
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempora
-          accusamus saepe eveniet nobis vel quisquam deserunt minus
-          necessitatibus distinctio, laudantium voluptas sit vitae aperiam
-          facere illum! Quia, sequi suscipit!
-        </ProjectCard>
-
-        <ProjectCard
-          id="3"
-          imgBanner={cardBanner}
-          skills={formatter}
-          title="Time Vault"
-          inProgress
-          sideProject
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempora
-          accusamus saepe eveniet nobis vel quisquam deserunt minus
-          necessitatibus distinctio, laudantium voluptas sit vitae aperiam
-          facere illum! Quia, sequi suscipit!
-        </ProjectCard> */}
       </div>
       {/* Botão carregar mais */}
       <div></div>
