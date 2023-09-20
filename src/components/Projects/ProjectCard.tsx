@@ -5,12 +5,13 @@ import Image, { StaticImageData } from 'next/image'
 import { ITag } from '@/lib/tag'
 import Tag from '../SkillsAndTechnologies/Tag'
 import TypeOfProject from './TypeOfProject'
+import db from '@/db/db.json'
 
 interface IProjectCard {
   title: string
   children: ReactNode
   imgBanner: StaticImageData
-  skills: ITag[]
+  technologies: ITag[]
   sideProject?: boolean
   inProgress?: boolean
   id: string
@@ -21,7 +22,7 @@ export default function ProjectCard({
   title,
   children,
   imgBanner,
-  skills,
+  technologies,
   sideProject = false,
   inProgress = false,
 }: IProjectCard) {
@@ -48,13 +49,13 @@ export default function ProjectCard({
                 {children}
               </Typography>
               <span className="self-start leading-relaxed text-primary-500">
-                Ver mais
+                {db.projects.LearnMore}
               </span>
             </div>
             <div className="mb-4 mt-2 flex flex-wrap">
               {/* skill */}
-              {skills.map((e) => (
-                <Tag key={e.skillName} skillName={e.skillName} />
+              {technologies.map((e) => (
+                <Tag key={e.id} skillName={e.skillName} />
               ))}
             </div>
           </div>

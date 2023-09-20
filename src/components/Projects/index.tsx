@@ -2,8 +2,8 @@ import React from 'react'
 import Typography from '../Typography'
 import cardBanner from '@/assets/Banner Card.png'
 import ProjectCard from './ProjectCard'
-import { ITag } from '@/lib/tag'
 import Link from 'next/link'
+import db from '@/db/db.json'
 
 interface IProjectsComponent {
   noProjectTitle?: boolean
@@ -12,20 +12,12 @@ interface IProjectsComponent {
 export default function Projects({
   noProjectTitle = false,
 }: IProjectsComponent) {
-  const formatter: ITag[] = [
-    {
-      skillName: 'ESLint',
-    },
-    {
-      skillName: 'Prettier',
-    },
-  ]
   return (
     <section className="flex flex-col items-center gap-3">
       {!noProjectTitle && (
         <Link href={'/projects'}>
           <Typography Tag="h2" apparentTag="h1" ornament botBorder>
-            Projetos
+            {db.projects.title}
           </Typography>
         </Link>
       )}
@@ -34,7 +26,18 @@ export default function Projects({
       <div></div>
       {/* Card */}
       <div className="flex flex-wrap justify-center gap-3 ">
-        <ProjectCard
+        {db.projects.projectsList.map((e) => (
+          <ProjectCard
+            key={e.id}
+            imgBanner={cardBanner}
+            title={e.title}
+            id={e.id}
+            technologies={e.technologies}
+          >
+            {e.shortDescription}
+          </ProjectCard>
+        ))}
+        {/* <ProjectCard
           imgBanner={cardBanner}
           skills={formatter}
           title="Time Vault"
@@ -46,9 +49,9 @@ export default function Projects({
           accusamus saepe eveniet nobis vel quisquam deserunt minus
           necessitatibus distinctio, laudantium voluptas sit vitae aperiam
           facere illum! Quia, sequi suscipit!
-        </ProjectCard>
+        </ProjectCard> */}
 
-        <ProjectCard
+        {/* <ProjectCard
           id="2"
           imgBanner={cardBanner}
           skills={formatter}
@@ -74,7 +77,7 @@ export default function Projects({
           accusamus saepe eveniet nobis vel quisquam deserunt minus
           necessitatibus distinctio, laudantium voluptas sit vitae aperiam
           facere illum! Quia, sequi suscipit!
-        </ProjectCard>
+        </ProjectCard> */}
       </div>
       {/* Botão carregar mais */}
       <div></div>
