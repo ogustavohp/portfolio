@@ -7,24 +7,25 @@ interface ITag {
 
 export default function Tag({ skillName }: ITag) {
   const colorVariants = {
-    HTML5: 'bg-red-500',
+    HTML5: 'bg-orange-600',
     CSS3: 'bg-purple-500',
-    Sass: 'bg-pink-500',
+    Sass: 'bg-pink-400',
     JavaScript: 'bg-yellow-500',
-    TypeScript: 'bg-blue-700',
-    React: 'bg-blue-300',
-    'Next.js': 'bg-purple-500',
-    'Tailwind CSS': 'bg-purple-500',
-    GraphQL: 'bg-purple-500',
-    'Node.js': 'bg-purple-500',
-    Fastify: 'bg-purple-500',
-    Express: 'bg-purple-500',
-    Prisma: 'bg-purple-500',
-    Git: 'bg-purple-500',
-    'React Native': 'bg-purple-500',
-    Expo: 'bg-purple-500',
-    ESLint: 'bg-purple-500',
-    Prettier: 'bg-purple-500',
+    TypeScript: 'bg-indigo-500',
+    React: 'bg-blue-400',
+    'Next.js': 'bg-gray-400',
+    'Tailwind CSS': 'bg-teal-300',
+    GraphQL: 'bg-pink-500',
+    'Node.js': 'bg-green-500',
+    Fastify: 'bg-red-500', //
+    Express: 'bg-gray-500',
+    Prisma: 'bg-teal-500',
+    Git: 'bg-white', //
+    'React Native': 'bg-blue-400',
+    Expo: 'bg-slate-400',
+    ESLint: 'bg-indigo-700',
+    Prettier: 'bg-cyan-700',
+    Docker: 'bg-sky-500',
   }
 
   if (
@@ -45,7 +46,8 @@ export default function Tag({ skillName }: ITag) {
     skillName === 'React Native' ||
     skillName === 'Expo' ||
     skillName === 'ESLint' ||
-    skillName === 'Prettier'
+    skillName === 'Prettier' ||
+    skillName === 'Docker'
   ) {
     return (
       <div className="flex items-center gap-2 rounded-3xl border border-iconcolor-500 bg-slate-900 px-4 py-1">
