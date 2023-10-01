@@ -1,11 +1,11 @@
 'use client'
 import React, { useState } from 'react'
 import Typography from '../Typography'
-import Image from 'next/image'
-import iconMenuh from '@/assets/menuh.svg'
 import Link from 'next/link'
 import Button from '../Button'
 import db from '@/db/db.json'
+import { Menu as MenuHamburger } from 'lucide-react'
+import colors from '@/db/colors.json'
 
 const menu = db.menu
 
@@ -19,7 +19,11 @@ export default function Menu() {
       {/* parte superior */}
       <div className="m-4 flex flex-wrap items-center justify-between gap-5 md:justify-center lg:justify-between">
         <div className=" md:hidden" onClick={change}>
-          <Image alt="Menu" src={iconMenuh} />
+          <MenuHamburger
+            color={colors.primary[500]}
+            strokeWidth={2.5}
+            size={32}
+          />
         </div>
         <div>
           <Link href={'/'}>
@@ -29,8 +33,8 @@ export default function Menu() {
           </Link>
         </div>
         <div
-          className={`absolute z-50 flex w-full flex-col items-start gap-5 bg-slate-900/95 pb-4 pl-16 transition-all ${
-            visible ? 'left-0 top-16' : '-left-full'
+          className={`absolute top-16 z-50 flex w-full flex-col items-start gap-5 bg-slate-900/95 pb-4 pl-16 transition-all ${
+            visible ? 'left-0' : '-left-full'
           } md:static md:w-auto md:flex-row md:items-center md:justify-center md:bg-transparent md:pb-0 md:pl-0`}
         >
           <Link href={'/aboutme'} className="pt-4 md:pt-0" onClick={change}>

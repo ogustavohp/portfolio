@@ -69,7 +69,9 @@ const config: Config = {
           800: '#1b2744',
           900: '#151e34',
         },
-        github: '#FF2E00',
+        othersIconColors: {
+          '1': '#59698F',
+        },
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

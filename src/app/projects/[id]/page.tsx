@@ -1,5 +1,5 @@
 import React from 'react'
-import bannerTimeVault from '@/assets/banner timevault.png'
+import bannerTimeVault from '@/assets/banner_timeVault.png'
 import Image from 'next/image'
 import Typography from '@/components/Typography'
 import Tag from '@/components/SkillsAndTechnologies/Tag'

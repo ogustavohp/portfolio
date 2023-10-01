@@ -1,9 +1,9 @@
 import React from 'react'
 import Typography from '../Typography'
-import Image from 'next/image'
+import { MessageCircle, BookOpenCheck } from 'lucide-react'
 
 interface IHighlightCard {
-  icon?: string
+  icon?: 'book' | 'balloons'
   topText?: string
   bottomText: string
 }
@@ -15,8 +15,12 @@ export default function HighlightCard({
 }: IHighlightCard) {
   return (
     <div className="flex gap-4 rounded-lg border border-iconcolor-400 p-2">
-      {icon && <Image alt="icone de uma balão de conversa" src={icon} />}
-
+      {icon === 'book' && (
+        <MessageCircle className="self-center" color="#fff" size={50} />
+      )}
+      {icon === 'balloons' && (
+        <BookOpenCheck className="self-center" color="#fff" size={50} />
+      )}
       <div className="flex flex-col">
         {topText && (
           <span className="self-center">

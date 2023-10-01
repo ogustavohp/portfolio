@@ -108,14 +108,14 @@ export default function Footer() {
           <a
             href="#"
             target="_blank"
-            className="flex h-14 w-14 justify-center rounded-full bg-[#59698F]"
+            className="flex h-14 w-14 justify-center rounded-full bg-othersIconColors-1"
           >
             <Linkedin size={38} className="self-center" strokeWidth={1.5} />
           </a>
           <a
             href="#"
             target="_blank"
-            className="flex h-14 w-14 justify-center rounded-full bg-[#59698F]"
+            className="flex h-14 w-14 justify-center rounded-full bg-othersIconColors-1"
           >
             <Github className="self-center" size={44} strokeWidth={1.5} />
           </a>

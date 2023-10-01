@@ -1,8 +1,8 @@
 import Typography from '@/components/Typography'
-import Image from 'next/image'
 import React from 'react'
-import searchIcon from '@/assets/searchIcon.svg'
 import Projects from '@/components/Projects'
+import { Search } from 'lucide-react'
+import colors from '@/db/colors.json'
 
 export default function Page() {
   return (
@@ -28,7 +28,7 @@ export default function Page() {
           placeholder="Busque por projeto ou tecnologia (Ex.: HTML, CSS, Next.js)"
           className="w-full  bg-transparent px-2 py-1 text-base text-white placeholder:text-iconcolor-400"
         />
-        <Image alt="icone de uma lupa" src={searchIcon} className="" />
+        <Search color={colors.iconColor[400]} />
       </div>
 
       {/* projetos card */}

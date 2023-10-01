@@ -16,13 +16,13 @@ export default function CurriculumLinks({ col = false }: ICurriculum) {
     >
       <Button>
         <span className="flex gap-2">
-          <Eye />
+          <Eye className="self-center" />
           {db.aboutMe.cvOnline.text}
         </span>
       </Button>
       <Button variant="FillSecondary">
         <span className="flex gap-2">
-          <Download />
+          <Download className="self-center" />
           {db.aboutMe.cvDownload.text}
         </span>
       </Button>
