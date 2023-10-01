@@ -1,18 +1,20 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import Typography from '../Typography'
-import Image from 'next/image'
-import iconTel from '@/assets/tel.svg'
-import iconEmail from '@/assets/emailIcon.svg'
 import Button from '../Button'
-import iconLinkedIn from '@/assets/linkedinIcon.svg'
-import iconGitHub from '@/assets/githubIcon.svg'
 import db from '@/db/db.json'
 import CurriculumLinks from '../AboutMe/CurriculumLinks'
+import { Send, Phone, Mail, Linkedin, Github } from 'lucide-react'
+import colors from '@/db/colors.json'
 
 const contact = db.contact
 const findMeOn = db.findMeOn
 
 export default function Footer() {
+  const [data, setData] = useState('')
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault()
+  }
   return (
     <footer
       className="mx-5 mt-10 flex flex-wrap justify-center gap-x-20 gap-y-3"
@@ -25,8 +27,8 @@ export default function Footer() {
         </Typography>
       </div>
 
-      {/* Inputs */}
-      <div className="flex w-full flex-col md:w-1/2">
+      {/* Form */}
+      <form onSubmit={handleSubmit} className="flex w-full flex-col md:w-1/2">
         {/* input name */}
         <div className="flex w-full flex-col items-start">
           <label htmlFor="name" className="ml-2 text-base text-primary-500">
@@ -65,16 +67,20 @@ export default function Footer() {
             className="h-60 w-full resize-none border border-iconcolor-400 bg-transparent px-2 py-1 text-base text-white placeholder:text-iconcolor-400"
           />
         </div>
-        <button className="mt-3 self-start rounded-full bg-secondary-500 px-4 py-1">
+        <button
+          type="submit"
+          className="mt-3 flex gap-2 self-end rounded-full bg-secondary-500 px-4 py-1 shadow transition-all hover:bg-blue-500 md:self-start"
+        >
           Enviar
+          <Send strokeWidth={1.25} />
         </button>
-      </div>
+      </form>
 
       {/* tel / email */}
       <div className="flex flex-col items-start justify-center">
         {/* Telefone */}
         <div className="ml-5 mt-5 flex gap-2">
-          <Image alt="ícone de um telefone" src={iconTel} />
+          <Phone color={colors.primary[500]} className="self-center" />
           <Typography Tag="span" apparentTag="contact">
             +55 (11) 93333-3333
           </Typography>
@@ -82,7 +88,7 @@ export default function Footer() {
 
         {/* email */}
         <div className="ml-5 flex gap-2">
-          <Image alt="ícone de uma carta" src={iconEmail} />
+          <Mail color={colors.primary[500]} className="self-center" />
           <Typography Tag="span" apparentTag="contact">
             email@gmail.com
           </Typography>
@@ -99,11 +105,19 @@ export default function Footer() {
           {findMeOn.title}
         </Typography>
         <div className="my-5 flex items-center gap-3">
-          <a href="#" target="_blank">
-            <Image alt="icone do LinkedIn" src={iconLinkedIn} />
+          <a
+            href="#"
+            target="_blank"
+            className="flex h-14 w-14 justify-center rounded-full bg-[#59698F]"
+          >
+            <Linkedin size={38} className="self-center" strokeWidth={1.5} />
           </a>
-          <a href="#" target="_blank">
-            <Image alt="icone do GitHub" src={iconGitHub} />
+          <a
+            href="#"
+            target="_blank"
+            className="flex h-14 w-14 justify-center rounded-full bg-[#59698F]"
+          >
+            <Github className="self-center" size={44} strokeWidth={1.5} />
           </a>
         </div>
       </div>

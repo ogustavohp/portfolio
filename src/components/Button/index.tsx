@@ -1,16 +1,13 @@
 import React, { ReactNode } from 'react'
 import Typography from '../Typography'
-import Image from 'next/image'
 
 interface IButton {
-  icon?: string
   children: ReactNode
   variant?: 'FillPrimary' | 'FillSecondary' | 'primary' | 'secondary'
   large?: boolean
 }
 
 export default function Button({
-  icon,
   children,
   variant = 'FillPrimary',
   large = false,
@@ -28,7 +25,6 @@ export default function Button({
         large ? 'text-xl' : ''
       } px-4 py-1`}
     >
-      {icon && <Image alt="ícone de um olho" src={icon} />}
       <Typography
         Tag="p"
         apparentTag="p"

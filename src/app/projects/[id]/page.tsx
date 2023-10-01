@@ -4,8 +4,7 @@ import Image from 'next/image'
 import Typography from '@/components/Typography'
 import Tag from '@/components/SkillsAndTechnologies/Tag'
 import TypeOfProject from '@/components/Projects/TypeOfProject'
-import gitHubGreenIcon from '@/assets/githubIconGreen.svg'
-import eyeIcon from '@/assets/eye.svg'
+import { Eye, Github } from 'lucide-react'
 
 interface ParamsType {
   id: string
@@ -45,13 +44,13 @@ export default function Page({ params }: { params: ParamsType }) {
         <TypeOfProject sideProject />
         <div className="flex gap-6">
           <div className="flex gap-2 rounded-full bg-primary-500 px-2">
-            <Image alt="ícone do GitHub" src={gitHubGreenIcon} />
+            <Github className="self-center" />
             <Typography Tag="span" apparentTag="p" style={'text-slate-900'}>
               GitHub
             </Typography>
           </div>
           <div className="flex gap-2 rounded-full bg-secondary-500 px-2">
-            <Image alt="ícone de um olho" src={eyeIcon} />
+            <Eye className="self-center" />
             <Typography Tag="span" apparentTag="p" style={'text-slate-900'}>
               Ver Projeto Online
             </Typography>
