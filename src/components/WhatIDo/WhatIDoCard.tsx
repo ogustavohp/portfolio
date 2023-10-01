@@ -8,7 +8,7 @@ interface IWhatIDoCard {
 
 export default function WhatIDoCard({ title, children }: IWhatIDoCard) {
   return (
-    <div className="w-64 text-center">
+    <div className="min-w-[16rem] max-w-[40rem] text-center">
       <Typography Tag="h3" apparentTag="h2" style={'text-primary-500 mt-5'}>
         {title}
       </Typography>

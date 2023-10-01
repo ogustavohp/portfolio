@@ -10,7 +10,7 @@ export default function WhatIDo() {
         {db.whatIDo.title}
       </Typography>
       {/* Card oq eu faço */}
-      <div className="flex flex-wrap justify-center gap-7">
+      <div className="flex flex-wrap justify-center gap-10 hyphens-auto">
         {db.whatIDo.whatIDoList.map((e) => (
           <WhatIDoCard key={e.id} title={e.title}>
             {e.description}
