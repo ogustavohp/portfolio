@@ -65,6 +65,9 @@ export default function Footer() {
             className="h-60 w-full resize-none border border-iconcolor-400 bg-transparent px-2 py-1 text-base text-white placeholder:text-iconcolor-400"
           />
         </div>
+        <button className="mt-3 self-start rounded-full bg-secondary-500 px-4 py-1">
+          Enviar
+        </button>
       </div>
 
       {/* tel / email */}
