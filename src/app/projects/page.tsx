@@ -25,7 +25,7 @@ export default function Page() {
         <input
           type="text"
           id="search"
-          placeholder="Busque por projeto ou tecnologia (Ex.: HTML, CSS, Next.js)"
+          placeholder="Busque por tecnologia ou projeto (Ex.: Next.js, Time Vault)"
           className="w-full  bg-transparent px-2 py-1 text-base text-white placeholder:text-iconcolor-400"
         />
         <Search color={colors.iconColor[400]} />

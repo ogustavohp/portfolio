@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Fira_Sans as FiraSans } from 'next/font/google'
 import Menu from '@/components/Menu'
 import Footer from '@/components/Footer'
+import { EmailContextProvider } from '@/Context/email'
 
 const firaSans = FiraSans({ subsets: ['latin'], weight: ['400', '700'] })
 
@@ -25,9 +26,11 @@ export default function RootLayout({
         className={`${firaSans.className} bg-[url(../assets/bg-stars.svg)] bg-repeat`}
       >
         <div className="mx-auto min-h-screen max-w-[1436px]">
-          <Menu />
-          {children}
-          <Footer />
+          <EmailContextProvider>
+            <Menu />
+            {children}
+            <Footer />
+          </EmailContextProvider>
         </div>
       </body>
     </html>
