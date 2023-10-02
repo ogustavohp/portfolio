@@ -159,19 +159,19 @@
         "id": "1391797c-cbf5-4a1b-a556-5cb1aa3ebdb4",
         "title": "Interfaces de Alta Fidelidade",
         "description": "Minha especialidade reside na criação de interfaces de alta fidelidade a partir de designs existentes, focando na precisão, coesão visual e interatividade. Comprometido com qualidade, garanto que as interfaces não apenas reproduzam o design original, mas também ofereçam uma experiência excepcional ao usuário, elevando a estética e usabilidade.",
-        "icon": "iconTag"
+        "icon": "iconMonitor"
       },
       {
         "id": "7ac46895-fbb8-4ba7-a7ce-a02c8feebb42",
         "title": "Vontade de Aprender",
         "description": "Em um campo que está em constante evolução, acredito que a curiosidade e a disposição para aprender são essenciais. Estou sempre ansioso para explorar novas tecnologias, linguagens de programação e frameworks. Essa busca contínua por conhecimento me permite abordar desafios com uma mente aberta, adaptar-me rapidamente às mudanças e encontrar soluções inovadoras.",
-        "icon": "iconTag"
+        "icon": "iconLightbulb"
       },
       {
         "id": "f3da14f8-d4ce-42e0-9015-9c7209cc7f13",
         "title": "Inglês",
         "description": "O meu nível de inglês me permite ler e compreender documentação técnica em inglês, acompanhar as últimas inovações da indústria e programar no idioma, aproveitando as vantagens do acesso a recursos globais. Isso simplifica a colaboração internacional e torna mais fácil para pessoas de outros países se envolverem no projeto.",
-        "icon": "iconTag"
+        "icon": "balloon"
       }
     ]
   },
