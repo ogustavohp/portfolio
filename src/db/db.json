@@ -333,241 +333,207 @@
         "id": "75f626d1-bcd2-4689-989b-3619297bb37c",
         "technology": "CSS 3",
         "icon": "css3",
-        "topics": [
-          {
-            "id": "a3cd49ca-536d-45c4-89db-069ecfc09a83",
-            "title": "Front-end",
-            "text": "O CSS3 (Cascading Style Sheets) é uma das pedras angulares do desenvolvimento web moderno, desempenhando um papel fundamental na apresentação visual de páginas da web. Como programador, tenho uma sólida compreensão do CSS3 e sou capaz de aproveitar todo o seu potencial para criar interfaces web impressionantes e responsivas. O CSS3 permite que eu dê vida à criatividade, personalizando a aparência de páginas web de acordo com as necessidades de meus projetos e clientes. Com o CSS3, posso controlar elementos como cores, fontes, tamanhos, margens, preenchimentos e muito mais. Ele também é responsável por tornar os sites adaptáveis a diferentes dispositivos, garantindo que sua página web seja exibida de forma elegante em telas de tamanhos variados, desde smartphones até desktops."
-          }
-        ]
+        "topics": {
+          "id": "a3cd49ca-536d-45c4-89db-069ecfc09a83",
+          "title": "Front-end",
+          "text": "O CSS3 (Cascading Style Sheets) é uma das pedras angulares do desenvolvimento web moderno, desempenhando um papel fundamental na apresentação visual de páginas da web. Como programador, tenho uma sólida compreensão do CSS3 e sou capaz de aproveitar todo o seu potencial para criar interfaces web impressionantes e responsivas. O CSS3 permite que eu dê vida à criatividade, personalizando a aparência de páginas web de acordo com as necessidades de meus projetos e clientes. Com o CSS3, posso controlar elementos como cores, fontes, tamanhos, margens, preenchimentos e muito mais. Ele também é responsável por tornar os sites adaptáveis a diferentes dispositivos, garantindo que sua página web seja exibida de forma elegante em telas de tamanhos variados, desde smartphones até desktops."
+        }
       },
       {
         "id": "d11ba3ce-1491-4718-857d-ff82238764a1",
         "technology": "Docker",
         "icon": "docker",
-        "topics": [
-          {
-            "id": "2b687206-5a9c-42b0-914c-71be9d1d9ac8",
-            "title": "Outros",
-            "text": "O Docker é uma ferramenta revolucionária que transformou a maneira como empacotamos, distribuímos e executamos aplicativos. Como programador, minha experiência com o Docker me permite criar ambientes de desenvolvimento consistentes, eficientes e escaláveis, o que é essencial para garantir a implantação bem-sucedida de aplicativos em diversos cenários. O Docker é uma plataforma de contêinerização que permite empacotar um aplicativo e todas as suas dependências em um contêiner isolado. Isso inclui bibliotecas, frameworks e até mesmo o sistema operacional necessário para o aplicativo funcionar. Essa abordagem elimina problemas de incompatibilidade entre ambientes de desenvolvimento, teste e produção, garantindo que o aplicativo se comporte consistentemente, independentemente do ambiente em que esteja sendo executado."
-          }
-        ]
+        "topics": {
+          "id": "2b687206-5a9c-42b0-914c-71be9d1d9ac8",
+          "title": "Outros",
+          "text": "O Docker é uma ferramenta revolucionária que transformou a maneira como empacotamos, distribuímos e executamos aplicativos. Como programador, minha experiência com o Docker me permite criar ambientes de desenvolvimento consistentes, eficientes e escaláveis, o que é essencial para garantir a implantação bem-sucedida de aplicativos em diversos cenários. O Docker é uma plataforma de contêinerização que permite empacotar um aplicativo e todas as suas dependências em um contêiner isolado. Isso inclui bibliotecas, frameworks e até mesmo o sistema operacional necessário para o aplicativo funcionar. Essa abordagem elimina problemas de incompatibilidade entre ambientes de desenvolvimento, teste e produção, garantindo que o aplicativo se comporte consistentemente, independentemente do ambiente em que esteja sendo executado."
+        }
       },
       {
         "id": "79113d7c-bce6-480e-8e7b-8c562d05c400",
         "technology": "Eslint",
         "icon": "eslint",
-        "topics": [
-          {
-            "id": "281419d6-a117-412e-86a6-894a126502e5",
-            "title": "Outros",
-            "text": "O ESLint é uma ferramenta fundamental no arsenal de qualquer desenvolvedor que deseja manter um código JavaScript limpo, consistente e de alta qualidade. Como programador, minha experiência com o ESLint me permite melhorar a qualidade do código-fonte, identificar erros comuns e manter um padrão de codificação consistente em todos os meus projetos. O ESLint é uma ferramenta de linting (análise estática de código) para JavaScript. Ele verifica o código-fonte em busca de erros, más práticas e desvios de um conjunto de regras de codificação predefinidas ou personalizadas. Isso ajuda a identificar problemas no código antes mesmo de executar o programa, o que economiza tempo e ajuda a evitar erros inesperados em produção. Disponibilizei no npm e você pode conferir no [GitHub] a configuração que aplico no ESLint + Prettier em meus projetos. Integro o ESLint em meus fluxos de trabalho de desenvolvimento desde o início do projeto. Começo configurando o ESLint para seguir as diretrizes de estilo de codificação específicas do projeto ou padrões da indústria, garantindo consistência em todo o código-fonte."
-          }
-        ]
+        "topics": {
+          "id": "281419d6-a117-412e-86a6-894a126502e5",
+          "title": "Outros",
+          "text": "O ESLint é uma ferramenta fundamental no arsenal de qualquer desenvolvedor que deseja manter um código JavaScript limpo, consistente e de alta qualidade. Como programador, minha experiência com o ESLint me permite melhorar a qualidade do código-fonte, identificar erros comuns e manter um padrão de codificação consistente em todos os meus projetos. O ESLint é uma ferramenta de linting (análise estática de código) para JavaScript. Ele verifica o código-fonte em busca de erros, más práticas e desvios de um conjunto de regras de codificação predefinidas ou personalizadas. Isso ajuda a identificar problemas no código antes mesmo de executar o programa, o que economiza tempo e ajuda a evitar erros inesperados em produção. Disponibilizei no npm e você pode conferir no",
+          "link": "https://github.com/ogustavohp/eslint-config",
+          "linkText": " [GitHub] ",
+          "text2": "a configuração que aplico no ESLint + Prettier em meus projetos. Integro o ESLint em meus fluxos de trabalho de desenvolvimento desde o início do projeto. Começo configurando o ESLint para seguir as diretrizes de estilo de codificação específicas do projeto ou padrões da indústria, garantindo consistência em todo o código-fonte."
+        }
       },
       {
         "id": "429e4fbb-6992-48c5-9f8a-6975bd300613",
         "technology": "Expo",
         "icon": "expo",
-        "topics": [
-          {
-            "id": "de2505c9-be96-4088-ac04-fcc465fdbf23",
-            "title": "Desenvolvimento Mobile",
-            "text": "O Expo é uma plataforma de desenvolvimento de aplicativos móveis que simplifica e acelera o processo de criação de aplicativos para dispositivos iOS e Android. Como desenvolvedor de aplicativos móveis, o Expo se tornou uma parte fundamental da minha caixa de ferramentas, permitindo-me criar aplicativos de alta qualidade de maneira eficiente. O Expo é uma ferramenta que abstrai muitos dos desafios comuns enfrentados no desenvolvimento de aplicativos móveis. Ele fornece um conjunto de ferramentas, bibliotecas e serviços que simplificam tarefas como configuração de projeto, desenvolvimento, teste e implantação de aplicativos."
-          }
-        ]
+        "topics": {
+          "id": "de2505c9-be96-4088-ac04-fcc465fdbf23",
+          "title": "Desenvolvimento Mobile",
+          "text": "O Expo é uma plataforma de desenvolvimento de aplicativos móveis que simplifica e acelera o processo de criação de aplicativos para dispositivos iOS e Android. Como desenvolvedor de aplicativos móveis, o Expo se tornou uma parte fundamental da minha caixa de ferramentas, permitindo-me criar aplicativos de alta qualidade de maneira eficiente. O Expo é uma ferramenta que abstrai muitos dos desafios comuns enfrentados no desenvolvimento de aplicativos móveis. Ele fornece um conjunto de ferramentas, bibliotecas e serviços que simplificam tarefas como configuração de projeto, desenvolvimento, teste e implantação de aplicativos."
+        }
       },
       {
         "id": "134783ba-7d9b-48ed-be3d-54a0d5adf91b",
         "technology": "Fastify",
         "icon": "fastify",
-        "topics": [
-          {
-            "id": "b79b3831-b935-4cd7-b605-378bd1d9c604",
-            "title": "Back-end",
-            "text": "Como desenvolvedor Node.js, uma das ferramentas que valorizo para criar aplicativos web escaláveis e de alto desempenho é o Fastify. O Fastify é uma estrutura (framework) web de código aberto, construída com foco na velocidade e eficiência, projetada para desenvolver APIs e aplicativos web de forma rápida e segura. Eu utilizo o fastify pois ele me permite criar APIs que precisam atender a altas demandas de tráfego e escalabilidade"
-          }
-        ]
+        "topics": {
+          "id": "b79b3831-b935-4cd7-b605-378bd1d9c604",
+          "title": "Back-end",
+          "text": "Como desenvolvedor Node.js, uma das ferramentas que valorizo para criar aplicativos web escaláveis e de alto desempenho é o Fastify. O Fastify é uma estrutura (framework) web de código aberto, construída com foco na velocidade e eficiência, projetada para desenvolver APIs e aplicativos web de forma rápida e segura. Eu utilizo o fastify pois ele me permite criar APIs que precisam atender a altas demandas de tráfego e escalabilidade"
+        }
       },
       {
         "id": "4f97da5d-15c0-47a5-88e2-6c9a2d44d962",
         "technology": "Express",
         "icon": "express",
-        "topics": [
-          {
-            "id": "5e87b0a5-34d6-4873-aaac-93779c72c231",
-            "title": "Back-end",
-            "text": "O Express.js é um framework para Node.js amplamente adotada e altamente flexível, projetada para simplificar o desenvolvimento de aplicativos web e APIs robustas. Como desenvolvedor backend, o Express.js desempenha um papel central nas minhas criações, permitindo-me construir servidores web eficientes e escaláveis. O Express.js é minimalista e não opinativo que fornece um conjunto robusto de recursos para criar aplicativos web e APIs RESTful. Ele oferece uma camada abstrata sobre o HTTP, simplificando tarefas como roteamento, manipulação de solicitações e respostas, manipulação de sessões e muito mais. O Express.js permite que os desenvolvedores se concentrem na lógica do aplicativo, em vez de lidar com detalhes de baixo nível."
-          }
-        ]
+        "topics": {
+          "id": "5e87b0a5-34d6-4873-aaac-93779c72c231",
+          "title": "Back-end",
+          "text": "O Express.js é um framework para Node.js amplamente adotada e altamente flexível, projetada para simplificar o desenvolvimento de aplicativos web e APIs robustas. Como desenvolvedor backend, o Express.js desempenha um papel central nas minhas criações, permitindo-me construir servidores web eficientes e escaláveis. O Express.js é minimalista e não opinativo que fornece um conjunto robusto de recursos para criar aplicativos web e APIs RESTful. Ele oferece uma camada abstrata sobre o HTTP, simplificando tarefas como roteamento, manipulação de solicitações e respostas, manipulação de sessões e muito mais. O Express.js permite que os desenvolvedores se concentrem na lógica do aplicativo, em vez de lidar com detalhes de baixo nível."
+        }
       },
       {
         "id": "6a048116-e794-40ee-917f-d9f29e15f97d",
         "technology": "Git",
         "icon": "git",
-        "topics": [
-          {
-            "id": "bc69da48-0cb9-48f4-b8b5-2df43c4253a3",
-            "title": "Outros",
-            "text": "O Git é uma das ferramentas mais fundamentais e poderosas no mundo do desenvolvimento de software. Como desenvolvedor, minha proficiência no Git é essencial para o controle de versão, colaboração eficiente e o gerenciamento de projetos de software de sucesso. O Git é um sistema de controle de versão distribuído que rastreia as alterações em arquivos e diretórios ao longo do tempo. Ele permite que você acompanhe o histórico completo das modificações em seu código-fonte, mantenha várias versões de um projeto e colabore com outros desenvolvedores de forma organizada."
-          }
-        ]
+        "topics": {
+          "id": "bc69da48-0cb9-48f4-b8b5-2df43c4253a3",
+          "title": "Outros",
+          "text": "O Git é uma das ferramentas mais fundamentais e poderosas no mundo do desenvolvimento de software. Como desenvolvedor, minha proficiência no Git é essencial para o controle de versão, colaboração eficiente e o gerenciamento de projetos de software de sucesso. O Git é um sistema de controle de versão distribuído que rastreia as alterações em arquivos e diretórios ao longo do tempo. Ele permite que você acompanhe o histórico completo das modificações em seu código-fonte, mantenha várias versões de um projeto e colabore com outros desenvolvedores de forma organizada."
+        }
       },
       {
         "id": "5d92750b-dc52-4247-9e6b-99caea3d7343",
         "technology": "GitHub",
         "icon": "github",
-        "topics": [
-          {
-            "id": "dae511d1-28cd-40ec-8b1e-3a0332ad0600",
-            "title": "Outros",
-            "text": "O GitHub é uma plataforma líder de hospedagem de código-fonte e colaboração para desenvolvedores em todo o mundo. Como desenvolvedor, o GitHub desempenha um papel crucial em meu trabalho, facilitando o compartilhamento, colaboração e gerenciamento eficiente de projetos de software.O GitHub fornece um ambiente online para armazenar, gerenciar e colaborar em projetos de desenvolvimento de software usando o sistema de controle de versão Git. Ele permite que desenvolvedores individuais, equipes e organizações colaborem em projetos, rastreiem o histórico de alterações e coordenem o desenvolvimento de maneira eficaz."
-          }
-        ]
+        "topics": {
+          "id": "dae511d1-28cd-40ec-8b1e-3a0332ad0600",
+          "title": "Outros",
+          "text": "O GitHub é uma plataforma líder de hospedagem de código-fonte e colaboração para desenvolvedores em todo o mundo. Como desenvolvedor, o GitHub desempenha um papel crucial em meu trabalho, facilitando o compartilhamento, colaboração e gerenciamento eficiente de projetos de software.O GitHub fornece um ambiente online para armazenar, gerenciar e colaborar em projetos de desenvolvimento de software usando o sistema de controle de versão Git. Ele permite que desenvolvedores individuais, equipes e organizações colaborem em projetos, rastreiem o histórico de alterações e coordenem o desenvolvimento de maneira eficaz."
+        }
       },
       {
         "id": "6b690f7f-8a03-4719-879a-372817e99173",
         "technology": "GraphQL",
         "icon": "graphql",
-        "topics": [
-          {
-            "id": "f384dec4-cecb-441f-af6a-c63a81a3a109",
-            "title": "Front-end e Back-end",
-            "text": "Como desenvolvedor, uma das tecnologias que revolucionou a forma como lidamos com APIs é o GraphQL. O GraphQL é uma linguagem de consulta de código aberto desenvolvida pelo Facebook que permite a criação de APIs flexíveis e eficientes, permitindo que os clientes solicitem exatamente os dados de que precisam. Eu o utilizo principalmente para fazer buscas no banco de dados, retornando apenas oque eu preciso."
-          }
-        ]
+        "topics": {
+          "id": "f384dec4-cecb-441f-af6a-c63a81a3a109",
+          "title": "Front-end e Back-end",
+          "text": "Como desenvolvedor, uma das tecnologias que revolucionou a forma como lidamos com APIs é o GraphQL. O GraphQL é uma linguagem de consulta de código aberto desenvolvida pelo Facebook que permite a criação de APIs flexíveis e eficientes, permitindo que os clientes solicitem exatamente os dados de que precisam. Eu o utilizo principalmente para fazer buscas no banco de dados, retornando apenas oque eu preciso."
+        }
       },
       {
         "id": "07bd5e9a-fd67-4ad8-9642-0274c97b9b8e",
         "technology": "HTML 5",
         "icon": "html5",
-        "topics": [
-          {
-            "id": "dcb334fe-4faa-4980-836a-0e141ae0f92c",
-            "title": "Front-end",
-            "text": "O HTML (HyperText Markup Language) é a base sobre a qual todas as páginas web são construídas. É a linguagem de marcação que define a estrutura e o conteúdo visível das páginas da web. Utilizo o HTML para criar elementos como cabeçalhos, parágrafos, listas, imagens, links e muito mais. Cada tag HTML desempenha um papel específico na formatação e organização do conteúdo para que os usuários possam interagir de forma intuitiva. O HTML também desempenha um papel fundamental na acessibilidade da web, pois permite que os desenvolvedores forneçam informações semânticas e estrutura clara para os leitores de tela e outros dispositivos assistivos. Isso torna o conteúdo da web acessível a um público mais amplo."
-          }
-        ]
+        "topics": {
+          "id": "dcb334fe-4faa-4980-836a-0e141ae0f92c",
+          "title": "Front-end",
+          "text": "O HTML (HyperText Markup Language) é a base sobre a qual todas as páginas web são construídas. É a linguagem de marcação que define a estrutura e o conteúdo visível das páginas da web. Utilizo o HTML para criar elementos como cabeçalhos, parágrafos, listas, imagens, links e muito mais. Cada tag HTML desempenha um papel específico na formatação e organização do conteúdo para que os usuários possam interagir de forma intuitiva. O HTML também desempenha um papel fundamental na acessibilidade da web, pois permite que os desenvolvedores forneçam informações semânticas e estrutura clara para os leitores de tela e outros dispositivos assistivos. Isso torna o conteúdo da web acessível a um público mais amplo."
+        }
       },
       {
         "id": "68fc289e-e8a3-4721-975c-71aa4fca0563",
         "technology": "JavaScript",
         "icon": "javascript",
-        "topics": [
-          {
-            "id": "30c22f4b-afca-4bf5-b5d3-fc8e5a86a11d",
-            "title": "Front-end e Back-end",
-            "text": "Como desenvolvedor web, uma das ferramentas mais essenciais em meu kit de desenvolvimento é o JavaScript. O JavaScript é uma linguagem de programação de alto nível, interpretada e orientada a objetos, amplamente utilizada para criar páginas web interativas e dinâmicas. Eu o utilizo em: Integração em páginas web, Desenvolvimento de aplicativos web, comunicação com APIs, testes, optimização de desempenho da aplicação e essas são apenas algumas das formas que eu utilizo o JavaScript."
-          }
-        ]
+        "topics": {
+          "id": "30c22f4b-afca-4bf5-b5d3-fc8e5a86a11d",
+          "title": "Front-end e Back-end",
+          "text": "Como desenvolvedor web, uma das ferramentas mais essenciais em meu kit de desenvolvimento é o JavaScript. O JavaScript é uma linguagem de programação de alto nível, interpretada e orientada a objetos, amplamente utilizada para criar páginas web interativas e dinâmicas. Eu o utilizo em: Integração em páginas web, Desenvolvimento de aplicativos web, comunicação com APIs, testes, optimização de desempenho da aplicação e essas são apenas algumas das formas que eu utilizo o JavaScript."
+        }
       },
       {
         "id": "b39a6e78-b723-43bb-8fb7-a8ff1d16bdbc",
         "technology": "NextJS",
         "icon": "nextJs",
-        "topics": [
-          {
-            "id": "b0c5458c-f3ac-40d3-b35f-4bf46582dffa",
-            "title": "Front-end",
-            "text": "O Next.js é um framework de desenvolvimento web React que tem revolucionado a maneira como criamos aplicativos web modernos. Como desenvolvedor web, minha experiência com o Next.js me permite criar aplicativos web rápidos, escaláveis e altamente otimizados. O Next.js é construído em cima do React e traz várias melhorias e funcionalidades adicionais que facilitam o desenvolvimento de aplicativos web robustos. Algumas de suas principais características incluem: Renderização do lado do servidor (Server-Side Rendering - SSR), roteamento dinâmico, pré-renderização, hot module replacement (HMR) e facilidade de configuração."
-          }
-        ]
+        "topics": {
+          "id": "b0c5458c-f3ac-40d3-b35f-4bf46582dffa",
+          "title": "Front-end",
+          "text": "O Next.js é um framework de desenvolvimento web React que tem revolucionado a maneira como criamos aplicativos web modernos. Como desenvolvedor web, minha experiência com o Next.js me permite criar aplicativos web rápidos, escaláveis e altamente otimizados. O Next.js é construído em cima do React e traz várias melhorias e funcionalidades adicionais que facilitam o desenvolvimento de aplicativos web robustos. Algumas de suas principais características incluem: Renderização do lado do servidor (Server-Side Rendering - SSR), roteamento dinâmico, pré-renderização, hot module replacement (HMR) e facilidade de configuração."
+        }
       },
       {
         "id": "9fdcbdf2-4758-4c16-a2f1-5269174a1e7d",
         "technology": "NodeJS",
         "icon": "nodeJs",
-        "topics": [
-          {
-            "id": "5a469d15-241b-44a9-9557-0da0446247e2",
-            "title": "Back-end",
-            "text": "O Node.js é uma plataforma de desenvolvimento de software de código aberto que tem revolucionado a maneira como construímos aplicativos e serviços do lado do servidor. Como desenvolvedor, minha experiência com o Node.js me permite criar aplicativos web escaláveis e eficientes, além de facilitar a construção de soluções de servidor modernas e flexíveis. O Node.js é construído sobre a engine V8 do Google Chrome e permite que você execute código JavaScript no lado do servidor. Suas principais características incluem: Assincronia, módulos e pacotes, construção de APIs RESTful e streaming de dados."
-          }
-        ]
+        "topics": {
+          "id": "5a469d15-241b-44a9-9557-0da0446247e2",
+          "title": "Back-end",
+          "text": "O Node.js é uma plataforma de desenvolvimento de software de código aberto que tem revolucionado a maneira como construímos aplicativos e serviços do lado do servidor. Como desenvolvedor, minha experiência com o Node.js me permite criar aplicativos web escaláveis e eficientes, além de facilitar a construção de soluções de servidor modernas e flexíveis. O Node.js é construído sobre a engine V8 do Google Chrome e permite que você execute código JavaScript no lado do servidor. Suas principais características incluem: Assincronia, módulos e pacotes, construção de APIs RESTful e streaming de dados."
+        }
       },
       {
         "id": "9410e65e-0eab-4412-b2f7-6a008ee5a02d",
         "technology": "Prettier",
         "icon": "prettier",
-        "topics": [
-          {
-            "id": "f1353fa2-db7f-4937-a78f-98be795db457",
-            "title": "Outros",
-            "text": "O Prettier é uma ferramenta de formatação de código que tem se tornado uma parte essencial do fluxo de trabalho de muitos desenvolvedores. Como programador, minha experiência com o Prettier me permite manter um código-fonte limpo, uniforme e de fácil leitura em todos os meus projetos. O Prettier é uma ferramenta de formatação de código automática que reformata o código-fonte de acordo com regras de estilo predefinidas."
-          }
-        ]
+        "topics": {
+          "id": "f1353fa2-db7f-4937-a78f-98be795db457",
+          "title": "Outros",
+          "text": "O Prettier é uma ferramenta de formatação de código que tem se tornado uma parte essencial do fluxo de trabalho de muitos desenvolvedores. Como programador, minha experiência com o Prettier me permite manter um código-fonte limpo, uniforme e de fácil leitura em todos os meus projetos. O Prettier é uma ferramenta de formatação de código automática que reformata o código-fonte de acordo com regras de estilo predefinidas. Disponibilizei no npm e você pode conferir no",
+          "link": "https://github.com/ogustavohp/eslint-config",
+          "linkText": " [GitHub] ",
+          "text2": "a configuração que aplico no ESLint + Prettier em meus projetos."
+        }
       },
       {
         "id": "be162d39-2656-4ea1-92b6-a6f71fb98bba",
         "technology": "Prisma",
         "icon": "prisma",
-        "topics": [
-          {
-            "id": "c2698558-a364-4223-8d0d-8cfd50d65d46",
-            "title": "Back-end",
-            "text": "Como desenvolvedor, uma das ferramentas que revolucionou minha abordagem ao trabalhar com bancos de dados é o Prisma. O Prisma é um ORM (Object-Relational Mapping) de código aberto que simplifica a interação com bancos de dados em aplicativos web e fornece uma maneira elegante de definir, consultar e modificar modelos de dados. O Prisma oferece uma série de recursos poderosos que facilitam a vida dos desenvolvedores ao trabalhar com bancos de dados eu o utilizo para: Definição de Modelos de Dados, migrações de banco de dados, consultas tipo-seguras, testes, APIs REST e GraphQL"
-          }
-        ]
+        "topics": {
+          "id": "c2698558-a364-4223-8d0d-8cfd50d65d46",
+          "title": "Back-end",
+          "text": "Como desenvolvedor, uma das ferramentas que revolucionou minha abordagem ao trabalhar com bancos de dados é o Prisma. O Prisma é um ORM (Object-Relational Mapping) de código aberto que simplifica a interação com bancos de dados em aplicativos web e fornece uma maneira elegante de definir, consultar e modificar modelos de dados. O Prisma oferece uma série de recursos poderosos que facilitam a vida dos desenvolvedores ao trabalhar com bancos de dados eu o utilizo para: Definição de Modelos de Dados, migrações de banco de dados, consultas tipo-seguras, testes, APIs REST e GraphQL"
+        }
       },
       {
         "id": "5dd57024-4e08-4ebd-b6b5-8f7512e75ed1",
         "technology": "React",
         "icon": "react",
-        "topics": [
-          {
-            "id": "49dcbfe4-5224-4eca-81a3-e793b88aa33f",
-            "title": "Front-end",
-            "text": "Como desenvolvedor, uma das tecnologias que têm um impacto significativo no meu trabalho é o React. O React é uma biblioteca JavaScript de código aberto mantida pelo Facebook que é amplamente utilizada para criar interfaces de usuário (UI) interativas e reativas em aplicativos web. Eu o utilizo para: Criação de componentes, estado e propriedades, gestão de rotas, gestão de estado global e renderização condicional."
-          }
-        ]
+        "topics": {
+          "id": "49dcbfe4-5224-4eca-81a3-e793b88aa33f",
+          "title": "Front-end",
+          "text": "Como desenvolvedor, uma das tecnologias que têm um impacto significativo no meu trabalho é o React. O React é uma biblioteca JavaScript de código aberto mantida pelo Facebook que é amplamente utilizada para criar interfaces de usuário (UI) interativas e reativas em aplicativos web. Eu o utilizo para: Criação de componentes, estado e propriedades, gestão de rotas, gestão de estado global e renderização condicional."
+        }
       },
       {
         "id": "8678df52-2025-4ed4-ac34-7899d5f98abb",
         "technology": "React Native",
         "icon": "reactNative",
-        "topics": [
-          {
-            "id": "d4aaa30c-6c75-49ed-bb8f-e4e453428785",
-            "title": "Desenvolvimento Mobile",
-            "text": "Como desenvolvedor, uma das tecnologias mais impactantes em minha carreira é o React Native. O React Native é um framework de código aberto desenvolvido pelo Facebook que permite a criação de aplicativos móveis nativos para iOS e Android utilizando JavaScript e React. Eu o utilizo para: Desenvolvimento multiplataforma, criação de componentes reutilizáveis fazendo com que a UI web fique compatível com a versão mobile."
-          }
-        ]
+        "topics": {
+          "id": "d4aaa30c-6c75-49ed-bb8f-e4e453428785",
+          "title": "Desenvolvimento Mobile",
+          "text": "Como desenvolvedor, uma das tecnologias mais impactantes em minha carreira é o React Native. O React Native é um framework de código aberto desenvolvido pelo Facebook que permite a criação de aplicativos móveis nativos para iOS e Android utilizando JavaScript e React. Eu o utilizo para: Desenvolvimento multiplataforma, criação de componentes reutilizáveis fazendo com que a UI web fique compatível com a versão mobile."
+        }
       },
       {
         "id": "905f47f1-772d-4d67-a8f9-484f4dab1b83",
         "technology": "Sass",
         "icon": "sass",
-        "topics": [
-          {
-            "id": "ce1e3009-e697-4b79-8d58-a0b303728c3d",
-            "title": "Front-end",
-            "text": "Como desenvolvedor web, uma das ferramentas que aprimora minha eficiência e organização na estilização de páginas da web é o Sass. O Sass, ou Syntactically Awesome Stylesheets, é uma linguagem de extensão para folhas de estilo CSS que adiciona recursos poderosos e funcionalidades adicionais à estilização web. O Sass oferece várias vantagens significativas para o desenvolvimento web: Variáveis, nesting (aninhamento), partials e importações. Eu o utilizo para simplificar a estilização de páginas da web, tornando o código mais limpo, organizado e fácil de manter."
-          }
-        ]
+        "topics": {
+          "id": "ce1e3009-e697-4b79-8d58-a0b303728c3d",
+          "title": "Front-end",
+          "text": "Como desenvolvedor web, uma das ferramentas que aprimora minha eficiência e organização na estilização de páginas da web é o Sass. O Sass, ou Syntactically Awesome Stylesheets, é uma linguagem de extensão para folhas de estilo CSS que adiciona recursos poderosos e funcionalidades adicionais à estilização web. O Sass oferece várias vantagens significativas para o desenvolvimento web: Variáveis, nesting (aninhamento), partials e importações. Eu o utilizo para simplificar a estilização de páginas da web, tornando o código mais limpo, organizado e fácil de manter."
+        }
       },
       {
         "id": "c7b18727-6236-49f1-b3cc-2f485b4e67af",
         "technology": "Tailwind CSS",
         "icon": "tailwind",
-        "topics": [
-          {
-            "id": "29785de3-6908-47c5-ae78-a84e3d1b7c87",
-            "title": "Front-end",
-            "text": "Como desenvolvedor web, uma das ferramentas que otimiza minha produtividade e abordagem à estilização de páginas da web é o Tailwind CSS. O Tailwind CSS é um framework de código aberto que utiliza classes utilitárias para estilização, tornando a criação de interfaces de usuário eficiente e altamente customizável. O Tailwind CSS é um framework de estilização baseado em classes utilitárias que agiliza o desenvolvimento de interfaces de usuário. Ele é agiliza muito a velocidade de escrita de um código, aumentando a produtividade."
-          }
-        ]
+        "topics": {
+          "id": "29785de3-6908-47c5-ae78-a84e3d1b7c87",
+          "title": "Front-end",
+          "text": "Como desenvolvedor web, uma das ferramentas que otimiza minha produtividade e abordagem à estilização de páginas da web é o Tailwind CSS. O Tailwind CSS é um framework de código aberto que utiliza classes utilitárias para estilização, tornando a criação de interfaces de usuário eficiente e altamente customizável. O Tailwind CSS é um framework de estilização baseado em classes utilitárias que agiliza o desenvolvimento de interfaces de usuário. Ele é agiliza muito a velocidade de escrita de um código, aumentando a produtividade."
+        }
       },
       {
         "id": "134783ba-7d9b-48ed-be3d-54a0d5adf91b",
         "technology": "TypeScript",
         "icon": "typescript",
-        "topics": [
-          {
-            "id": "b79b3831-b935-4cd7-b605-378bd1d9c604",
-            "title": "Front-end e Back-end",
-            "text": "Como desenvolvedor, uma das ferramentas que considero essenciais para melhorar a qualidade e a robustez do meu código JavaScript é o TypeScript. O TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft que se baseia no JavaScript, adicionando recursos de tipagem estática e interfaces para tornar o desenvolvimento mais seguro e eficiente. O TypeScript oferece várias vantagens cruciais para o desenvolvimento de software: tipagem estática, interfaces, suporte a ES6 e novos recursos, entre outros. O TypeScript é uma linguagem que adiciona segurança, clareza e eficiência ao desenvolvimento JavaScript."
-          }
-        ]
+        "topics": {
+          "id": "b79b3831-b935-4cd7-b605-378bd1d9c604",
+          "title": "Front-end e Back-end",
+          "text": "Como desenvolvedor, uma das ferramentas que considero essenciais para melhorar a qualidade e a robustez do meu código JavaScript é o TypeScript. O TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft que se baseia no JavaScript, adicionando recursos de tipagem estática e interfaces para tornar o desenvolvimento mais seguro e eficiente. O TypeScript oferece várias vantagens cruciais para o desenvolvimento de software: tipagem estática, interfaces, suporte a ES6 e novos recursos, entre outros. O TypeScript é uma linguagem que adiciona segurança, clareza e eficiência ao desenvolvimento JavaScript."
+        }
       }
     ]
   }

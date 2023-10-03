@@ -9,7 +9,10 @@ interface ISkillCard {
     id: string
     title: string
     text: string
-  }[]
+    text2?: string
+    link?: string
+    linkText?: string
+  }
 }
 
 export default function SkillCard({ technology, icon, topics }: ISkillCard) {
@@ -18,9 +21,25 @@ export default function SkillCard({ technology, icon, topics }: ISkillCard) {
       {/* Tag technology with image */}
       <SkillIcon icon={icon} title={technology} />
 
-      {topics.map((e) => (
-        <SkillText key={e.id} text={e.text} title={e.title} />
-      ))}
+      <SkillText
+        key={topics.id}
+        text={topics.text}
+        title={topics.title}
+        link={topics.link}
+        linkText={topics.linkText}
+        text2={topics.text2}
+      />
+
+      {/* {topics.map((e) => (
+        <SkillText
+          key={e.id}
+          text={e.text}
+          title={e.title}
+          link={e.link}
+          linkText={e.linkText}
+          text2={e.text2}
+        />
+      ))} */}
     </div>
   )
 }
