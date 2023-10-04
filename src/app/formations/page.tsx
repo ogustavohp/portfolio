@@ -1,9 +1,8 @@
 import Typography from '@/components/Typography'
 import OrnamentE from '@/components/Typography/OrnamentE'
 import React from 'react'
-import { Search } from 'lucide-react'
-import colors from '@/db/colors.json'
 import FormationSection from '@/components/Formations/FormationSection'
+import SkillSearchInput from '@/components/Skills/SkillSearchInput'
 
 export default function Page() {
   return (
@@ -12,21 +11,8 @@ export default function Page() {
         Formações <OrnamentE /> Certificados
       </Typography>
       {/* input search */}
-      <div className="mt-3 flex w-full max-w-[27rem] items-center self-center border-b border-iconcolor-400">
-        <label
-          htmlFor="search"
-          className="sr-only mx-2 text-base text-primary-500"
-        >
-          Busca
-        </label>
-        <input
-          type="text"
-          id="search"
-          placeholder="Busque por tecnologia (Ex.: HTML, CSS, Next.js)"
-          className="w-full  bg-transparent px-2 py-1 text-base text-white placeholder:text-iconcolor-400"
-        />
-        <Search color={colors.iconColor[400]} />
-      </div>
+      <SkillSearchInput />
+
       <FormationSection />
     </main>
   )

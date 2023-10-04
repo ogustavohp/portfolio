@@ -541,7 +541,7 @@
     {
       "id": "",
       "tags": [""],
-      "filter": ["a"],
+      "filter": ["react", "banana"],
       "courseTitle": "Batman",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
@@ -573,7 +573,7 @@
     {
       "id": "",
       "tags": [""],
-      "filter": ["a"],
+      "filter": ["maria", "joão"],
       "courseTitle": "Batman",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
@@ -605,7 +605,7 @@
     {
       "id": "",
       "tags": [""],
-      "filter": ["a"],
+      "filter": ["Maria", "João"],
       "courseTitle": "Batman",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
@@ -637,7 +637,7 @@
     {
       "id": "",
       "tags": [""],
-      "filter": ["a"],
+      "filter": ["Maria", "João"],
       "courseTitle": "Batman",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
@@ -669,7 +669,7 @@
     {
       "id": "",
       "tags": [""],
-      "filter": ["a"],
+      "filter": ["Maria", "João"],
       "courseTitle": "Batman",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
@@ -701,7 +701,7 @@
     {
       "id": "",
       "tags": [""],
-      "filter": ["a"],
+      "filter": ["Maria", "João"],
       "courseTitle": "Batman",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
@@ -733,7 +733,7 @@
     {
       "id": "",
       "tags": [""],
-      "filter": ["a"],
+      "filter": ["Maria", "João"],
       "courseTitle": "Batman",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
@@ -765,7 +765,7 @@
     {
       "id": "",
       "tags": [""],
-      "filter": ["a"],
+      "filter": ["Maria", "João"],
       "courseTitle": "Batman",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
@@ -797,7 +797,7 @@
     {
       "id": "",
       "tags": [""],
-      "filter": ["a"],
+      "filter": ["Maria", "João"],
       "courseTitle": "Batman",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
