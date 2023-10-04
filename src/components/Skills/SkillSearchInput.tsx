@@ -24,6 +24,7 @@ export default function SkillSearchInput() {
 
   useEffect(() => {
     handleChange(search)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search])
 
   return (
