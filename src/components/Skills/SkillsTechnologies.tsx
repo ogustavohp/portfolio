@@ -8,7 +8,7 @@ export default function SkillsTechnologies() {
   return (
     <section className="mt-10 space-y-8">
       {/* Card technology */}
-      {skills.Technologies.map((e) => (
+      {skills.map((e) => (
         <SkillCard
           key={e.id}
           icon={e.icon}

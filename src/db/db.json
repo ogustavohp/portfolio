@@ -197,6 +197,7 @@
       {
         "id": "cccaf838-1831-48b1-8026-d3fd5164d4a9",
         "title": "Time Vault",
+        "filter": [""],
         "image": "link",
         "sideProject": true,
         "inProgress": false,
@@ -256,6 +257,7 @@
       {
         "id": "9c37f145-9889-40f6-8057-61e5539ad15f",
         "title": "Time Vault",
+        "filter": [""],
         "image": "link",
         "sideProject": true,
         "inProgress": false,
@@ -327,11 +329,11 @@
   "findMeOn": {
     "title": "Me encontre em:"
   },
-  "skills": {
-    "Technologies": [
+  "skills": [
       {
         "id": "75f626d1-bcd2-4689-989b-3619297bb37c",
         "technology": "CSS 3",
+        "filter": [""],
         "icon": "css3",
         "topics": {
           "id": "a3cd49ca-536d-45c4-89db-069ecfc09a83",
@@ -342,6 +344,7 @@
       {
         "id": "d11ba3ce-1491-4718-857d-ff82238764a1",
         "technology": "Docker",
+        "filter": [""],
         "icon": "docker",
         "topics": {
           "id": "2b687206-5a9c-42b0-914c-71be9d1d9ac8",
@@ -352,6 +355,7 @@
       {
         "id": "79113d7c-bce6-480e-8e7b-8c562d05c400",
         "technology": "Eslint",
+        "filter": [""],
         "icon": "eslint",
         "topics": {
           "id": "281419d6-a117-412e-86a6-894a126502e5",
@@ -365,6 +369,7 @@
       {
         "id": "429e4fbb-6992-48c5-9f8a-6975bd300613",
         "technology": "Expo",
+        "filter": [""],
         "icon": "expo",
         "topics": {
           "id": "de2505c9-be96-4088-ac04-fcc465fdbf23",
@@ -375,6 +380,7 @@
       {
         "id": "134783ba-7d9b-48ed-be3d-54a0d5adf91b",
         "technology": "Fastify",
+        "filter": [""],
         "icon": "fastify",
         "topics": {
           "id": "b79b3831-b935-4cd7-b605-378bd1d9c604",
@@ -385,6 +391,7 @@
       {
         "id": "4f97da5d-15c0-47a5-88e2-6c9a2d44d962",
         "technology": "Express",
+        "filter": [""],
         "icon": "express",
         "topics": {
           "id": "5e87b0a5-34d6-4873-aaac-93779c72c231",
@@ -395,6 +402,7 @@
       {
         "id": "6a048116-e794-40ee-917f-d9f29e15f97d",
         "technology": "Git",
+        "filter": [""],
         "icon": "git",
         "topics": {
           "id": "bc69da48-0cb9-48f4-b8b5-2df43c4253a3",
@@ -405,6 +413,7 @@
       {
         "id": "5d92750b-dc52-4247-9e6b-99caea3d7343",
         "technology": "GitHub",
+        "filter": [""],
         "icon": "github",
         "topics": {
           "id": "dae511d1-28cd-40ec-8b1e-3a0332ad0600",
@@ -415,6 +424,7 @@
       {
         "id": "6b690f7f-8a03-4719-879a-372817e99173",
         "technology": "GraphQL",
+        "filter": [""],
         "icon": "graphql",
         "topics": {
           "id": "f384dec4-cecb-441f-af6a-c63a81a3a109",
@@ -425,6 +435,7 @@
       {
         "id": "07bd5e9a-fd67-4ad8-9642-0274c97b9b8e",
         "technology": "HTML 5",
+        "filter": [""],
         "icon": "html5",
         "topics": {
           "id": "dcb334fe-4faa-4980-836a-0e141ae0f92c",
@@ -435,6 +446,7 @@
       {
         "id": "68fc289e-e8a3-4721-975c-71aa4fca0563",
         "technology": "JavaScript",
+        "filter": [""],
         "icon": "javascript",
         "topics": {
           "id": "30c22f4b-afca-4bf5-b5d3-fc8e5a86a11d",
@@ -445,6 +457,7 @@
       {
         "id": "b39a6e78-b723-43bb-8fb7-a8ff1d16bdbc",
         "technology": "NextJS",
+        "filter": [""],
         "icon": "nextJs",
         "topics": {
           "id": "b0c5458c-f3ac-40d3-b35f-4bf46582dffa",
@@ -455,6 +468,7 @@
       {
         "id": "9fdcbdf2-4758-4c16-a2f1-5269174a1e7d",
         "technology": "NodeJS",
+        "filter": [""],
         "icon": "nodeJs",
         "topics": {
           "id": "5a469d15-241b-44a9-9557-0da0446247e2",
@@ -465,6 +479,7 @@
       {
         "id": "9410e65e-0eab-4412-b2f7-6a008ee5a02d",
         "technology": "Prettier",
+        "filter": [""],
         "icon": "prettier",
         "topics": {
           "id": "f1353fa2-db7f-4937-a78f-98be795db457",
@@ -478,6 +493,7 @@
       {
         "id": "be162d39-2656-4ea1-92b6-a6f71fb98bba",
         "technology": "Prisma",
+        "filter": [""],
         "icon": "prisma",
         "topics": {
           "id": "c2698558-a364-4223-8d0d-8cfd50d65d46",
@@ -488,6 +504,7 @@
       {
         "id": "5dd57024-4e08-4ebd-b6b5-8f7512e75ed1",
         "technology": "React",
+        "filter": [""],
         "icon": "react",
         "topics": {
           "id": "49dcbfe4-5224-4eca-81a3-e793b88aa33f",
@@ -498,6 +515,7 @@
       {
         "id": "8678df52-2025-4ed4-ac34-7899d5f98abb",
         "technology": "React Native",
+        "filter": [""],
         "icon": "reactNative",
         "topics": {
           "id": "d4aaa30c-6c75-49ed-bb8f-e4e453428785",
@@ -508,6 +526,7 @@
       {
         "id": "905f47f1-772d-4d67-a8f9-484f4dab1b83",
         "technology": "Sass",
+        "filter": [""],
         "icon": "sass",
         "topics": {
           "id": "ce1e3009-e697-4b79-8d58-a0b303728c3d",
@@ -518,6 +537,7 @@
       {
         "id": "c7b18727-6236-49f1-b3cc-2f485b4e67af",
         "technology": "Tailwind CSS",
+        "filter": [""],
         "icon": "tailwind",
         "topics": {
           "id": "29785de3-6908-47c5-ae78-a84e3d1b7c87",
@@ -528,6 +548,7 @@
       {
         "id": "134783ba-7d9b-48ed-be3d-54a0d5adf91b",
         "technology": "TypeScript",
+        "filter": [""],
         "icon": "typescript",
         "topics": {
           "id": "b79b3831-b935-4cd7-b605-378bd1d9c604",
@@ -535,8 +556,7 @@
           "text": "Como desenvolvedor, uma das ferramentas que considero essenciais para melhorar a qualidade e a robustez do meu código JavaScript é o TypeScript. O TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft que se baseia no JavaScript, adicionando recursos de tipagem estática e interfaces para tornar o desenvolvimento mais seguro e eficiente. O TypeScript oferece várias vantagens cruciais para o desenvolvimento de software: tipagem estática, interfaces, suporte a ES6 e novos recursos, entre outros. O TypeScript é uma linguagem que adiciona segurança, clareza e eficiência ao desenvolvimento JavaScript."
         }
       }
-    ]
-  },
+    ],
   "formations": [
     {
       "id": "",
