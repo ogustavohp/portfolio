@@ -3,27 +3,13 @@ import { Search } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
 import colors from '@/db/colors.json'
 import { useFormations } from '@/context/formations'
-import db from '@/db/db.json'
-
-const courses = db.formations
 
 export default function SkillSearchInput() {
-  const { setFormations } = useFormations()
+  const { filterFormations } = useFormations()
   const [search, setSearch] = useState('')
 
-  function handleChange(search: string) {
-    const searchNormalize = search.toLocaleLowerCase()
-    setFormations(
-      courses.filter((formation) => {
-        return formation.filter.some((formationString) =>
-          formationString.includes(searchNormalize),
-        )
-      }),
-    )
-  }
-
   useEffect(() => {
-    handleChange(search)
+    filterFormations(search)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search])
 

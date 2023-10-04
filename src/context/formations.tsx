@@ -22,6 +22,7 @@ interface Formation {
 interface FormationContextType {
   formations: Formation[]
   setFormations: React.Dispatch<React.SetStateAction<Formation[]>>
+  filterFormations: (e: string) => void
 }
 
 const FormationContext = createContext<FormationContextType | undefined>(
@@ -31,8 +32,21 @@ const FormationContext = createContext<FormationContextType | undefined>(
 export function FormationProvider({ children }: { children: ReactNode }) {
   const [formations, setFormations] = useState<Formation[]>(formationsDb)
 
+  function filterFormations(search: string) {
+    const searchNormalize = search.toLocaleLowerCase()
+    setFormations(
+      formationsDb.filter((formation) => {
+        return formation.filter.some((formationString) =>
+          formationString.includes(searchNormalize),
+        )
+      }),
+    )
+  }
+
   return (
-    <FormationContext.Provider value={{ formations, setFormations }}>
+    <FormationContext.Provider
+      value={{ formations, setFormations, filterFormations }}
+    >
       {children}
     </FormationContext.Provider>
   )
