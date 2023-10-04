@@ -1,9 +1,11 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from 'react'
 import Typography from '../Typography'
 import cardBanner from '@/assets/Banner Card.png'
 import ProjectCard from './ProjectCard'
 import Link from 'next/link'
 import db from '@/db/db.json'
+import { useProjects } from '@/context/projects'
 
 interface IProjectsComponent {
   noProjectTitle?: boolean
@@ -12,6 +14,13 @@ interface IProjectsComponent {
 export default function Projects({
   noProjectTitle = false,
 }: IProjectsComponent) {
+  const { projects, filterProjects } = useProjects()
+
+  useEffect(() => {
+    filterProjects('')
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
   return (
     <section className="flex flex-col items-center gap-3">
       {!noProjectTitle && (
@@ -26,7 +35,7 @@ export default function Projects({
       <div></div>
       {/* Card */}
       <div className="flex flex-wrap justify-center gap-3 ">
-        {db.projects.projectsList.map((e) => (
+        {projects.map((e) => (
           <ProjectCard
             key={e.id}
             imgBanner={cardBanner}
