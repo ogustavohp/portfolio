@@ -541,8 +541,8 @@
     {
       "id": "",
       "tags": [""],
-      "filter": ["react", "banana"],
-      "courseTitle": "Batman",
+      "filter": [""],
+      "courseTitle": "",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
       "certificateLink": "",
@@ -550,279 +550,23 @@
       "courseTopics": [
         {
           "id": "",
-          "courseTopic": "dwadwa"
+          "courseTopic": ""
         },
         {
           "id": "",
-          "courseTopic": "dwadwadwada"
+          "courseTopic": ""
         },
         {
           "id": "",
-          "courseTopic": "dawdawdaw"
+          "courseTopic": ""
         },
         {
           "id": "",
-          "courseTopic": "dawdawdwa"
+          "courseTopic": ""
         },
         {
           "id": "",
-          "courseTopic": "dwadwa"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "tags": [""],
-      "filter": ["maria", "joão"],
-      "courseTitle": "Batman",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwadwada"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdaw"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "tags": [""],
-      "filter": ["Maria", "João"],
-      "courseTitle": "Batman",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwadwada"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdaw"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "tags": [""],
-      "filter": ["Maria", "João"],
-      "courseTitle": "Batman",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwadwada"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdaw"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "tags": [""],
-      "filter": ["Maria", "João"],
-      "courseTitle": "Batman",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwadwada"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdaw"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "tags": [""],
-      "filter": ["Maria", "João"],
-      "courseTitle": "Batman",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwadwada"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdaw"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "tags": [""],
-      "filter": ["Maria", "João"],
-      "courseTitle": "Batman",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwadwada"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdaw"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "tags": [""],
-      "filter": ["Maria", "João"],
-      "courseTitle": "Batman",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwadwada"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdaw"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "tags": [""],
-      "filter": ["Maria", "João"],
-      "courseTitle": "Batman",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwadwada"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdaw"
-        },
-        {
-          "id": "",
-          "courseTopic": "dawdawdwa"
-        },
-        {
-          "id": "",
-          "courseTopic": "dwadwa"
+          "courseTopic": ""
         }
       ]
     }
