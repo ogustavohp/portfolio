@@ -1,9 +1,9 @@
 import Typography from '@/components/Typography'
 import OrnamentE from '@/components/Typography/OrnamentE'
 import React from 'react'
-import Formations from '@/components/Formations'
 import { Search } from 'lucide-react'
 import colors from '@/db/colors.json'
+import FormationSection from '@/components/Formations/FormationSection'
 
 export default function Page() {
   return (
@@ -27,7 +27,7 @@ export default function Page() {
         />
         <Search color={colors.iconColor[400]} />
       </div>
-      <Formations />
+      <FormationSection />
     </main>
   )
 }

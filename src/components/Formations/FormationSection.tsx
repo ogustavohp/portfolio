@@ -1,30 +1,34 @@
+'use client'
 import React from 'react'
 import Course from './Course'
 import Courses from './Courses'
-import { ICourse } from '@/lib/course'
-import CourseTitleSection from './CourseTitleSection'
+import { useFormations } from '@/context/formations'
 
-interface IFormationSection {
-  titleSection: string
-  courses: ICourse[]
-}
-
-export default function FormationSection({
-  titleSection,
-  courses,
-}: IFormationSection) {
+export default function FormationSection() {
+  const { formations } = useFormations()
   return (
     <section className="flex flex-col gap-7">
-      <CourseTitleSection title={titleSection} />
       <Courses>
-        {courses.map((e) => (
+        {formations.map((e) => (
+          <Course
+            key={e.id}
+            tags={e.tags}
+            courseTitle={e.courseTitle}
+            courseLicensed={e.courseLicensed}
+            licensedLink={e.licensedLink}
+            certificateLink={e.certificateLink}
+            courseLink={e.courseLink}
+            courseTopics={e.courseTopics}
+          />
+        ))}
+        {/* {courses.map((e) => (
           <Course
             key={e.id}
             courseLicensed={e.courseLicensed}
             courseTitle={e.courseTitle}
             courseTopics={e.courseTopics}
           />
-        ))}
+        ))} */}
       </Courses>
     </section>
   )

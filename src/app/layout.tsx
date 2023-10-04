@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Fira_Sans as FiraSans } from 'next/font/google'
 import Menu from '@/components/Menu'
 import Footer from '@/components/Footer'
+import { FormationProvider } from '@/context/formations'
 
 const firaSans = FiraSans({ subsets: ['latin'], weight: ['400', '700'] })
 
@@ -26,7 +27,7 @@ export default function RootLayout({
       >
         <div className="mx-auto min-h-screen max-w-[1436px]">
           <Menu />
-          {children}
+          <FormationProvider>{children}</FormationProvider>
           <Footer />
         </div>
       </body>
