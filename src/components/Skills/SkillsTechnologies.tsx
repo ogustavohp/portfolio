@@ -1,10 +1,10 @@
+'use client'
 import React from 'react'
-import db from '@/db/db.json'
 import SkillCard from './SkillCard'
-
-const skills = db.skills
+import { useSkills } from '@/context/skills'
 
 export default function SkillsTechnologies() {
+  const { skills } = useSkills()
   return (
     <section className="mt-10 space-y-8">
       {/* Card technology */}

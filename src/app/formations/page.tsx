@@ -2,7 +2,7 @@ import Typography from '@/components/Typography'
 import OrnamentE from '@/components/Typography/OrnamentE'
 import React from 'react'
 import FormationSection from '@/components/Formations/FormationSection'
-import SkillSearchInput from '@/components/Skills/SkillSearchInput'
+import FormationInputSearch from '@/components/Formations/FormationInputSearch'
 
 export default function Page() {
   return (
@@ -11,7 +11,7 @@ export default function Page() {
         Formações <OrnamentE /> Certificados
       </Typography>
       {/* input search */}
-      <SkillSearchInput />
+      <FormationInputSearch />
 
       <FormationSection />
     </main>

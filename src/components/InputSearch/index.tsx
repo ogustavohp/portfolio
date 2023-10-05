@@ -2,17 +2,18 @@
 import React, { useEffect, useState } from 'react'
 import colors from '@/db/colors.json'
 import { Search } from 'lucide-react'
-import { useFormations } from '@/context/formations'
 
-export default function SkillSearchInput() {
-  const { filterFormations } = useFormations()
+interface InputSearchType {
+  filterFunction: (e: string) => void
+}
+
+export default function InputSearch({ filterFunction }: InputSearchType) {
   const [search, setSearch] = useState('')
 
   useEffect(() => {
-    filterFormations(search)
+    filterFunction(search)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search])
-
   return (
     <div className="mt-3 flex w-full max-w-[27rem] items-center self-center border-b border-iconcolor-400">
       <label
@@ -26,7 +27,7 @@ export default function SkillSearchInput() {
         id="search"
         onChange={(e) => setSearch(e.target.value)}
         value={search}
-        placeholder="Busque por tecnologia (Ex.: HTML, CSS, Next.js)"
+        placeholder="Busque por tecnologia ou projeto (Ex.: JavaScript, Time Vault)"
         className="w-full  bg-transparent px-2 py-1 text-base text-white placeholder:text-iconcolor-400"
       />
       <Search color={colors.iconColor[400]} />

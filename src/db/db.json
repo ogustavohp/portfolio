@@ -383,7 +383,7 @@
         "filter": [""],
         "icon": "fastify",
         "topics": {
-          "id": "b79b3831-b935-4cd7-b605-378bd1d9c604",
+          "id": "b79b3831-b935-4cd7-b605-378bd1d9c684",
           "title": "Back-end",
           "text": "Como desenvolvedor Node.js, uma das ferramentas que valorizo para criar aplicativos web escaláveis e de alto desempenho é o Fastify. O Fastify é uma estrutura (framework) web de código aberto, construída com foco na velocidade e eficiência, projetada para desenvolver APIs e aplicativos web de forma rápida e segura. Eu utilizo o fastify pois ele me permite criar APIs que precisam atender a altas demandas de tráfego e escalabilidade"
         }
@@ -546,7 +546,7 @@
         }
       },
       {
-        "id": "134783ba-7d9b-48ed-be3d-54a0d5adf91b",
+        "id": "134783ba-7d9b-48ed-be3d-54a0d5adf891b",
         "technology": "TypeScript",
         "filter": [""],
         "icon": "typescript",

@@ -1,7 +1,7 @@
 import Typography from '@/components/Typography'
 import React from 'react'
 import Projects from '@/components/Projects'
-import ProjectSearchInput from '@/components/Projects/ProjectSearchInput'
+import ProjectInputSearch from '@/components/Projects/ProjectInputSearch'
 
 export default function Page() {
   return (
@@ -14,7 +14,7 @@ export default function Page() {
       </div>
 
       {/* Input de busca */}
-      <ProjectSearchInput />
+      <ProjectInputSearch />
 
       {/* projetos card */}
       <Projects noProjectTitle />
