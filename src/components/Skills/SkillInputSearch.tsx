@@ -6,5 +6,10 @@ import InputSearch from '../InputSearch'
 export default function SkillInputSearch() {
   const { filterSkills } = useSkills()
 
-  return <InputSearch filterFunction={filterSkills} />
+  return (
+    <InputSearch
+      filterFunction={filterSkills}
+      placeholder={'Busque por tecnologia (Ex.: JavaScript, Time Vault)'}
+    />
+  )
 }

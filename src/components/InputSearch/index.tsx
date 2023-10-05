@@ -5,9 +5,13 @@ import { Search } from 'lucide-react'
 
 interface InputSearchType {
   filterFunction: (e: string) => void
+  placeholder: string
 }
 
-export default function InputSearch({ filterFunction }: InputSearchType) {
+export default function InputSearch({
+  filterFunction,
+  placeholder,
+}: InputSearchType) {
   const [search, setSearch] = useState('')
 
   useEffect(() => {
@@ -27,7 +31,7 @@ export default function InputSearch({ filterFunction }: InputSearchType) {
         id="search"
         onChange={(e) => setSearch(e.target.value)}
         value={search}
-        placeholder="Busque por tecnologia ou projeto (Ex.: JavaScript, Time Vault)"
+        placeholder={placeholder}
         className="w-full  bg-transparent px-2 py-1 text-base text-white placeholder:text-iconcolor-400"
       />
       <Search color={colors.iconColor[400]} />
