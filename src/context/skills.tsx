@@ -35,7 +35,7 @@ export function SkillsProvider({ children }: { children: ReactNode }) {
     setSkills(
       skillsDb.filter((skill) => {
         return skill.filter.some((skillStringFilter) =>
-          skillStringFilter.includes(searchNormalize),
+          skillStringFilter.toLowerCase().includes(searchNormalize),
         )
       }),
     )

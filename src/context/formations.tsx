@@ -37,7 +37,7 @@ export function FormationProvider({ children }: { children: ReactNode }) {
     setFormations(
       formationsDb.filter((formation) => {
         return formation.filter.some((formationString) =>
-          formationString.includes(searchNormalize),
+          formationString.toLowerCase().includes(searchNormalize),
         )
       }),
     )

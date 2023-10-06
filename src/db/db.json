@@ -560,10 +560,13 @@
   "formations": [
     {
       "id": "cb323138-1807-4ed9-8230-d97ecbcd62b7",
-      "tags": [
+      "tags": [""],
+      "filter": [
         "react: otimizando a performance",
+        "react otimizando a performance",
         "react",
         "otimizando",
+        "otimizar",
         "performance",
         "react performance",
         "melhorando performance em react",
@@ -579,7 +582,6 @@
         "aumentar a velocidade do react",
         "aumento de desempenho em react"
       ],
-      "filter": ["react", "otimizando", "otimizar", "performance"],
       "courseTitle": "React: otimizando a performance",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
@@ -609,354 +611,567 @@
       ]
     },
     {
-      "id": "",
+      "id": "07f213bd-c78a-4b10-a261-3846400730fc",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: testando os seus componentes",
+        "react testando os seus componentes",
+        "react",
+        "testando",
+        "componentes",
+        "teste de componentes react",
+        "testes unitários react",
+        "testando react components",
+        "como testar componentes em react",
+        "testes de unidade em react",
+        "testes de componentes react",
+        "testando componentes react",
+        "react testing library",
+        "testando com jest em react",
+        "testes automatizados em react",
+        "react component testing",
+        "testes de integração em react"
+      ],
+      "courseTitle": "React: testando os seus componentes",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-testando-componentes/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/react-testando-componentes",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a8e1d8ee-2559-43c3-b73a-7721b9e8f61e",
+          "courseTopic": "Implementando Testes para Garantir o Comportamento dos Componentes"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c4ec373c-9812-4d3b-86ad-b36a7237d1c4",
+          "courseTopic": "Utilizando o Jest para Realizar Asserções"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b0b33f01-8730-4b36-95cb-1334f7a1c6ce",
+          "courseTopic": "Explorando a Técnica TDD (Test-Driven Development)"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "dcdad614-06b7-4ab2-9a3b-4f046b37e1e2",
+          "courseTopic": "Compreendendo os Diferentes Tipos de Testes"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "9c346bd5-8423-4ac4-b6a0-eb2e542f2e08",
+          "courseTopic": "Reconhecendo os Benefícios dos Testes em Desenvolvimento React"
         }
       ]
     },
     {
-      "id": "",
+      "id": "962755b9-7155-4a9e-9a0e-537e7bb05fec",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: gerenciando estado com recoil",
+        "react gerenciando estado com recoil",
+        "react",
+        "gerenciando",
+        "estado",
+        "recoil",
+        "gerenciamento de estado em react",
+        "manipulando estado em react",
+        "gerenciador de estado recoil",
+        "react recoil",
+        "recoil state management",
+        "gerenciando estados com recoil",
+        "uso do recoil em react",
+        "gerenciando informações com recoil",
+        "react global state management",
+        "aprendendo recoil em react"
+      ],
+      "courseTitle": "React: gerenciando estado com Recoil",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-gerenciando-estado-recoil/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/react-gerenciando-estado-recoil",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "2c78f2d0-22c7-45df-a380-3d64cbfc842a",
+          "courseTopic": "Projetando uma Solução Eficiente de Gerenciamento de Estado com Recoil"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "43882c3e-0a19-437f-9f35-943b73bea751",
+          "courseTopic": "Explorando as Vantagens e Benefícios do Recoil em Aplicações React"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7b93e9c9-b736-41e2-a3cd-5a2b94db5767",
+          "courseTopic": "Extraindo Lógica de Comunicação com o Recoil em Forma de Hooks"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b8ee5aa0-3b15-4f62-b634-5a29db498b9c",
+          "courseTopic": "Implementando os Principais Hooks do Recoil para Gerenciamento de Estado"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c5f39e45-df71-4d91-8d48-5b2f71b95c2c",
+          "courseTopic": "Comparando Diferentes Soluções de Gerenciamento de Estado no Mercado"
         }
       ]
     },
     {
-      "id": "",
+      "id": "d030c6ae-4654-4267-ada4-ea3762cc37ed",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "http: entendendo a web por baixo dos panos",
+        "http entendendo a web por baixo dos panos",
+        "http",
+        "https",
+        "entendendo",
+        "web",
+        "baixo dos panos",
+        "protocolo http",
+        "funcionamento do http",
+        "http explicado",
+        "como funciona a web",
+        "tecnologia web",
+        "http request",
+        "http response",
+        "compreendendo a web",
+        "web por trás das cenas",
+        "http protocol",
+        "entendendo a comunicação web"
+      ],
+      "courseTitle": "HTTP: entendendo a web por baixo dos panos",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/http-entendendo-web-por-baixo-dos-panos/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/http-entendendo-web-por-baixo-dos-panos",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "8d6f3f1d-3b99-4a68-8ebd-5af07d2af746",
+          "courseTopic": "Compreendendo a Arquitetura e Conceitos Fundamentais do Protocolo HTTP"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "ad2a086e-19e4-43e2-9a9c-ba3b5e4d48f4",
+          "courseTopic": "Implementando o HTTPS para Proteger a Comunicação na Web"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "aa9c8bb7-301f-4485-9ba5-e96fb45f17ad",
+          "courseTopic": "Explorando os Avanços do HTTP/2 e HTTP/3 para Otimização de Performance"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "9a5c6f84-38f9-4b57-8d42-86911a0b6754",
+          "courseTopic": "Desvendando os Componentes das Mensagens HTTP: Requisições, Respostas e Cabeçalhos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "4373dd94-83b9-4b06-9323-479d36395d8d",
+          "courseTopic": "Entendendo o Conceito de URLs e Domínios na Web"
         }
       ]
     },
     {
-      "id": "",
+      "id": "24c89028-bed8-4efd-9a6e-4ea732239098",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: integrando seu projeto react com apis",
+        "react integrando seu projeto react com apis",
+        "react e apis",
+        "react",
+        "api",
+        "apis",
+        "axios",
+        "integração de react com apis",
+        "comunicação entre react e api",
+        "axios em react",
+        "requisições http em react",
+        "buscando dados em api com react",
+        "frontend react e backend api",
+        "integração react com backend",
+        "consumo de api em aplicação react",
+        "axios para requisições http em react"
+      ],
+      "courseTitle": "React: integrando seu projeto React com APIs",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-integrando-projeto-react-apis/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/react-integrando-projeto-react-apis",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b74e4ec2-5e01-4b1b-9864-87cc3d8f712d",
+          "courseTopic": "Desenvolvendo a Comunicação entre uma Aplicação React e uma API REST"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "e764db8a-26b2-47b3-81ec-60276813d13e",
+          "courseTopic": "Implementando Hooks para Buscar Dados em uma API"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c6f5e5aa-8f7f-4b62-aa6a-8b6e61cb95e0",
+          "courseTopic": "Utilizando o Axios para Realizar Requisições HTTP"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "6b49dbb0-7759-4521-96b2-6da18e2c5a56",
+          "courseTopic": "Avaliando as Informações da Resposta da API"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "03db29aa-89b7-4086-9d96-1d4c3ad21b9c",
+          "courseTopic": "Integrando o Frontend ao Backend"
+        },
+        {
+          "id": "b847b40b-2b1a-45d1-91b0-eab8a981ae63",
+          "courseTopic": "Descrição do Funcionamento de uma API a partir do Swagger"
         }
       ]
     },
     {
-      "id": "",
+      "id": "31cde006-0a55-490e-aeac-ac1c192f412c",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: conhecendo a biblioteca react router",
+        "react conhecendo a biblioteca react router",
+        "react router",
+        "navegação em react",
+        "roteamento em react",
+        "react router dom",
+        "configurando rotas em react",
+        "navegação entre páginas em react",
+        "biblioteca react router",
+        "react router tutorial",
+        "rotas dinâmicas em react",
+        "aprendendo react router",
+        "react router navegação",
+        "controle de rotas em react",
+        "gerenciamento de navegação em react",
+        "roteamento de páginas com react router",
+        "eslint"
+      ],
+      "courseTitle": "React: conhecendo a biblioteca React Router",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-biblioteca-react-router/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/react-biblioteca-react-router",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "63e83ed3-0d5c-4e4e-9c19-1758a617158f",
+          "courseTopic": "Refatoração de Projetos Utilizando ESLint"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c506d7c3-144b-491f-8f29-67cd15b89ea0",
+          "courseTopic": "Desenvolvimento de Código Escalável com Foco em Limpeza e Legibilidade"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a78417a9-b6f9-4a1d-996e-0c9460e2d2ed",
+          "courseTopic": "Utilização Prática do pacote react-router-dom e seus Conceitos Principais"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "598c2bc1-45d1-4d9b-8816-73f5f6ecfa92",
+          "courseTopic": "Integração com o Navegador e Manipulação de Rotas e Estados"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "4d3ef7f0-29c0-478d-9272-487ca19c4703",
+          "courseTopic": "Criação de Telas e Navegação com Diversas Abordagens e Reaproveitamento de Componentes"
+        },
+        {
+          "id": "84176ad9-52d8-430c-91d4-c39f5411c895",
+          "courseTopic": "Compreensão de Rotas Aninhadas (Nested Routes) e Estratégias para Reutilização de Código"
         }
       ]
     },
     {
-      "id": "",
+      "id": "77d1e542-fc3e-4d8f-a368-f0ba51185243",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: lidando com arquivos estáticos",
+        "react lidando com arquivos estáticos",
+        "create react app",
+        "normalize.css",
+        "absolute imports",
+        "boas práticas em CSS",
+        "variáveis CSS",
+        "media queries",
+        "classnames em React",
+        "CSS Modules",
+        "SVGR",
+        "importar SVGs em React",
+        "imports estáticos em React",
+        "arquivos .js em React",
+        "arquivos .scss em React",
+        "arquivos .css em React",
+        "importar arquivos estáticos via JS",
+        "pasta public em React"
+      ],
+      "courseTitle": "React: lidando com arquivos estáticos",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-arquivos-estaticos/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/react-arquivos-estaticos",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "0e2457f9-ea9f-4b07-bdd3-9b9ebbe56f5a",
+          "courseTopic": "Criação de um Projeto React do Zero com Create React App"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a85a139b-cad2-4e71-9bbd-9e7edf9db3a3",
+          "courseTopic": "Utilização do Normalize.css para Resetar Estilos Padrões de Navegadores"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c3a9e2e6-b7c6-4871-a2d1-11e77b451bc7",
+          "courseTopic": "Configuração de Importações Absolutas para Simplificar Imports"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "8645f44b-8ea3-41f9-8c68-3da67f70ab93",
+          "courseTopic": "Boas Práticas em CSS: Variáveis, Arquivos de Variáveis e Media Queries"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c8797a9a-16b3-4f5f-9d3c-744d52e8d8e1",
+          "courseTopic": "Utilização do Pacote Classnames para Gerenciar Estilos Condicionais e CSS Modules"
+        },
+        {
+          "id": "c9d9b760-29c5-4a09-8141-e11ee6a8c6a5",
+          "courseTopic": "Compreensão e Uso do SVGR para Importar SVGs como Componentes React"
+        },
+        {
+          "id": "dded25bb-d5cc-47bf-91c9-665f4110f91c",
+          "courseTopic": "Entendimento de Importações Estáticas no React e Como Importar Arquivos Estáticos"
         }
       ]
     },
     {
-      "id": "",
+      "id": "bd626bbc-165a-4828-9764-a4186d023b68",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: escrevendo com Typescript",
+        "react escrevendo com Typescript",
+        "create react app com Typescript",
+        "componentização em React",
+        "Props em React",
+        "State em React",
+        "sobreposições de CSS",
+        "CSS Modules em React",
+        "hooks useState",
+        "hooks useEffect",
+        "class components em React",
+        "código limpo em React",
+        "documentação em React",
+        "boas práticas em React",
+        "DRY em React",
+        "SRP em React"
+      ],
+      "courseTitle": "React: escrevendo com Typescript",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-modernizando-escrever-typescript/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/react-modernizando-escrever-typescript",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "54f25319-12b5-4f4e-a02d-65c8c6f5a04e",
+          "courseTopic": "Criação de um Projeto React com TypeScript do Zero usando Create React App"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "e1b4df8e-5955-44e1-a11f-7c948c29788f",
+          "courseTopic": "Compreensão dos Conceitos React como Componentização, Props e State"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f52c3746-4ae2-4e5d-a3f5-00e4a3a65b45",
+          "courseTopic": "Prevenção de Sobreposições de CSS com o Uso de CSS Modules"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "625700f2-b00f-4309-b08f-d98275a48cbf",
+          "courseTopic": "Exploração dos Hooks useState e useEffect, incluindo Comparação com Class Components"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f7fdd422-29f0-44a5-9d3e-3a3767b54e08",
+          "courseTopic": "Melhorias no Código, Documentação e Práticas como DRY (Don't repeat yourself) e SRP (Single Responsibility Principle)"
         }
       ]
     },
     {
-      "id": "",
+      "id": "383d8f0c-3afb-44ee-99e7-8c13b5ff95cd",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "next.js: documentando seu Front-end com o Storybook",
+        "nextJS",
+        "next js",
+        "documentação de Front-end",
+        "Storybook em Next.js",
+        "componentes de interface do usuário",
+        "criação de histórias",
+        "tipos de arquivos JSX",
+        "MDX em Next.js",
+        "complementos do Storybook",
+        "plugins do Storybook",
+        "deploy de projeto na Vercel",
+        "vantagens da documentação de Front-end",
+        "componentes UI",
+        "desenvolvimento de interfaces",
+        "Storybook para documentação de Front-end",
+        "deploy de projeto web"
+      ],
+      "courseTitle": "Next.js: documentando seu Front-end com o Storybook",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/nextjs-documentando-front-end-storybook/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/nextjs-documentando-front-end-storybook",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "6d97ceeb-27ab-44f4-bef7-416dcb84b918",
+          "courseTopic": "Vantagens da Documentação para o Front-end"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "874bea2c-9e77-4b26-a7c7-8c73434f158f",
+          "courseTopic": "Criação de Histórias para Componentes de Interface do Usuário com o Storybook"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "ba832e9c-38a2-4522-b9b9-911885a5f1b9",
+          "courseTopic": "Compreensão das Diferenças entre Arquivos JSX e MDX"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "be9d6562-dff6-4776-8b90-57e08485206a",
+          "courseTopic": "Exploração de Complementos e Plugins do Storybook"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f8ab3f1a-cce9-44de-9e5d-8cf99c7c5734",
+          "courseTopic": "Deploy de um Projeto Next.js no Vercel"
         }
       ]
     },
     {
-      "id": "",
+      "id": "80e9aab9-8b5f-411e-9460-2ddd6884021a",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "next.js: CI e CD para Front-end com o Github Actions",
+        "next.js CI e CD para Front-end com o Github Actions",
+        "CI/CD no Front-end",
+        "nextJS",
+        "vantagens do Github Actions para CI/CD",
+        "motivos para CI/CD no Front-end",
+        "fluxos de trabalho no Github Actions",
+        "automatização de testes",
+        "comandos de linters",
+        "deploy com Github Actions",
+        "automação de tarefas no terminal",
+        "automatização de processos",
+        "integração contínua",
+        "entrega contínua",
+        "automatização de desenvolvimento Front-end",
+        "automatização de tarefas no Github Actions"
+      ],
+      "courseTitle": "Next.js: CI e CD para Front-end com o Github Actions",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/nextjs-ci-cd-front-end-github-actions/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/nextjs-ci-cd-front-end-github-actions",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "5d464a9b-64cd-464f-a34d-66a70b080c7e",
+          "courseTopic": "Trabalhando com CI/CD no Front-end"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "0ffbc232-2c14-4c58-80e6-502180ab21ad",
+          "courseTopic": "Vantagens do GitHub Actions para CI/CD"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "4be18d9c-59d8-4299-90ed-e6de96c20ed6",
+          "courseTopic": "Motivos para Realizar CI/CD no Front-end"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7e12832d-4d32-4e36-9c63-4c835fc10e66",
+          "courseTopic": "Criação de Fluxos de Trabalho para Automatizar Testes, Linters e Deploy"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "be4f4af3-d0a5-4e3e-8147-6cb2c4cd067d",
+          "courseTopic": "Automação de Tarefas do Terminal"
         }
       ]
     },
     {
-      "id": "",
+      "id": "da582edb-bfec-46e8-bc2a-4b652e52f2fc",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "next.js: trabalhando com arquitetura Front-end",
+        "next.js trabalhando com arquitetura Front-end",
+        "arquitetura Front-end moderna",
+        "nextJS",
+        "uso de arquitetura Front-end",
+        "benefícios de mono-repos",
+        "estruturando projetos em mono-repos",
+        "configurações compartilhadas de testes",
+        "configurações compartilhadas de estilos",
+        "trabalho em equipe com Github",
+        "uso do Github para produtividade",
+        "projeto Front-end com mono-repo",
+        "arquitetura de projetos Front-end",
+        "vantagens de mono-repos",
+        "configurações compartilhadas em projetos Front-end"
+      ],
+      "courseTitle": "Next.js: trabalhando com arquitetura Front-end",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/nextjs-arquitetura-front-end/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/nextjs-arquitetura-front-end",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c96f138d-1a03-4f9c-a6d9-1997f299ac1b",
+          "courseTopic": "Motivos para Considerar o Uso de uma Arquitetura Front-end Moderna"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a1984827-4cc3-4502-9233-23ee5fb993ce",
+          "courseTopic": "Benefícios do Uso de Mono-repos no Desenvolvimento Front-end"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "49d4e6a6-d1b3-45bf-8da7-51fc9e21b0f7",
+          "courseTopic": "Estruturação de Projetos em Mono-repo"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "512e3d0b-1daa-44f1-9a9a-5730852ce130",
+          "courseTopic": "Implementação de Configurações Compartilhadas de Testes e Estilos em Projetos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "74d77177-7b57-4cd4-ba25-1e8c23e6f6ea",
+          "courseTopic": "Uso do GitHub para Melhorar a Produtividade em Equipes de Desenvolvimento"
         }
       ]
     },
     {
-      "id": "",
+      "id": "e03ca964-bacb-49c3-b0ad-86abbccb821f",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "next.js: trabalhando com um CMS",
+        "next.js trabalhando com um CMS",
+        "nextJS",
+        "FAQ integrada a um CMS",
+        "Headless CMS",
+        "Dato CMS",
+        "modelos de conteúdos",
+        "modelos de componentes",
+        "gerenciamento de conteúdo",
+        "integração de páginas",
+        "integração de componentes",
+        "aprimoramento de conhecimentos em Next.js",
+        "aplicação de FAQ",
+        "conteúdo de site com Dato CMS",
+        "criação de modelos de conteúdos",
+        "gerenciamento de conteúdo com Dato CMS"
+      ],
+      "courseTitle": "Next.js: trabalhando com um CMS",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/next-js-trabalhando-cms/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/next-js-trabalhando-cms",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f0e5420e-e1cc-4c6c-85b6-04b5d2f2f53a",
+          "courseTopic": "Criação de uma Aplicação de FAQ Integrada a um CMS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "4b23e3a0-8c22-4a94-9016-b948fbd54074",
+          "courseTopic": "Aprendizado Prático sobre o Funcionamento de um Headless CMS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "8696ecf0-3760-45ed-8ab5-6094eb927fa0",
+          "courseTopic": "Utilização do Dato CMS para Criar Modelos de Conteúdo e Componentes para Páginas"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "1725f45b-1b7a-4df1-94b1-df31e86245e6",
+          "courseTopic": "Facilitação do Gerenciamento de Conteúdo com o Dato CMS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "bb0e24dd-551a-467c-9da4-344b7a428ed6",
+          "courseTopic": "Integração Completa de Páginas e Componentes com o Dato CMS"
+        },
+        {
+          "id": "65e1a65b-6887-4a74-a0ef-8c67bfaf1816",
+          "courseTopic": "Aprimoramento dos Conhecimentos em Next.js"
         }
       ]
     },

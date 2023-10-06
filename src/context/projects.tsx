@@ -37,7 +37,7 @@ export function ProjectsProvider({ children }: { children: ReactNode }) {
     setProjects(
       projectsDb.filter((project) => {
         return project.filter.some((projectStringFilter) =>
-          projectStringFilter.includes(searchNormalize),
+          projectStringFilter.toLowerCase().includes(searchNormalize),
         )
       }),
     )
