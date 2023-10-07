@@ -732,7 +732,7 @@
         "http protocol",
         "entendendo a comunicação web"
       ],
-      "courseTitle": "HTTP: entendendo a web por baixo dos panos",
+      "courseTitle": "HTTP: entendendo a web por baixo dos panos 2",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
       "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/http-entendendo-web-por-baixo-dos-panos/formalCertificate",
@@ -1176,775 +1176,1149 @@
       ]
     },
     {
-      "id": "",
+      "id": "befb7ba8-9092-455a-aa96-bef8d05e59cf",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "next.js: autenticação e gerenciamento de Tokens",
+        "next.js autenticação e gerenciamento de Tokens",
+        "nextJS",
+        "autenticação JWT em Next.js",
+        "Cookies em autenticação",
+        "Local Storage em autenticação",
+        "Session Storage em autenticação",
+        "proteção contra vulnerabilidades web",
+        "Refresh Token",
+        "Access Token",
+        "fluxo de Login e logout com JWT",
+        "segurança em autenticação",
+        "proteção de projetos Next.js"
+      ],
+      "courseTitle": "Next.js: autenticação e gerenciamento de Tokens",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/nextjs-autenticacao-gerenciamento-tokens/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/nextjs-autenticacao-gerenciamento-tokens",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "d8f9eaab-3841-46d4-8403-19a7c9947846",
+          "courseTopic": "Implementação Prática da Autenticação JWT em Projetos Next.js"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7e2853f5-3f45-4bc3-9f38-634c44f7b2c2",
+          "courseTopic": "Diferenças entre Cookies, Local Storage e Session Storage"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c982cb3b-4703-40d6-bf01-49d951d9c1b6",
+          "courseTopic": "Proteção contra Principais Vulnerabilidades da Web"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "ac15494e-26cd-4886-8de5-7da89b4f0c92",
+          "courseTopic": "Compreensão da Diferença entre Refresh Token e Access Token"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "cb5f3a0c-5b2a-4e68-b1a0-0a93a93641b3",
+          "courseTopic": "Desenvolvimento de um Fluxo Completo de Login e Logout com JWT"
         }
       ]
     },
     {
-      "id": "",
+      "id": "e463bfc1-d861-4170-bfcf-0e12a5198d48",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "next.js: tour pelo Next.js",
+        "next.js tour pelo Next.js",
+        "nextJs",
+        "rotas dinâmicas em Next.js",
+        "pré-renderização em Next.js",
+        "performance em Next.js",
+        "geração de rotas de API em Next.js",
+        "deploy de aplicação em Next.js",
+        "estratégias de pré-renderização",
+        "recursos para performance",
+        "rotas de API em Next.js",
+        "deploy de aplicação web"
+      ],
+      "courseTitle": "Next.js: tour pelo Next.js",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/next-js-tour-next-js/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/next-js-tour-next-js",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b8e26876-6314-4d99-981f-85f1c764ab52",
+          "courseTopic": "Criação de Rotas Dinâmicas com Next.js"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "4e251bf6-3b4b-4c87-9c85-e07073194269",
+          "courseTopic": "Estratégias de Pré-renderização no Next.js"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "5701a5c6-2e38-4a80-86a7-7e87c2f0df9a",
+          "courseTopic": "Melhorias na Performance da Aplicação com Recursos do Next.js"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "bfa1c7c3-e3ce-4b5a-a20c-4a5f25c7e07a",
+          "courseTopic": "Geração de Rotas de API com o Next.js"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a80f2517-b6ce-4017-9d24-497d0700863f",
+          "courseTopic": "Realização do Deploy da Sua Aplicação com Next.js"
         }
       ]
     },
     {
-      "id": "",
+      "id": "b1b82b17-41e9-41fc-988c-552f3bac5d07",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "next.js: explorando o framework",
+        "next.js explorando o framework",
+        "benefícios do Next.js",
+        "nextJs",
+        "SEO com Next.js",
+        "estilização em Next.js",
+        "dados estáticos em Next.js",
+        "dados dinâmicos em Next.js",
+        "projeto na Vercel",
+        "explorando o Next.js",
+        "vantagens do Next.js",
+        "melhorias no SEO com Next.js",
+        "estilização de aplicação Next.js",
+        "busca de dados em Next.js",
+        "criação de projeto na Vercel"
+      ],
+      "courseTitle": "Next.js: explorando o framework",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/next-js-iniciando-framework/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/next-js-iniciando-framework",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "be9e1d4e-5e5d-44d3-aae5-22bb8306c883",
+          "courseTopic": "Reconhecimento dos Benefícios do Next.js"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "fcaeb3e6-4780-47b3-9d27-7bb29f6f58d9",
+          "courseTopic": "Entendimento de como o Next.js Melhora o SEO de seu Site"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "0ad5e8ff-00b9-4e2f-a67a-4e866f2d83ea",
+          "courseTopic": "Implementação de Estilos em sua Aplicação Next.js"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "bb95c6c2-e0d9-4e12-90cb-581b55d44f1e",
+          "courseTopic": "Investigação sobre como o Next.js Lida com Dados Estáticos e Dinâmicos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c86ae27b-4fe9-447a-a52b-95466f0c3fcd",
+          "courseTopic": "Criação de seu Projeto na Vercel"
         }
       ]
     },
     {
-      "id": "",
+      "id": "5ac42541-da97-43be-8756-5e9a575cf6c0",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: arquitetando soluções de roteamento e gestão de estado",
+        "react arquitetando soluções de roteamento e gestão de estado",
+        "React Router v6",
+        "React Router v4",
+        "gestão de estado com Context API",
+        "roteamento de aplicação React",
+        "funcionalidades adicionais em React",
+        "cenários de gestão de estado",
+        "arquitetura de rotas aninhadas",
+        "validações de estados globais",
+        "desenvolvimento com React",
+        "melhorias em React Router",
+        "otimização de gestão de estado"
+      ],
+      "courseTitle": "React: arquitetando soluções de roteamento e gestão de estado com React Router e Context API",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/solucoes-roteamento-gestao-estado-react-router-context-api/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/solucoes-roteamento-gestao-estado-react-router-context-api",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a982c9d2-e7e7-4a64-95d0-9d9a3455b6c2",
+          "courseTopic": "Implementação de Roteamento com React Router v6,4"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "d9013b46-d8aa-4f3f-81c6-3f70ffceecdb",
+          "courseTopic": "Adição de Novas Funcionalidades a uma Aplicação Existente"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3d7a78b2-205d-4ef9-91e3-93d888d0f53a",
+          "courseTopic": "Identificação de Cenários para a Necessidade de Gestão de Estado"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a3c5af29-bdce-4903-bf97-0a9d2a6b0d73",
+          "courseTopic": "Criação de Arquitetura para Rotas Aninhadas"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "d9e6eb76-86db-4ca9-93a1-6e1bfa0e64ca",
+          "courseTopic": "Elaboração de Validações de Estados Globais"
         }
       ]
     },
     {
-      "id": "",
+      "id": "1757d352-96c3-481b-9613-a307e2f62881",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: desenvolvendo componentes customizados e acessíveis com Emotion",
+        "react desenvolvendo componentes customizados e acessíveis com Emotion",
+        "prototipagem de páginas com React",
+        "bibliotecas de layout em React",
+        "Emotion para estilização em React",
+        "componentes visuais com base no Figma",
+        "layout responsivo em React",
+        "design de componentes acessíveis em React",
+        "sistema de Grid em React",
+        "desenvolvimento de componentes em React",
+        "melhorias de acessibilidade em React"
+      ],
+      "courseTitle": "React: desenvolvendo componentes customizados e acessíveis com Emotion",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-componentes-customizados-acessiveis-emotion/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/react-componentes-customizados-acessiveis-emotion",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "0f8e9c71-6f08-4e47-8d1d-1f123556124d",
+          "courseTopic": "Prototipagem de Página com React"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "5ef7e69e-ecb1-4f0b-b51d-975aa8db4903",
+          "courseTopic": "Seleção de Bibliotecas para Layout"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "d31e7b6c-ff8f-40d5-bf68-2d51f8a1c33a",
+          "courseTopic": "Integração do Emotion para Estilizar Componentes"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "6b4db9a5-187d-40ad-9ef2-aa76e586fae6",
+          "courseTopic": "Implementação de Componentes Visuais com Base no Figma"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f7d8c6f1-465b-4e29-8791-d5a8089b79b3",
+          "courseTopic": "Compreensão dos Problemas de Layout usando um Sistema de Grid"
         }
       ]
     },
     {
-      "id": "",
+      "id": "40a82e7d-2909-4dcc-a933-47cc9908b786",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "html e css: responsividade com mobile-first",
+        "html e css responsividade com mobile-first",
+        "construção de site com HTML e CSS",
+        "interpretação de protótipos de site no Figma",
+        "abordagem mobile-first",
+        "media queries em layouts responsivos",
+        "deploy de site no Github Pages",
+        "compartilhamento de aprendizado",
+        "desenvolvimento web",
+        "layout responsivo com HTML e CSS",
+        "construção de site responsivo",
+        "design responsivo",
+        "deploy de site web",
+        "aprendizado de HTML e CSS"
+      ],
+      "courseTitle": "HTML e CSS: responsividade com mobile-first",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/html-css-responsividade-mobile-first/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/html-css-responsividade-mobile-first",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "9e99145c-1326-45c4-8f33-6c8b7f75be26",
+          "courseTopic": "Construção de um Site com HTML e CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "4e4a0cc1-3731-4a8c-9ef9-1ce34312d08d",
+          "courseTopic": "Interpretação de um Protótipo de Site no Figma"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "e2e6a3d0-4c47-4a4d-9bf1-9b671a2af3dd",
+          "courseTopic": "Aplicação da Abordagem Mobile-First"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3f41a63f-b34e-4a4e-832c-27e7d1212d7a",
+          "courseTopic": "Uso de Media Queries para Layouts Responsivos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "267c09f3-3e9d-4d45-b0f7-0a4ce5d586bb",
+          "courseTopic": "Realização de Deploy de um Site no Github Pages"
+        },
+        {
+          "id": "be5061f2-b1a9-49cf-b0d3-4a2623fb6600",
+          "courseTopic": "Compartilhamento do Aprendizado nas Redes Sociais"
         }
       ]
     },
     {
-      "id": "",
+      "id": "0d47a631-7c21-407b-bf05-c6225672dd47",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: migrando para TypeScript",
+        "react migrando para TypeScript",
+        "diferenças entre TypeScript e JavaScript",
+        "Intellisense do VSCode",
+        "vantagens do TypeScript",
+        "integração de componentes React com TypeScript",
+        "prototipagem de migração de projeto de JavaScript para TypeScript",
+        "migração de projeto React para TypeScript",
+        "desenvolvimento com TypeScript",
+        "benefícios do uso do TypeScript em React",
+        "migração de código JavaScript para TypeScript",
+        "aprendizado de React com TypeScript"
+      ],
+      "courseTitle": "React: migrando para TypeScript",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-migrando-typescript/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/react-migrando-typescript",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a88255c2-4f2f-46aa-a1d3-c7b01d497376",
+          "courseTopic": "Compreensão das Principais Diferenças entre TypeScript e JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "35259f09-195b-4cf7-a42b-6f07de6f7b58",
+          "courseTopic": "Utilização do IntelliSense do VSCode para Desenvolvimento com TypeScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "ef2c7559-6d27-4591-8cbb-85e7e1f4e515",
+          "courseTopic": "Experimentação das Vantagens do TypeScript no Desenvolvimento de Aplicações React"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "4566cb66-8c94-479c-9a14-0ff073a660ca",
+          "courseTopic": "Integração de Componentes React com TypeScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "1e65d52c-84c0-43ef-b7d3-9951ce3a3cd0",
+          "courseTopic": "Prototipagem de um Plano de Migração de um Projeto JavaScript para TypeScript"
         }
       ]
     },
     {
-      "id": "",
+      "id": "7d4e42e0-95dc-41c1-96f2-ed3850df8fad",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: praticando React com JavaScript",
+        "react praticando React com JavaScript",
+        "iniciar projeto React",
+        "construção de componentes React",
+        "construção de páginas React",
+        "rotas em React",
+        "rotas dinâmicas em React",
+        "rotas aninhadas em React",
+        "hooks em React",
+        "useState em React",
+        "useParams em React",
+        "useEffect em React",
+        "useContext em React",
+        "contextos em React",
+        "consumo de API em React",
+        "deploy de projeto na Vercel",
+        "desenvolvimento com React e JavaScript"
+      ],
+      "courseTitle": "React: praticando React com Js",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-praticando-react-js/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/react-praticando-react-js",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7b5bfc3e-47da-4159-9ef9-7a98d9782010",
+          "courseTopic": "Inicialização de um Projeto React"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b7de9b7e-418f-46f5-af9f-d07d546b8320",
+          "courseTopic": "Construção de Componentes e Páginas em React"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f86122b2-875c-4f87-967d-622a8b3dca8c",
+          "courseTopic": "Implementação de Rotas Normais, Dinâmicas e Aninhadas"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "18d6317b-59f7-48f3-b2a9-41de4b827a77",
+          "courseTopic": "Utilização de Hooks: useState, useParams, useEffect e useContext"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "8db5c0a4-4f18-45fc-87c0-446e62a5a084",
+          "courseTopic": "Compreensão dos Contextos no React e Consumo de uma API"
+        },
+        {
+          "id": "f5e14f63-c51c-4d3f-b8c2-74a398cf0077",
+          "courseTopic": "Realização de Deploy do Projeto na Vercel"
         }
       ]
     },
     {
-      "id": "",
+      "id": "bade0006-0154-450d-90fa-a30af499db8b",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: gerenciamento de estados globais com ContextAPI",
+        "react gerenciamento de estados globais com ContextAPI",
+        "estados globais em React",
+        "ContextAPI em React",
+        "desacoplamento de componentes em React",
+        "melhores práticas com ContextAPI",
+        "hooks customizados em React",
+        "boas práticas de código em React",
+        "princípio da responsabilidade única em React",
+        "desenvolvimento performático em React",
+        "responsabilidade de renderização em React",
+        "manutenção de código em React",
+        "utilização eficiente da ContextAPI"
+      ],
+      "courseTitle": "React: gerenciamento de estados globais com ContextAPI",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-context-estados-globais-contextapi/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/react-context-estados-globais-contextapi",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "89162d1e-d4f3-4f36-8fc6-4ed7d53c0a5d",
+          "courseTopic": "Criação e Gerenciamento de Estados Globais com ContextAPI"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3920e0a1-9e42-4b71-86b6-cb40c1ec2cf4",
+          "courseTopic": "Desacoplamento de Componentes para Responsabilidade de Renderização"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "2f47c55a-32f1-4294-8c36-1a1d034d4c8d",
+          "courseTopic": "Aplicação de Melhores Práticas e Máximo Potencial da ContextAPI"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "d5d04d16-78d3-48ef-8e66-06ec127de02d",
+          "courseTopic": "Criação de Hooks Customizados para Utilização com ContextAPI"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3f6c12ac-3dd6-4643-b6c6-98e7ef227f7b",
+          "courseTopic": "Melhoria do Código com Boas Práticas e Princípio da Responsabilidade Única"
         }
       ]
     },
     {
-      "id": "",
+      "id": "ab1349d2-9775-4497-8ea4-205916b0f55d",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: desenvolvendo em React Router com JavaScript",
+        "react desenvolvendo em React Router com JavaScript",
+        "biblioteca react-router-dom",
+        "SPA (Single Page Application)",
+        "rotas aninhadas em React",
+        "rotas dinâmicas em React",
+        "hooks do react-router-dom",
+        "useLocation em React",
+        "useParams em React",
+        "desafios práticos em React Router",
+        "personalização de projetos em React",
+        "publicação na Vercel",
+        "desenvolvimento em React com JavaScript",
+        "aprendizado de react-router-dom"
+      ],
+      "courseTitle": "React: desenvolvendo em React Router com JavaScript",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/React-desenvolvendo-react-router-javaScript/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c5d32fbf-c3a0-486e-8d02-2c3da9ce0ebd",
+          "courseTopic": "Introdução à Biblioteca react-router-dom e seus Recursos Principais"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f26c6287-177a-4ea6-8d4d-1a7d8da2932a",
+          "courseTopic": "Entendimento de Single Page Applications (SPA) e suas Vantagens"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "325d89b3-8d09-40e0-b2ae-134158d8a967",
+          "courseTopic": "Resolução de Problemas com Rotas Aninhadas e Rotas Dinâmicas"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "4914b8a4-8dd5-4f39-b08f-c7c925b607f1",
+          "courseTopic": "Exploração de Hooks do react-router-dom: useLocation e useParams"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c05e99c1-1e17-43b2-885a-3e2bf32b5d2e",
+          "courseTopic": "Implementação de Desafios Práticos e Personalização de Projetos"
+        },
+        {
+          "id": "43cc8761-6f08-4be5-bc6e-c3cb1531c02d",
+          "courseTopic": "Publicação de Projetos na Vercel"
         }
       ]
     },
     {
-      "id": "",
+      "id": "309fb180-37ce-45d9-b9cc-cd83afc8d20a",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react com JavaScript: lidando com arquivos estáticos",
+        "react lidando com arquivos estáticos",
+        "organização de pastas em projetos React",
+        "componentes da Interface do Usuário em React",
+        "arquivos estáticos em projetos React",
+        "vantagens do CSS modules",
+        "Sass em projetos React",
+        "funcionalidades em páginas React",
+        "deploy de aplicação na Vercel",
+        "desenvolvimento de aplicações React com JavaScript",
+        "organização de projetos React",
+        "manipulação de arquivos estáticos em React",
+        "melhores práticas em projetos React"
+      ],
+      "courseTitle": "React com JavaScript: lidando com arquivos estáticos",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-javascript-arquivos-estaticos/formalCertificate",
       "courseLink": "",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3d48e30e-9bc5-4e38-b8cc-82c5c8e08e60",
+          "courseTopic": "Organização de Pastas e Arquivos em um Projeto React"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "fa1765be-cc57-4b44-88ce-c6c0d1a56ca9",
+          "courseTopic": "Implementação de Componentes de Interface do Usuário em React"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7e4b878a-9b6f-4aa6-8aa0-6e1d8b992fd5",
+          "courseTopic": "Lidando com Arquivos Estáticos em um Projeto React"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c5af65ed-3d89-4a95-9e25-7754f59879c4",
+          "courseTopic": "Utilização de Vantagens do CSS Modules e Sass"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "cfb7771a-e2a2-48b0-8fb0-cc9b61e4e50c",
+          "courseTopic": "Adição de Funcionalidades à Página com Métodos JavaScript"
+        },
+        {
+          "id": "25b7f9f6-3be0-4f4d-9b8e-3f380ef4d69d",
+          "courseTopic": "Realização de Deploy da Aplicação na Vercel"
         }
       ]
     },
     {
-      "id": "",
+      "id": "923bc13a-5ac7-48b9-b27e-5dfb2d23f923",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: como os componentes funcionam",
+        "react como os componentes funcionam",
+        "clonar projeto no GitHub",
+        "instalar dependências em React",
+        "props em React",
+        "states em React",
+        "mudanças no código em React",
+        "criação de features em React",
+        "refatoração de código em React",
+        "one-way data binding em React",
+        "VirtualDOM em React",
+        "funcionamento de componentes em React",
+        "desenvolvimento com React"
+      ],
+      "courseTitle": "React: como os componentes funcionam",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-componentes-funcionam/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/react-componentes-funcionam",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "bdd62a9a-2c7d-44fc-b703-785f1db22d41",
+          "courseTopic": "Clonagem de um Projeto Existente no GitHub e Configuração"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "0c9d3e0d-d4a2-4e8a-b171-6700ecfa1e08",
+          "courseTopic": "Compreensão de Dependências e Instalação de Novas Dependências"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c06306aa-9475-47b9-80e6-0b34f5ad4b92",
+          "courseTopic": "Análise de Componentes, Props e States no React"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f6e8320e-50ce-4d9a-89df-64b3ee4f11e6",
+          "courseTopic": "Implementação de Mudanças no Código: Novas Features e Refatoração"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "9f70bb4c-4a4d-4aa5-a6d6-56e02c74b2ac",
+          "courseTopic": "Compreensão de One-Way Data Binding e sua Relação com VirtualDOM"
         }
       ]
     },
     {
-      "id": "",
+      "id": "fd0352c4-2c66-4b75-8d84-6080320de661",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "react: desenvolvendo com JavaScript",
+        "react desenvolvendo com JavaScript",
+        "vantagens do React",
+        "componentes reativos em React",
+        "análise de mensagens de erro em React",
+        "evolução de componentes em React",
+        "prototipagem de aplicação em React",
+        "deploy de aplicação React",
+        "desenvolvimento com React e JavaScript",
+        "benefícios do React",
+        "reatividade em React",
+        "resolução de erros em React",
+        "prototipagem de aplicação web"
+      ],
+      "courseTitle": "React: desenvolvendo com JavaScript",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-desenvolvendo-javascript/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/react-desenvolvendo-javascript",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7fd9f3d1-d21b-4c59-9e13-32cf0ff51ae1",
+          "courseTopic": "Exploração das Vantagens do React no Desenvolvimento de Aplicações"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "37289e23-b85f-4d01-8b18-007dcb42ed6b",
+          "courseTopic": "Implementação de Componentes Reativos em React"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "4e812fd6-5a08-41a5-8c79-77305e50de28",
+          "courseTopic": "Investigação e Análise de Mensagens de Erro em Aplicações React"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "34c35c15-5755-4c75-8b6e-482ab0cf1ec4",
+          "courseTopic": "Modificação e Evolução de Componentes para Atender às Necessidades do Projeto"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f60fcd52-4d8c-40f5-948d-20148e1d905f",
+          "courseTopic": "Prototipagem e Desenvolvimento de uma Aplicação do Zero até o Deploy"
         }
       ]
     },
     {
-      "id": "",
+      "id": "1c242331-e525-4c5a-94a7-84d5279d7c45",
       "tags": [""],
-      "filter": [""],
+      "filter": [
+        "typescript parte 3: mais técnicas e boas práticas",
+        "typescript boas práticas",
+        "decorators em TypeScript",
+        "vantagens de Decorators",
+        "tipos de decorators em TypeScript",
+        "interfaces em TypeScript",
+        "consumo de API REST com TypeScript",
+        "sourceMaps em TypeScript",
+        "debugging em TypeScript",
+        "Polimorfismo em TypeScript",
+        "código protegido em TypeScript",
+        "soluções em TypeScript",
+        "desenvolvimento com TypeScript"
+      ],
       "courseTitle": "",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/typescript-tecnicas-boas-praticas/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/typescript-tecnicas-boas-praticas",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b94a5f46-127a-4b59-a92b-5d5d9b5b9d26",
+          "courseTopic": "Exploração das Vantagens dos Decorators em TypeScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f38e78d0-ba1b-45aa-9c08-c76f58b76439",
+          "courseTopic": "Criação de Diferentes Tipos de Decorators para Melhorar a Elegância do Código"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "e3b92fc0-1770-46a1-8a64-4b4e22b93d92",
+          "courseTopic": "Compreensão dos Benefícios do Uso de Interfaces em TypeScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c4ef8323-d69b-45c1-8bca-6c6e580597f2",
+          "courseTopic": "Organização e Adição de Tipos ao Código ao Consumir uma API REST"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "0c742a21-3770-4f6e-9c5c-273727fc24e7",
+          "courseTopic": "Entendimento do Papel dos Source Maps e Técnicas de Depuração no Navegador"
+        },
+        {
+          "id": "f540055d-091c-4e44-8620-df8a10073b5d",
+          "courseTopic": "Criação de Soluções que Combinam Conceitos Anteriores e Uso de Polimorfismo para um Código Mais Robusto e Dinâmico"
         }
       ]
     },
     {
-      "id": "",
+      "id": "b890d505-9fc3-40b5-9fd9-c6b1b9efaf10",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "typescript parte 2: avançando na linguagem",
+        "typescript avançando na linguagem",
+        "modificadores de acesso em TypeScript",
+        "herança em TypeScript",
+        "tipos genéricos em TypeScript",
+        "Enumerations em TypeScript",
+        "framework de atualização de view em TypeScript",
+        "compilador TS em TypeScript",
+        "desenvolvimento avançado com TypeScript",
+        "aprimorando código TypeScript"
+      ],
+      "courseTitle": "TypeScript parte 2: avançando na linguagem",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/typescript-avancando-linguagem/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/typescript-avancando-linguagem",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "ed265641-06eb-4d8d-b17a-d51b9a4bb738",
+          "courseTopic": "Utilização de Modificadores de Acesso, Herança e Tipos Genéricos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3811e99d-b29b-4c07-b07e-90e9c1228ca1",
+          "courseTopic": "Compreensão do Papel das Enumerações (Enums) em TypeScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "743a58d1-0e0c-48f7-94b6-952f289f1403",
+          "courseTopic": "Criação de um Mini Framework de Atualização de View Inspirado no JSX"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c68f6177-7589-4291-8dcb-d1a398405429",
+          "courseTopic": "Configuração Avançada do Compilador TypeScript para Melhor Desempenho e Eficiência"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "12a06d6e-6c09-4a07-841b-dc12b465b836",
+          "courseTopic": "Exploração de Técnicas Avançadas para Maximizar o Potencial do Código TypeScript"
         }
       ]
     },
     {
-      "id": "",
+      "id": "e8403fc5-0240-46c5-a43c-5f47bf858b63",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "typescript parte 1: evoluindo seu JavaScript",
+        "typescript evoluindo seu JavaScript",
+        "configuração de ambiente TypeScript",
+        "TypeScript compiler",
+        "vantagens da tipagem estática em TypeScript",
+        "modelagem de classes em TypeScript",
+        "tipos em TypeScript",
+        "modificadores em TypeScript",
+        "Generics em TypeScript",
+        "desenvolvimento com TypeScript",
+        "melhorias em JavaScript com TypeScript"
+      ],
+      "courseTitle": "TypeScript parte 1: evoluindo seu JavaScript",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/typescript-evoluindo-javascript/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/typescript-evoluindo-javascript",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b66a8e49-527f-45ab-8141-844abbc72323",
+          "courseTopic": "Configuração Inicial do Ambiente de Desenvolvimento"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f0b68b04-ec21-4d18-9dab-cd14369c7eab",
+          "courseTopic": "Exploração Gradativa dos Recursos do TypeScript Compiler"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "2a27c540-0a13-4d85-8a18-6e2e0c8e708d",
+          "courseTopic": "Compreensão das Vantagens da Tipagem Estática em TypeScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a2eaad6c-3e19-46f7-9cf7-00e1e7a905ca",
+          "courseTopic": "Modelagem de Classes Utilizando Recursos Avançados da Linguagem"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "63e57531-2ed9-4700-9f71-0e54d9458f53",
+          "courseTopic": "Utilização de Tipos, Modificadores, Generics e Outros Recursos Avançados em TypeScript"
         }
       ]
     },
     {
-      "id": "",
+      "id": "0aa86d49-2857-458a-942a-bb04aefe07c9",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "http: entendendo a web por baixo dos panos",
+        "http entendendo a web por baixo dos panos",
+        "protocolo HTTP",
+        "GET e POST em HTTP",
+        "segurança na web",
+        "HTTPS",
+        "web stateful e web stateless",
+        "HTTP/2",
+        "programador web",
+        "desenvolvimento web",
+        "automação e performance web",
+        "detalhes do HTTP"
+      ],
+      "courseTitle": "HTTP: Entendendo a web por baixo dos panos",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/http-fundamentos/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/http-fundamentos",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "8ef5bf90-4b46-4ce4-8e41-7d9f4a69a3d5",
+          "courseTopic": "Tornando-se um Programador Web Completo"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "8b347c0b-5579-4a63-9c14-3a2b4ebf4ec5",
+          "courseTopic": "Compreensão dos Detalhes do Protocolo HTTP"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "cec680c0-9a8f-44ab-8a91-e69d2e2d885d",
+          "courseTopic": "Uso Adequado de GET e POST em Requisições HTTP"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b74889cf-60f5-4d20-bbc3-1638334ef144",
+          "courseTopic": "Estudo de Segurança na Web e o Uso do Protocolo HTTPS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "4f76bb1e-4cb2-4074-87e2-14102b891a14",
+          "courseTopic": "Diferença Entre Web Stateless e Web Stateful"
+        },
+        {
+          "id": "2d419464-bccd-4a6c-bd1f-cdb56efdd31d",
+          "courseTopic": "Exploração das Melhorias Introduzidas no Protocolo HTTP/2"
         }
       ]
     },
     {
-      "id": "",
+      "id": "886e3297-4d61-4fc5-b49f-eb457d06cfcb",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "html e css: praticando HTML/CSS",
+        "html e css praticando HTML/CSS",
+        "construção de site com HTML e CSS",
+        "identificação de elementos e estilos",
+        "projeto real com HTML e CSS",
+        "repositório de código",
+        "deploy de site com Github Pages",
+        "deploy de site com Vercel",
+        "compartilhamento de projetos web",
+        "desenvolvimento web",
+        "aplicação de HTML e CSS",
+        "construção de site web",
+        "compartilhamento de código"
+      ],
+      "courseTitle": "HTML e CSS: praticando HTML/CSS",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/html-css-praticando-html-css/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/html-css-praticando-html-css",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "ce253db3-cc18-4a52-b15c-e15bf05c4c1d",
+          "courseTopic": "Construção de um Site Usando HTML e CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "eaf3b5e0-af78-4ad4-94e2-cb6f98ef4d9a",
+          "courseTopic": "Identificação de Elementos e Estilos por Meio do Figma"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "09827e71-1742-4a14-8b0a-e8c9b7d84203",
+          "courseTopic": "Aplicação de Conhecimentos Adquiridos em um Projeto Real"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "45e84706-d777-4c1b-9829-9334c3fbc13b",
+          "courseTopic": "Criação de um Repositório para Armazenar o Código do Projeto"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "adfc9d0e-2b53-48e9-9ca9-81c81e87b06f",
+          "courseTopic": "Realização do Deploy de um Site por meio do Github Pages ou Vercel"
+        },
+        {
+          "id": "653ce5f5-543d-4522-b1cb-ee7c6d80e31c",
+          "courseTopic": "Compartilhamento do Projeto com a Comunidade"
         }
       ]
     },
     {
-      "id": "",
+      "id": "78a7736e-62e3-4c55-904b-e98702b7d2c1",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "html e css: trabalhando com responsividade e publicação de projetos",
+        "html e css responsividade e publicação de projetos",
+        "responsividade em HTML e CSS",
+        "Media Query em projetos web",
+        "GitHub para armazenamento de código",
+        "medidas absolutas e relativas em web design",
+        "publicação de projetos web",
+        "desenvolvimento web responsivo",
+        "design responsivo",
+        "publicação de site na web",
+        "aplicação de Media Query",
+        "armazenamento de código na nuvem",
+        "GitHub e web design",
+        "responsividade para diferentes telas"
+      ],
+      "courseTitle": "HTML e CSS: trabalhando com responsividade e publicação de projetos",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/html-css-responsividade-publicacao-projetos/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "1a10c2cf-2b14-482b-b56d-0d63a74c1eef",
+          "courseTopic": "Tornando Seu Site Responsivo para Diferentes Tamanhos de Tela"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7ea442dd-bff7-4d67-a6da-65b3c748e2df",
+          "courseTopic": "Utilização de Media Queries em Projetos para Adaptação Responsiva"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "29b7e52d-02f9-41ae-b471-3e8c6d4b92a3",
+          "courseTopic": "Criação de uma Conta no GitHub para Armazenar Código na Nuvem"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "baf985d0-5ad1-4783-a6aa-cfe1d8461d79",
+          "courseTopic": "Entendimento da Diferença entre Medidas Absolutas e Relativas em CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "93561f28-1a7b-4c2f-89d5-842b307ab0c3",
+          "courseTopic": "Publicação de Projeto Finalizado na Web e Compartilhamento com o Mundo"
         }
       ]
     },
     {
-      "id": "",
+      "id": "4878f4fb-0806-453a-97e3-51bdf30e1c2c",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "html e css: cabeçalho, footer e variáveis CSS",
+        "html e css cabeçalho, footer e variáveis CSS",
+        "desenvolvedor front-end",
+        "código HTML e CSS",
+        "boas práticas de programação",
+        "variáveis CSS",
+        "sustentabilidade de código CSS",
+        "páginas HTML",
+        "pseudo classes em CSS",
+        "desenvolvimento web",
+        "front-end web",
+        "práticas de desenvolvimento web",
+        "cabeçalho e footer em HTML",
+        "variáveis de estilo em CSS"
+      ],
+      "courseTitle": "HTML e CSS: cabeçalho, footer e variáveis CSS",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/html-css-cabecalho-footer-variaveis-css/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "d2d3c693-e4bf-4ab7-84c4-58624b109cee",
+          "courseTopic": "Entendimento Prático do Dia a Dia de um Desenvolvedor Front-end"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "1ccf8b28-53d5-40e5-97de-577af82cc1c3",
+          "courseTopic": "Criação de Código HTML e CSS com Boas Práticas de Programação"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a0a077fe-b201-4f96-af74-1f97d2e2093f",
+          "courseTopic": "Utilização de Variáveis CSS para Manter o Código Sustentável e Limpo"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "fc6d0f95-38a0-45ea-b37d-4a1361f65151",
+          "courseTopic": "Trabalho com Múltiplas Páginas HTML no Mesmo Projeto"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "181b6539-b9e3-45c1-96a1-07193b5eaacb",
+          "courseTopic": "Exploração de Pseudo Classes com Exemplos Práticos e Reais"
         }
       ]
     },
     {
-      "id": "",
+      "id": "96ea2ed4-e183-4a05-8747-267f4a43c904",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "html e css: classes, posicionamento e Flexbox",
+        "html e css classes, posicionamento e Flexbox",
+        "classes CSS",
+        "importância das classes CSS",
+        "Flexbox em CSS",
+        "posicionamento de elementos em CSS",
+        "estilização de textos em HTML e CSS",
+        "estilização de fontes em HTML e CSS",
+        "estilização de ícones em HTML e CSS",
+        "efeitos de estilização em CSS",
+        "arredondamentos em CSS",
+        "importação de fontes em CSS",
+        "desenvolvimento web",
+        "flexibilidade de layout em CSS",
+        "aplicação prática de Flexbox",
+        "aplicação de classes CSS"
+      ],
+      "courseTitle": "HTML e CSS: Classes, posicionamento e Flexbox",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/html-css-classes-posicionamento-flexbox/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "1df99561-29aa-4a86-aacf-85d804db0bc7",
+          "courseTopic": "Aprendizado sobre Classes CSS e Sua Importância"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "be7046e3-e72a-4c79-80f6-0a7ab43765c7",
+          "courseTopic": "Introdução e Aplicação de Técnicas de Posicionamento com Flexbox"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "e8b907b4-885c-45ed-864e-6c26f47dd6c9",
+          "courseTopic": "Estilização de Textos, Fontes e Ícones em Projetos de Design"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "4f8556e5-0072-4474-a975-7a2ed77f1c2b",
+          "courseTopic": "Posicionamento de Elementos em Páginas Web Utilizando CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "bc9beedc-7a6b-4805-9d7b-0a25463fb3a1",
+          "courseTopic": "Aplicação de Efeitos de Estilização, como Cores, Arredondamentos e Importação de Fontes"
         }
       ]
     },
     {
-      "id": "",
+      "id": "acc2976a-7e48-4053-8d31-881ba6277547",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "html e css: ambientes de desenvolvimento, estrutura de arquivos e tags",
+        "html e css ambientes de desenvolvimento, estrutura de arquivos e tags",
+        "ambiente de desenvolvimento HTML e CSS",
+        "instalação de ambiente de desenvolvimento",
+        "documentação de tecnologia",
+        "projeto HTML e CSS",
+        "estilização com CSS",
+        "HTML semântico",
+        "boas práticas de desenvolvimento web",
+        "desenvolvimento de páginas web",
+        "aprendizado de HTML e CSS",
+        "estrutura de arquivos em desenvolvimento web"
+      ],
+      "courseTitle": "HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/html-css-ambiente-arquivos-tags/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/html-css-ambiente-arquivos-tags",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f67c60fc-bd6f-4f97-8efc-27339476b101",
+          "courseTopic": "Instalação de um Ambiente de Desenvolvimento para Páginas HTML e CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "6e5c8f65-dc53-43e1-a65f-9e2c1e347893",
+          "courseTopic": "Métodos de Estudo de Novas Tecnologias com Base na Documentação"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "26f4f8f3-d1e5-4cbb-8907-66fbbf9cdd38",
+          "courseTopic": "Criação de um Projeto HTML e CSS a Partir do Zero"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b4ef742a-4395-4d0b-a634-3a50d416a33b",
+          "courseTopic": "Prática de Estilizações com CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "14da0462-0d4d-448c-9966-0dbef39b6855",
+          "courseTopic": "Compreensão da Importância do HTML Semântico e Boas Práticas de Desenvolvimento"
         }
       ]
     },
     {
-      "id": "",
+      "id": "3d959f51-39ba-438f-b24a-921869a3dff4",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "javascript: validando formulários",
+        "javascript validando formulários",
+        "atributos de validação de formulário",
+        "validação de formulários com HTML5",
+        "validação de CPF em JavaScript",
+        "validação de maioridade em JavaScript",
+        "customização de mensagens de erro em formulários",
+        "integração de webcam em JavaScript",
+        "captura de fotos via webcam",
+        "salvamento e edição de dados no navegador",
+        "desenvolvimento web",
+        "validação de dados em JavaScript",
+        "integração de recursos do navegador com JavaScript",
+        "manipulação de formulários web"
+      ],
+      "courseTitle": "JavaScript: validando formulários",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/javascript-validando-formularios/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/javascript-validando-formularios",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f1f50413-9b24-4f42-9d53-206e428729c6",
+          "courseTopic": "Aplicação de Atributos de Validação de Formulário com HTML5"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "93a37d10-df33-4fb7-b82e-5b5c23e7d28a",
+          "courseTopic": "Construção de Validações para os Dígitos Verificadores do CPF"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "5f3f18f9-74b4-46f1-93d3-3a03b641104c",
+          "courseTopic": "Implementação de Validações de Maioridade com Base na Comparação de Datas"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a1553b84-2ec5-47e5-84b2-42f141c4b086",
+          "courseTopic": "Customização de Mensagens de Erro para Cada Tipo de Campo do Formulário"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "998ab5ef-8ef2-4ec9-883c-1eb6c1ccf4d3",
+          "courseTopic": "Integração da Webcam do Usuário em uma Tela do Navegador e Captura de Fotos"
+        },
+        {
+          "id": "a06ad7c3-2086-4f06-b83d-e2d781b11e68",
+          "courseTopic": "Salvamento e Edição de Dados no Navegador, Incluindo Fotos Capturadas via Webcam"
         }
       ]
     },
     {
-      "id": "",
+      "id": "f1ae4951-e289-4d11-ae29-7c7948bfef5f",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "javascript: criando requisições",
+        "javascript criando requisições",
+        "'mockar' uma API",
+        "requisições GET em JavaScript",
+        "requisições POST em JavaScript",
+        "javascript assíncrono",
+        "tratamento de erros em requisições",
+        "página estática para dinâmica em JavaScript",
+        "desenvolvimento web",
+        "integração de API com JavaScript",
+        "manipulação de dados via requisições",
+        "desenvolvimento de aplicativos web"
+      ],
+      "courseTitle": "JavaScript: criando requisições",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/javascript-criando-requisicoes/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/javascript-criando-requisicoes",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "e9b92988-5af3-42f4-9310-2b1998d7d8c7",
+          "courseTopic": "'Mockagem' de uma API para Testes e Desenvolvimento"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f77f2b3a-12a6-4c93-963f-8e6285d3e74a",
+          "courseTopic": "Realização de Requisições GET para Retornar Dados de uma API"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "6c98e2b7-480a-4b20-915c-0b0d0631004d",
+          "courseTopic": "Construção de Requisições POST para Cadastrar Dados em uma API"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c5b8654b-5cf0-484d-a7df-d10c6ce2cc58",
+          "courseTopic": "Aprofundamento nos Conceitos de JavaScript Assíncrono"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3e07c59b-24d7-4d36-90e1-81c2f4e25b5f",
+          "courseTopic": "Tratamento de Possíveis Erros de Requisição Retornados pela API"
+        },
+        {
+          "id": "15a41c38-8fbb-4746-9953-90955f13c2d0",
+          "courseTopic": "Transformação de uma Página Estática em uma Página Dinâmica por Meio de Requisições"
         }
       ]
     },
     {
-      "id": "",
+      "id": "aab7a5be-239f-4c74-af9b-7ca884f62cd7",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -1976,7 +2350,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "70ec3a73-7f02-4de5-9fa2-7758317a4b0f",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2008,7 +2382,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "b6b6e917-898d-4f92-a977-1937eed0fd26",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2040,7 +2414,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "c113d0a8-691a-4b38-bb1b-edb800069279",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2072,7 +2446,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "7d6cee10-0ab8-4280-a15a-6c069bc160a5",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2104,7 +2478,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "3a70aedf-dbec-476a-8059-bcc45888ad0a",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2136,7 +2510,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "9692b981-951f-4f36-ae4b-7c61bceeb268",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2168,7 +2542,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "d88a2cb5-5deb-4ae7-b5ea-7794d8b32b4a",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2200,7 +2574,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "a2159008-e928-46e7-a3ea-2927b162ee21",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2232,7 +2606,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "230e65f7-3967-4607-a1eb-195d81d180d8",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2264,7 +2638,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "7c0c10fe-82f4-47c4-997a-2463fceff49f",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2296,7 +2670,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "ed44c036-673e-4434-9d6d-e30967864287",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2328,7 +2702,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "72d7790e-b071-44e3-9f5a-682da00f13b4",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2360,7 +2734,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "0431e43a-0941-4bf5-8b90-d9c1644535f2",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2392,7 +2766,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "e7150106-9e36-4cd1-88ee-955dd40f5239",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2424,7 +2798,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "2b7eb852-d3df-4d93-970e-176dd4bf25fc",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2456,7 +2830,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "424cca83-f47e-45d2-88ff-522fa398f894",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2488,7 +2862,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "bced5496-a7ef-452f-acad-a95d5c54eb33",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2520,7 +2894,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "cbca91de-7dcd-41a9-af78-3bb4a4522f35",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2552,7 +2926,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "a070317f-5b98-46e1-b4c4-510d397fa8a6",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2584,7 +2958,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "5403c8c0-3596-4b0e-b009-3d616875910c",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2616,7 +2990,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "6ef1ae06-73f3-47ba-9877-47570469736b",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2648,7 +3022,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "d748d978-1daa-4048-a5a8-142bb6120af4",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2680,7 +3054,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "372eba75-c2ae-4684-831a-b22388f1ba92",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2712,7 +3086,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "e7911126-a2b5-45f0-85d6-14b762430806",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2744,7 +3118,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "f6e720ee-9a92-43f5-bd0e-d7b6427b38f9",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2776,7 +3150,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "e1faacd8-f6a1-45c9-9b4b-0ba320f80a4c",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2808,7 +3182,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "1c3fbce4-5d79-4b18-a027-4a9b498cd7b3",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2840,7 +3214,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "a8827299-6aaa-4cd4-a501-811b5f54bca9",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2872,7 +3246,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "a5502542-d586-495b-98b3-0cc09390d8f4",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2904,7 +3278,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "5ebb3d6a-69a9-4317-9008-9e57ccb5b250",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2936,7 +3310,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "b454600c-011d-4377-89d1-8d6f53cccaf5",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -2968,7 +3342,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "9bfdf46d-8300-4fd4-b254-5f435f719291",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -3000,7 +3374,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "cfbe7269-a781-4905-b943-1633786ab76e",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -3032,7 +3406,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "d83b17ad-5681-4dcc-bba6-9d5e596d16e6",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -3064,7 +3438,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "5af23c23-0505-4c41-9f76-486159d751e0",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -3096,7 +3470,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "c769c41e-db60-4870-b17c-3255bd859c90",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -3128,7 +3502,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "03ce7a30-e1a1-416d-a320-57705c0d11e8",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -3160,7 +3534,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "9747fe93-c903-406c-894e-bc91c11aa013",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -3192,7 +3566,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "03d00852-6c00-43fa-a5fe-378b01cc302d",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -3224,7 +3598,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "0e88f1ec-2ca6-45bf-8f43-091269a61556",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -3256,7 +3630,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "77747ff7-43f3-4887-bf0f-8facafa75ebd",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -3288,7 +3662,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "6838fd80-e996-4fc2-9da8-e5120ef92a83",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -3320,7 +3694,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "ebe97fae-6804-442d-ae78-b6cb795ee98d",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -3352,7 +3726,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "e98ed8b0-5ccb-47f2-b97a-add464e41e3e",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
@@ -3384,7 +3758,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "1c3e03d8-da6a-4f4e-a608-29b781621ea4",
       "tags": [""],
       "filter": [""],
       "courseTitle": "",
