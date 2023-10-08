@@ -333,7 +333,7 @@
     {
       "id": "75f626d1-bcd2-4689-989b-3619297bb37c",
       "technology": "CSS 3",
-      "filter": [""],
+      "filter": ["css3", "css 3"],
       "icon": "css3",
       "topics": {
         "id": "a3cd49ca-536d-45c4-89db-069ecfc09a83",
@@ -344,7 +344,7 @@
     {
       "id": "d11ba3ce-1491-4718-857d-ff82238764a1",
       "technology": "Docker",
-      "filter": [""],
+      "filter": ["docker"],
       "icon": "docker",
       "topics": {
         "id": "2b687206-5a9c-42b0-914c-71be9d1d9ac8",
@@ -355,7 +355,7 @@
     {
       "id": "79113d7c-bce6-480e-8e7b-8c562d05c400",
       "technology": "Eslint",
-      "filter": [""],
+      "filter": ["eslint"],
       "icon": "eslint",
       "topics": {
         "id": "281419d6-a117-412e-86a6-894a126502e5",
@@ -369,7 +369,7 @@
     {
       "id": "429e4fbb-6992-48c5-9f8a-6975bd300613",
       "technology": "Expo",
-      "filter": [""],
+      "filter": ["expo"],
       "icon": "expo",
       "topics": {
         "id": "de2505c9-be96-4088-ac04-fcc465fdbf23",
@@ -380,7 +380,7 @@
     {
       "id": "134783ba-7d9b-48ed-be3d-54a0d5adf91b",
       "technology": "Fastify",
-      "filter": [""],
+      "filter": ["fastify"],
       "icon": "fastify",
       "topics": {
         "id": "b79b3831-b935-4cd7-b605-378bd1d9c684",
@@ -391,7 +391,7 @@
     {
       "id": "4f97da5d-15c0-47a5-88e2-6c9a2d44d962",
       "technology": "Express",
-      "filter": [""],
+      "filter": ["express"],
       "icon": "express",
       "topics": {
         "id": "5e87b0a5-34d6-4873-aaac-93779c72c231",
@@ -402,7 +402,7 @@
     {
       "id": "6a048116-e794-40ee-917f-d9f29e15f97d",
       "technology": "Git",
-      "filter": [""],
+      "filter": ["git"],
       "icon": "git",
       "topics": {
         "id": "bc69da48-0cb9-48f4-b8b5-2df43c4253a3",
@@ -413,7 +413,7 @@
     {
       "id": "5d92750b-dc52-4247-9e6b-99caea3d7343",
       "technology": "GitHub",
-      "filter": [""],
+      "filter": ["github"],
       "icon": "github",
       "topics": {
         "id": "dae511d1-28cd-40ec-8b1e-3a0332ad0600",
@@ -424,7 +424,7 @@
     {
       "id": "6b690f7f-8a03-4719-879a-372817e99173",
       "technology": "GraphQL",
-      "filter": [""],
+      "filter": ["graphql"],
       "icon": "graphql",
       "topics": {
         "id": "f384dec4-cecb-441f-af6a-c63a81a3a109",
@@ -435,7 +435,7 @@
     {
       "id": "07bd5e9a-fd67-4ad8-9642-0274c97b9b8e",
       "technology": "HTML 5",
-      "filter": [""],
+      "filter": ["html5", "html 5"],
       "icon": "html5",
       "topics": {
         "id": "dcb334fe-4faa-4980-836a-0e141ae0f92c",
@@ -446,7 +446,7 @@
     {
       "id": "68fc289e-e8a3-4721-975c-71aa4fca0563",
       "technology": "JavaScript",
-      "filter": [""],
+      "filter": ["javascript", "java script", "js"],
       "icon": "javascript",
       "topics": {
         "id": "30c22f4b-afca-4bf5-b5d3-fc8e5a86a11d",
@@ -457,7 +457,7 @@
     {
       "id": "b39a6e78-b723-43bb-8fb7-a8ff1d16bdbc",
       "technology": "NextJS",
-      "filter": [""],
+      "filter": ["next.js", "nextJS", "next js"],
       "icon": "nextJs",
       "topics": {
         "id": "b0c5458c-f3ac-40d3-b35f-4bf46582dffa",
@@ -468,7 +468,7 @@
     {
       "id": "9fdcbdf2-4758-4c16-a2f1-5269174a1e7d",
       "technology": "NodeJS",
-      "filter": [""],
+      "filter": ["nodeJS", "node js", "node.js"],
       "icon": "nodeJs",
       "topics": {
         "id": "5a469d15-241b-44a9-9557-0da0446247e2",
@@ -479,7 +479,7 @@
     {
       "id": "9410e65e-0eab-4412-b2f7-6a008ee5a02d",
       "technology": "Prettier",
-      "filter": [""],
+      "filter": ["prettier"],
       "icon": "prettier",
       "topics": {
         "id": "f1353fa2-db7f-4937-a78f-98be795db457",
@@ -493,7 +493,7 @@
     {
       "id": "be162d39-2656-4ea1-92b6-a6f71fb98bba",
       "technology": "Prisma",
-      "filter": [""],
+      "filter": ["prisma"],
       "icon": "prisma",
       "topics": {
         "id": "c2698558-a364-4223-8d0d-8cfd50d65d46",
@@ -504,7 +504,7 @@
     {
       "id": "5dd57024-4e08-4ebd-b6b5-8f7512e75ed1",
       "technology": "React",
-      "filter": [""],
+      "filter": ["react"],
       "icon": "react",
       "topics": {
         "id": "49dcbfe4-5224-4eca-81a3-e793b88aa33f",
@@ -515,7 +515,7 @@
     {
       "id": "8678df52-2025-4ed4-ac34-7899d5f98abb",
       "technology": "React Native",
-      "filter": [""],
+      "filter": ["react native"],
       "icon": "reactNative",
       "topics": {
         "id": "d4aaa30c-6c75-49ed-bb8f-e4e453428785",
@@ -526,7 +526,7 @@
     {
       "id": "905f47f1-772d-4d67-a8f9-484f4dab1b83",
       "technology": "Sass",
-      "filter": [""],
+      "filter": ["sass"],
       "icon": "sass",
       "topics": {
         "id": "ce1e3009-e697-4b79-8d58-a0b303728c3d",
@@ -537,7 +537,7 @@
     {
       "id": "c7b18727-6236-49f1-b3cc-2f485b4e67af",
       "technology": "Tailwind CSS",
-      "filter": [""],
+      "filter": ["tailwind css", "tailwindCSS"],
       "icon": "tailwind",
       "topics": {
         "id": "29785de3-6908-47c5-ae78-a84e3d1b7c87",
@@ -548,7 +548,7 @@
     {
       "id": "134783ba-7d9b-48ed-be3d-54a0d5adf891b",
       "technology": "TypeScript",
-      "filter": [""],
+      "filter": ["typescript", "ts", "type script"],
       "icon": "typescript",
       "topics": {
         "id": "b79b3831-b935-4cd7-b605-378bd1d9c604",
@@ -560,9 +560,13 @@
   "formations": [
     {
       "id": "cb323138-1807-4ed9-8230-d97ecbcd62b7",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: otimizando a performance",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "react otimizando a performance",
         "react",
         "otimizando",
@@ -612,11 +616,15 @@
     },
     {
       "id": "07f213bd-c78a-4b10-a261-3846400730fc",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: testando os seus componentes",
         "react testando os seus componentes",
         "react",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "testando",
         "componentes",
         "teste de componentes react",
@@ -662,11 +670,15 @@
     },
     {
       "id": "962755b9-7155-4a9e-9a0e-537e7bb05fec",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: gerenciando estado com recoil",
         "react gerenciando estado com recoil",
         "react",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "gerenciando",
         "estado",
         "recoil",
@@ -711,13 +723,23 @@
     },
     {
       "id": "d030c6ae-4654-4267-ada4-ea3762cc37ed",
-      "tags": [""],
+      "tags": ["Back-end", "Front-end", "Outros"],
       "filter": [
         "http: entendendo a web por baixo dos panos",
         "http entendendo a web por baixo dos panos",
         "http",
         "https",
         "entendendo",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
+        "back-end",
+        "back end",
+        "backend",
+        "BE",
+        "outros",
+        "outras",
         "web",
         "baixo dos panos",
         "protocolo http",
@@ -762,12 +784,16 @@
     },
     {
       "id": "24c89028-bed8-4efd-9a6e-4ea732239098",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: integrando seu projeto react com apis",
         "react integrando seu projeto react com apis",
         "react e apis",
         "react",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "api",
         "apis",
         "axios",
@@ -815,12 +841,16 @@
     },
     {
       "id": "31cde006-0a55-490e-aeac-ac1c192f412c",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: conhecendo a biblioteca react router",
         "react conhecendo a biblioteca react router",
         "react router",
         "navegação em react",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "roteamento em react",
         "react router dom",
         "configurando rotas em react",
@@ -869,12 +899,16 @@
     },
     {
       "id": "77d1e542-fc3e-4d8f-a368-f0ba51185243",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: lidando com arquivos estáticos",
         "react lidando com arquivos estáticos",
         "create react app",
         "normalize.css",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "absolute imports",
         "boas práticas em CSS",
         "variáveis CSS",
@@ -928,13 +962,17 @@
     },
     {
       "id": "bd626bbc-165a-4828-9764-a4186d023b68",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: escrevendo com Typescript",
         "react escrevendo com Typescript",
         "create react app com Typescript",
         "componentização em React",
         "Props em React",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "State em React",
         "sobreposições de CSS",
         "CSS Modules em React",
@@ -977,11 +1015,15 @@
     },
     {
       "id": "383d8f0c-3afb-44ee-99e7-8c13b5ff95cd",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "next.js: documentando seu Front-end com o Storybook",
         "nextJS",
         "next js",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "documentação de Front-end",
         "Storybook em Next.js",
         "componentes de interface do usuário",
@@ -1027,11 +1069,15 @@
     },
     {
       "id": "80e9aab9-8b5f-411e-9460-2ddd6884021a",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "next.js: CI e CD para Front-end com o Github Actions",
         "next.js CI e CD para Front-end com o Github Actions",
         "CI/CD no Front-end",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "nextJS",
         "vantagens do Github Actions para CI/CD",
         "motivos para CI/CD no Front-end",
@@ -1076,12 +1122,16 @@
     },
     {
       "id": "da582edb-bfec-46e8-bc2a-4b652e52f2fc",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "next.js: trabalhando com arquitetura Front-end",
         "next.js trabalhando com arquitetura Front-end",
         "arquitetura Front-end moderna",
         "nextJS",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "uso de arquitetura Front-end",
         "benefícios de mono-repos",
         "estruturando projetos em mono-repos",
@@ -1124,11 +1174,15 @@
     },
     {
       "id": "e03ca964-bacb-49c3-b0ad-86abbccb821f",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "next.js: trabalhando com um CMS",
         "next.js trabalhando com um CMS",
         "nextJS",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "FAQ integrada a um CMS",
         "Headless CMS",
         "Dato CMS",
@@ -1177,11 +1231,19 @@
     },
     {
       "id": "befb7ba8-9092-455a-aa96-bef8d05e59cf",
-      "tags": [""],
+      "tags": ["Front-end", "Back-end"],
       "filter": [
         "next.js: autenticação e gerenciamento de Tokens",
         "next.js autenticação e gerenciamento de Tokens",
         "nextJS",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
+        "back-end",
+        "back end",
+        "backend",
+        "BE",
         "autenticação JWT em Next.js",
         "Cookies em autenticação",
         "Local Storage em autenticação",
@@ -1223,9 +1285,13 @@
     },
     {
       "id": "e463bfc1-d861-4170-bfcf-0e12a5198d48",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "next.js: tour pelo Next.js",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "next.js tour pelo Next.js",
         "nextJs",
         "rotas dinâmicas em Next.js",
@@ -1268,11 +1334,15 @@
     },
     {
       "id": "b1b82b17-41e9-41fc-988c-552f3bac5d07",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "next.js: explorando o framework",
         "next.js explorando o framework",
         "benefícios do Next.js",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "nextJs",
         "SEO com Next.js",
         "estilização em Next.js",
@@ -1316,12 +1386,16 @@
     },
     {
       "id": "5ac42541-da97-43be-8756-5e9a575cf6c0",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: arquitetando soluções de roteamento e gestão de estado",
         "react arquitetando soluções de roteamento e gestão de estado",
         "React Router v6",
         "React Router v4",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "gestão de estado com Context API",
         "roteamento de aplicação React",
         "funcionalidades adicionais em React",
@@ -1362,12 +1436,16 @@
     },
     {
       "id": "1757d352-96c3-481b-9613-a307e2f62881",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: desenvolvendo componentes customizados e acessíveis com Emotion",
         "react desenvolvendo componentes customizados e acessíveis com Emotion",
         "prototipagem de páginas com React",
         "bibliotecas de layout em React",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "Emotion para estilização em React",
         "componentes visuais com base no Figma",
         "layout responsivo em React",
@@ -1406,10 +1484,14 @@
     },
     {
       "id": "40a82e7d-2909-4dcc-a933-47cc9908b786",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "html e css: responsividade com mobile-first",
         "html e css responsividade com mobile-first",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "construção de site com HTML e CSS",
         "interpretação de protótipos de site no Figma",
         "abordagem mobile-first",
@@ -1457,10 +1539,14 @@
     },
     {
       "id": "0d47a631-7c21-407b-bf05-c6225672dd47",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: migrando para TypeScript",
         "react migrando para TypeScript",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "diferenças entre TypeScript e JavaScript",
         "Intellisense do VSCode",
         "vantagens do TypeScript",
@@ -1502,10 +1588,14 @@
     },
     {
       "id": "7d4e42e0-95dc-41c1-96f2-ed3850df8fad",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: praticando React com JavaScript",
         "react praticando React com JavaScript",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "iniciar projeto React",
         "construção de componentes React",
         "construção de páginas React",
@@ -1556,10 +1646,14 @@
     },
     {
       "id": "bade0006-0154-450d-90fa-a30af499db8b",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: gerenciamento de estados globais com ContextAPI",
         "react gerenciamento de estados globais com ContextAPI",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "estados globais em React",
         "ContextAPI em React",
         "desacoplamento de componentes em React",
@@ -1602,10 +1696,14 @@
     },
     {
       "id": "ab1349d2-9775-4497-8ea4-205916b0f55d",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: desenvolvendo em React Router com JavaScript",
         "react desenvolvendo em React Router com JavaScript",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "biblioteca react-router-dom",
         "SPA (Single Page Application)",
         "rotas aninhadas em React",
@@ -1653,10 +1751,15 @@
     },
     {
       "id": "309fb180-37ce-45d9-b9cc-cd83afc8d20a",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react com JavaScript: lidando com arquivos estáticos",
+        "react com JavaScript lidando com arquivos estáticos",
         "react lidando com arquivos estáticos",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "organização de pastas em projetos React",
         "componentes da Interface do Usuário em React",
         "arquivos estáticos em projetos React",
@@ -1673,7 +1776,7 @@
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
       "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/react-javascript-arquivos-estaticos/formalCertificate",
-      "courseLink": "",
+      "courseLink": "https://cursos.alura.com.br/course/react-javascript-arquivos-estaticos",
       "courseTopics": [
         {
           "id": "3d48e30e-9bc5-4e38-b8cc-82c5c8e08e60",
@@ -1703,10 +1806,14 @@
     },
     {
       "id": "923bc13a-5ac7-48b9-b27e-5dfb2d23f923",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: como os componentes funcionam",
         "react como os componentes funcionam",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "clonar projeto no GitHub",
         "instalar dependências em React",
         "props em React",
@@ -1749,10 +1856,14 @@
     },
     {
       "id": "fd0352c4-2c66-4b75-8d84-6080320de661",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "react: desenvolvendo com JavaScript",
         "react desenvolvendo com JavaScript",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "vantagens do React",
         "componentes reativos em React",
         "análise de mensagens de erro em React",
@@ -1795,11 +1906,20 @@
     },
     {
       "id": "1c242331-e525-4c5a-94a7-84d5279d7c45",
-      "tags": [""],
+      "tags": ["Front-end", "Back-end"],
       "filter": [
         "typescript parte 3: mais técnicas e boas práticas",
+        "typescript parte 3 mais técnicas e boas práticas",
         "typescript boas práticas",
         "decorators em TypeScript",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
+        "back-end",
+        "back end",
+        "backend",
+        "BE",
         "vantagens de Decorators",
         "tipos de decorators em TypeScript",
         "interfaces em TypeScript",
@@ -1811,7 +1931,7 @@
         "soluções em TypeScript",
         "desenvolvimento com TypeScript"
       ],
-      "courseTitle": "",
+      "courseTitle": "Typescript parte 3: mais técnicas e boas práticas",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
       "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/typescript-tecnicas-boas-praticas/formalCertificate",
@@ -1845,12 +1965,20 @@
     },
     {
       "id": "b890d505-9fc3-40b5-9fd9-c6b1b9efaf10",
-      "tags": [""],
+      "tags": ["Front-end", "Back-end"],
       "filter": [
         "typescript parte 2: avançando na linguagem",
         "typescript avançando na linguagem",
         "modificadores de acesso em TypeScript",
         "herança em TypeScript",
+        "back-end",
+        "back end",
+        "backend",
+        "BE",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "tipos genéricos em TypeScript",
         "Enumerations em TypeScript",
         "framework de atualização de view em TypeScript",
@@ -1888,11 +2016,19 @@
     },
     {
       "id": "e8403fc5-0240-46c5-a43c-5f47bf858b63",
-      "tags": [""],
+      "tags": ["Front-end", "Back-end"],
       "filter": [
         "typescript parte 1: evoluindo seu JavaScript",
         "typescript evoluindo seu JavaScript",
         "configuração de ambiente TypeScript",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
+        "back-end",
+        "back end",
+        "backend",
+        "BE",
         "TypeScript compiler",
         "vantagens da tipagem estática em TypeScript",
         "modelagem de classes em TypeScript",
@@ -1932,11 +2068,21 @@
     },
     {
       "id": "0aa86d49-2857-458a-942a-bb04aefe07c9",
-      "tags": [""],
+      "tags": ["Front-end", "Back-end", "Outros"],
       "filter": [
         "http: entendendo a web por baixo dos panos",
         "http entendendo a web por baixo dos panos",
         "protocolo HTTP",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
+        "back-end",
+        "back end",
+        "backend",
+        "BE",
+        "outros",
+        "outras",
         "GET e POST em HTTP",
         "segurança na web",
         "HTTPS",
@@ -1981,11 +2127,15 @@
     },
     {
       "id": "886e3297-4d61-4fc5-b49f-eb457d06cfcb",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "html e css: praticando HTML/CSS",
         "html e css praticando HTML/CSS",
         "construção de site com HTML e CSS",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "identificação de elementos e estilos",
         "projeto real com HTML e CSS",
         "repositório de código",
@@ -2031,11 +2181,15 @@
     },
     {
       "id": "78a7736e-62e3-4c55-904b-e98702b7d2c1",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "html e css: trabalhando com responsividade e publicação de projetos",
         "html e css responsividade e publicação de projetos",
         "responsividade em HTML e CSS",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "Media Query em projetos web",
         "GitHub para armazenamento de código",
         "medidas absolutas e relativas em web design",
@@ -2078,11 +2232,15 @@
     },
     {
       "id": "4878f4fb-0806-453a-97e3-51bdf30e1c2c",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "html e css: cabeçalho, footer e variáveis CSS",
         "html e css cabeçalho, footer e variáveis CSS",
         "desenvolvedor front-end",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "código HTML e CSS",
         "boas práticas de programação",
         "variáveis CSS",
@@ -2125,11 +2283,15 @@
     },
     {
       "id": "96ea2ed4-e183-4a05-8747-267f4a43c904",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "html e css: classes, posicionamento e Flexbox",
         "html e css classes, posicionamento e Flexbox",
         "classes CSS",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "importância das classes CSS",
         "Flexbox em CSS",
         "posicionamento de elementos em CSS",
@@ -2174,11 +2336,15 @@
     },
     {
       "id": "acc2976a-7e48-4053-8d31-881ba6277547",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "html e css: ambientes de desenvolvimento, estrutura de arquivos e tags",
         "html e css ambientes de desenvolvimento, estrutura de arquivos e tags",
         "ambiente de desenvolvimento HTML e CSS",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "instalação de ambiente de desenvolvimento",
         "documentação de tecnologia",
         "projeto HTML e CSS",
@@ -2219,10 +2385,14 @@
     },
     {
       "id": "3d959f51-39ba-438f-b24a-921869a3dff4",
-      "tags": [""],
+      "tags": ["Front-end"],
       "filter": [
         "javascript: validando formulários",
         "javascript validando formulários",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "atributos de validação de formulário",
         "validação de formulários com HTML5",
         "validação de CPF em JavaScript",
@@ -2270,11 +2440,19 @@
     },
     {
       "id": "f1ae4951-e289-4d11-ae29-7c7948bfef5f",
-      "tags": [""],
+      "tags": ["Back-end", "Front-end"],
       "filter": [
         "javascript: criando requisições",
         "javascript criando requisições",
         "'mockar' uma API",
+        "back-end",
+        "back end",
+        "backend",
+        "BE",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "requisições GET em JavaScript",
         "requisições POST em JavaScript",
         "javascript assíncrono",
@@ -2319,12 +2497,20 @@
     },
     {
       "id": "aab7a5be-239f-4c74-af9b-7ca884f62cd7",
-      "tags": [""],
+      "tags": ["Back-end", "Front-end"],
       "filter": [
         "javascript: métodos de array",
         "javascript métodos de array",
         "métodos de array em JavaScript",
         "forEach em JavaScript",
+        "back-end",
+        "back end",
+        "backend",
+        "BE",
+        "front-end",
+        "front end",
+        "frontend",
+        "FE",
         "map em JavaScript",
         "ordenação de arrays em JavaScript",
         "filtros de arrays em JavaScript",

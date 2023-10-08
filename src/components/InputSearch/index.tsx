@@ -19,7 +19,7 @@ export default function InputSearch({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search])
   return (
-    <div className="mt-3 flex w-full max-w-[27rem] items-center self-center border-b border-iconcolor-400">
+    <div className="mt-3 flex w-full max-w-[40rem] items-center self-center border-b border-iconcolor-400">
       <label
         htmlFor="search"
         className="sr-only mx-2 text-base text-primary-500"

@@ -8,7 +8,7 @@ export default function FormationInputSearch() {
   return (
     <InputSearch
       filterFunction={filterFormations}
-      placeholder="Busque por tecnologia (Ex.: JavaScript, CSS, HTML)"
+      placeholder="Busque por formação, tecnologia ou área (Ex.: Front-end, JavaScript, CSS, HTML)"
     />
   )
 }
