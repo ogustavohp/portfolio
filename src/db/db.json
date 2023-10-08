@@ -3227,864 +3227,660 @@
     {
       "id": "a070317f-5b98-46e1-b4c4-510d397fa8a6",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "Algoritmos com JavaScript II: aprofundando em algoritmos de ordenação e busca",
+        "Algoritmos com JavaScript II aprofundando em algoritmos de ordenação e busca",
+        "algoritmos de ordenação",
+        "algoritmos de busca",
+        "complexidade de algoritmos",
+        "paradigmas de algoritmos",
+        "lógica de algoritmos",
+        "desenvolvimento de algoritmos",
+        "desenvolvimento de código",
+        "resolução de problemas de computação",
+        "aprendizado de NodeJS"
+      ],
+      "courseTitle": "Algoritmos com JavaScript II: aprofundando em algoritmos de ordenação e busca",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/algoritmos-javascript-ii-aprofundando-ordenacao-busca/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/algoritmos-javascript-ii-aprofundando-ordenacao-busca",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c81319f1-8ed4-4c5b-804f-8553ccfa1e7f",
+          "courseTopic": "Exemplos Avançados de Algoritmos de Ordenação"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a6f0493f-78c5-46cc-b5ac-8f6552012f9c",
+          "courseTopic": "Exploração de Conceitos e Paradigmas em Algoritmos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "61937e6c-4d61-4dd2-b48d-63c006db9ed0",
+          "courseTopic": "Prática na Tradução de Lógica de Algoritmos para Código"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "1b828db3-76d6-4dd7-b0d5-cab31eaf1a3b",
+          "courseTopic": "Análise da Complexidade dos Algoritmos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c9534dd4-1637-4ba3-af8f-d65a6e276efb",
+          "courseTopic": "Resolução de Problemas de Computação com Algoritmos"
         }
       ]
     },
     {
       "id": "5403c8c0-3596-4b0e-b009-3d616875910c",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "JavaScript I: algoritmos de ordenação",
+        "JavaScript I algoritmos de ordenação",
+        "algoritmos de ordenação",
+        "aprendizado de NodeJS",
+        "lógica de algoritmos",
+        "tradução de lógica em código",
+        "resolução de problemas de programação",
+        "complexidade de algoritmos",
+        "conceitos básicos de algoritmos"
+      ],
+      "courseTitle": "JavaScript I: algoritmos de ordenação",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/algoritmos-javascript-i-algoritmos-ordenacao/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/algoritmos-javascript-i-algoritmos-ordenacao",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a2427891-0db3-4e8e-aac4-8b4657c864f3",
+          "courseTopic": "Introdução aos Algoritmos e sua Importância"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "6e816ae9-31e2-4eaf-9275-0f2f0a4ac6ce",
+          "courseTopic": "Aplicações Práticas de Algoritmos no Dia a Dia"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b0d80e4b-0f84-43cc-befc-04c1e628e198",
+          "courseTopic": "Traduzindo Lógica de Algoritmos em Código"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "06d1a2cd-9351-44a2-a065-d8d14d4a5f5d",
+          "courseTopic": "Múltiplas Abordagens para a Resolução de Problemas com Algoritmos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "537e4ba2-25f6-43e6-9686-4dfab3940ac1",
+          "courseTopic": "Uso de Algoritmos Combinados na Solução de Problemas de Programação"
         }
       ]
     },
     {
       "id": "6ef1ae06-73f3-47ba-9877-47570469736b",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "JavaScript: objetos",
+        "objetos em JavaScript",
+        "acesso a dados em objetos",
+        "alterar e adicionar dados em objetos",
+        "propriedades e métodos de objetos",
+        "funções construtoras em JavaScript",
+        "protótipos em JavaScript",
+        "Orientação a Objetos em JavaScript",
+        "aprendizado de NodeJS"
+      ],
+      "courseTitle": "JavaScript: objetos",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/fundamentos-javascript-objetos/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/fundamentos-javascript-objetos",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b4ee56ea-1a2a-4786-8b9a-8d1b5aa2ac59",
+          "courseTopic": "Introdução aos Objetos em JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "19c40c64-19c0-463e-9934-ec16d1c6e189",
+          "courseTopic": "Acesso e Manipulação de Dados em Objetos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "cf75e43f-c836-4f79-8dd6-6ee878fb7f5a",
+          "courseTopic": "Propriedades e Métodos de Objetos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7db537d2-e9cf-4f67-865e-6c34e0102b3d",
+          "courseTopic": "Objetos Criados a partir de Funções Construtoras"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "6e89c0d1-e6da-4c61-893b-181a4ce96725",
+          "courseTopic": "Entendendo o Conceito de Protótipos em JavaScript"
         }
       ]
     },
     {
       "id": "d748d978-1daa-4048-a5a8-142bb6120af4",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "JavaScript: Arrays",
+        "JavaScript Arrays",
+        "arrays em JavaScript",
+        "métodos para alterar arrays em JavaScript",
+        "laços de repetição em JavaScript",
+        "métodos do ES6 para modificar arrays",
+        "conceitos básicos de arrays",
+        "aprendizado de NodeJS"
+      ],
+      "courseTitle": "JavaScript: Arrays",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/fundamentos-javascript-arrays/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/fundamentos-javascript-arrays",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "536db6b0-7a8d-4ce1-9e27-5c432ad12d9c",
+          "courseTopic": "Introdução aos Arrays em JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3df228db-ec95-4c52-9360-1f660b7a48a5",
+          "courseTopic": "Manipulação de Arrays com Métodos JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a973d243-7b26-4750-9651-3f49c0df1af7",
+          "courseTopic": "Uso de Laços de Repetição com Arrays"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b633d5d2-8f43-49a9-9a16-cf1d0d3c515f",
+          "courseTopic": "Métodos Modernos para Modificar Arrays (ES6+)"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "9f9372dd-5994-4407-ae87-23b9d38a22d3",
+          "courseTopic": "Prática e Aprofundamento em Conceitos de Arrays"
         }
       ]
     },
     {
       "id": "372eba75-c2ae-4684-831a-b22388f1ba92",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "JavaScript: tipos, variáveis e funções",
+        "JavaScript tipos, variáveis e funções",
+        "linguagem de programação JavaScript",
+        "blocos básicos de programação",
+        "particularidades do JavaScript",
+        "trabalhar com funções em JavaScript",
+        "trabalhar com variáveis em JavaScript",
+        "tipos de dados em JavaScript",
+        "aprendizado de NodeJS"
+      ],
+      "courseTitle": "JavaScript: tipos, variáveis e funções",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/fundamentos-javascript-tipos-variaveis-funcoes/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/fundamentos-javascript-tipos-variaveis-funcoes",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f176b49f-6d1a-4c58-92d4-678f9e36a432",
+          "courseTopic": "Introdução à Linguagem de Programação JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "051a2173-7cb0-43ca-8b95-7a2bda3a186f",
+          "courseTopic": "Particularidades do JavaScript e Sua Sintaxe"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "9edfc8d0-5ee4-4c25-b5c6-356cdcb7c3de",
+          "courseTopic": "Funções em JavaScript: Declaração e Expressões"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "097a08f2-165a-4613-8f41-d04b74b3d3f4",
+          "courseTopic": "Variáveis em JavaScript: Tipos e Escopo"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c34df7d7-6a44-4da9-92c2-90c079754fce",
+          "courseTopic": "Tipos de Dados em JavaScript e Quando Usá-los"
         }
       ]
     },
     {
       "id": "e7911126-a2b5-45f0-85d6-14b762430806",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "Git e GitHub: repositório, commit e versões",
+        "Git e GitHub repositório, commit e versões",
+        "controle de versão",
+        "Git vs. GitHub",
+        "comandos Git",
+        "repositórios Git",
+        "estratégias de ramificações",
+        "navegação no tempo com Git",
+        "gerenciamento de projetos com Git e GitHub"
+      ],
+      "courseTitle": "Git e GitHub: repositório, commit e versões",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/git-github-repositorio-commit-versoes/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/git-github-repositorio-commit-versoes",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7df5fbb0-e5a6-4d51-9e71-7e58d5390a36",
+          "courseTopic": "Diferenças entre Git e GitHub"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "adbc1891-e17f-457a-b31a-bb0fcd8575b3",
+          "courseTopic": "Principais Comandos do Git"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "dd676ecf-4e7c-4ed5-8e8a-4db27a1585f4",
+          "courseTopic": "Controle de Versões em Projetos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "47a07875-64a7-4b7c-9296-0a9058e4f867",
+          "courseTopic": "Estratégias de Ramificações com o Git"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "24cf7587-65f9-4570-90f4-2820bfc3d73f",
+          "courseTopic": "Navegando no Tempo com o Git Restore"
         }
       ]
     },
     {
       "id": "f6e720ee-9a92-43f5-bd0e-d7b6427b38f9",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "JavaScript para Web: Crie páginas dinâmicas",
+        "JavaScript para Web Crie páginas dinâmicas",
+        "desenvolvimento web",
+        "JavaScript",
+        "DOM (Document Object Model)",
+        "funções JavaScript",
+        "resolução de problemas de código",
+        "operadores lógicos",
+        "páginas dinâmicas"
+      ],
+      "courseTitle": "JavaScript para Web: Crie páginas dinâmicas",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/javascript-web-paginas-dinamicas/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/javascript-web-paginas-dinamicas",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a3b79a72-596f-4821-872a-5a4073e1a852",
+          "courseTopic": "Introdução às Tecnologias Web"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "0d11d724-2356-4711-8dd0-c56828f4a4b0",
+          "courseTopic": "Manipulação do DOM com JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "dca70c47-7f0e-4c16-88f1-5788d1d8ab22",
+          "courseTopic": "Implementação de Funções JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "0e234488-2d09-456c-b1a2-e5d5f02f7c5e",
+          "courseTopic": "Resolução de Problemas de Código"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "15c4eb23-05d9-45b0-8449-54097c11818f",
+          "courseTopic": "Operadores Lógicos em JavaScript"
         }
       ]
     },
     {
       "id": "e1faacd8-f6a1-45c9-9b4b-0ba320f80a4c",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "HTML5 e CSS3 parte 4: avançando no CSS",
+        "HTML5 e CSS3 parte 4 avançando no CSS",
+        "importar conteúdo externo",
+        "fontes web",
+        "vídeos HTML5",
+        "mapas interativos",
+        "pseudo-classes CSS",
+        "pseudo-elementos CSS",
+        "seletores de CSS avançados",
+        "opacidade no CSS",
+        "sombra no CSS",
+        "Viewport",
+        "design responsivo"
+      ],
+      "courseTitle": "HTML5 e CSS3 parte 4: avançando no CSS",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/html5-css3-avancando-css/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/html5-css3-avancando-css",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "d9b7c7f5-72b7-4b52-a8b0-82c96edee7d9",
+          "courseTopic": "Importando Conteúdo Externo na Página HTML"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3c0c7b9b-2845-4ff7-a7bb-3251c08f131a",
+          "courseTopic": "Pseudo-classes e Pseudo-elementos em CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b9bda4a4-e53c-44f6-bcd3-7bb038c013e3",
+          "courseTopic": "Seletores de CSS Avançados"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "ac3b6a23-e7d7-45e3-9f1b-0b0e5ca276ea",
+          "courseTopic": "Opacidade e Sombra em CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f79efcfb-74e1-44f1-82ec-7c2ed3eab0c1",
+          "courseTopic": "Viewport e Design Responsivo"
         }
       ]
     },
     {
       "id": "1c3fbce4-5d79-4b18-a027-4a9b498cd7b3",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas",
+        "HTML5 e CSS3 parte 3 trabalhando com formulários e tabelas",
+        "criar formulários complexos",
+        "campos para celulares",
+        "apresentar informações em tabelas",
+        "estilos para formulários",
+        "estilos para campos",
+        "estilos para tabelas",
+        "hierarquia no CSS",
+        "transformações CSS",
+        "transições CSS"
+      ],
+      "courseTitle": "HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/html5-css3-formularios-tabelas/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/html5-css3-formularios-tabelas",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "9f1967ff-dc5d-4ee2-8d45-bd9601e0bca1",
+          "courseTopic": "Criação de Formulários Complexos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3e19f8df-4e52-40d3-ba7d-752433016a9a",
+          "courseTopic": "Campos para Celulares em Formulários"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f547c2fc-b07b-4ec7-a94a-bf61fc1c2677",
+          "courseTopic": "Apresentação de Informações em Tabelas"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "40a582e9-cf69-4093-b4c9-b02b73c95eaa",
+          "courseTopic": "Estilização de Formulários, Campos e Tabelas"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "bf041518-5000-43e3-9b80-0377a72930d1",
+          "courseTopic": "Hierarquia e Seletores CSS Avançados"
         }
       ]
     },
     {
       "id": "a8827299-6aaa-4cd4-a501-811b5f54bca9",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "HTML5 e CSS3 parte 2: posicionamento, listas e navegação",
+        "HTML5 e CSS3 parte 2 posicionamento, listas e navegação",
+        "estrutura da página HTML",
+        "navegação entre páginas web",
+        "reset.css",
+        "posicionamento pelo CSS",
+        "diferença entre inline e block",
+        "bordas no CSS",
+        "pseudo-classes CSS"
+      ],
+      "courseTitle": "HTML5 e CSS3 parte 2: posicionamento, listas e navegação",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/html5-css3-posicionamento-listas-navegacao/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/html5-css3-posicionamento-listas-navegacao",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "ee3dcd27-93b6-4edc-ba86-2ed7f832c82b",
+          "courseTopic": "Estrutura da Página HTML"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "0d40e9c7-e6d8-4e1b-8fc5-e76e30399be0",
+          "courseTopic": "Navegação entre Páginas Web"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "58674aeb-8325-4e50-9952-d1815a9e992b",
+          "courseTopic": "Reset.css e Posicionamento pelo CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "0de25702-fc6d-4d66-ae6d-25de33e8945e",
+          "courseTopic": "Diferença entre Inline e Block"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "cd91118c-d63c-49ef-9da3-0a4f808ecdcb",
+          "courseTopic": "Bordas e Pseudo-classes CSS"
         }
       ]
     },
     {
       "id": "a5502542-d586-495b-98b3-0cc09390d8f4",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "HTML5 e CSS3 parte 1: crie uma página da Web",
+        "HTML5 e CSS3 parte 1 crie uma página da Web",
+        "HTML",
+        "CSS",
+        "estrutura básica do HTML",
+        "inspecionar elementos no navegador",
+        "definir estilos com CSS",
+        "desenvolver uma página da Web"
+      ],
+      "courseTitle": "HTML5 e CSS3 parte 1: crie uma página da Web",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/html5-css3-primeiros-passos/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/html5-css3-primeiros-passos",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "d7a2857c-c318-4f75-aa2c-6c64767c9c08",
+          "courseTopic": "O que é HTML e CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "de94e8b3-1f4e-4eaf-aa9e-71ff9a60de3e",
+          "courseTopic": "Estrutura Básica de um Arquivo HTML"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "cf1d69b9-43db-49c0-9f17-59a865f77c92",
+          "courseTopic": "Inspecionando Elementos no Navegador"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "71b2722c-2b8a-42ca-bf67-840b4e84a71c",
+          "courseTopic": "Definindo Estilos com CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b6885e7d-cf44-440d-b5df-595a3db56ebd",
+          "courseTopic": "Desenvolvimento de uma Página Web"
         }
       ]
     },
     {
       "id": "5ebb3d6a-69a9-4317-9008-9e57ccb5b250",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "Linux I: conhecendo e utilizando o terminal",
+        "Linux I conhecendo e utilizando o terminal",
+        "Linux",
+        "linha de comando",
+        "sistema de diretórios",
+        "compactar arquivos",
+        "descompactar arquivos",
+        "VI",
+        "edição no console"
+      ],
+      "courseTitle": "Linux I: conhecendo e utilizando o terminal",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/linux-ubuntu/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/linux-ubuntu",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "54b6f3de-7f66-4a00-bc6f-02cf1bf2fde0",
+          "courseTopic": "Sistema de Diretórios do Linux"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "e26722b4-e148-432f-9c8b-7750a762d0c7",
+          "courseTopic": "Uso da Linha de Comando no Linux"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "bbaa8d6e-4c0c-47da-bf9e-82c4d261ed68",
+          "courseTopic": "Compactação e Descompactação de Arquivos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a625c5c1-5f21-4c10-85cb-3625c682e3c3",
+          "courseTopic": "Edição de Texto no Console com o VI"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "14b729f2-2c38-474f-9e63-6a6b4fbb8a16",
+          "courseTopic": "Gerenciamento de Usuários e Permissões"
         }
       ]
     },
     {
       "id": "b454600c-011d-4377-89d1-8d6f53cccaf5",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "Arquitetura de computadores: por trás de como seu programa funciona",
+        "Arquitetura de computadores por trás de como seu programa funciona",
+        "computação",
+        "execução de programas",
+        "componentes de computador",
+        "multitarefa",
+        "limitações do computador",
+        "armazenamento de dados",
+        "memória do computador"
+      ],
+      "courseTitle": "Arquitetura de computadores: por trás de como seu programa funciona",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/arquitetura-computadores-funcionamento-programa/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/arquitetura-computadores-funcionamento-programa",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "fdfe897d-3c7f-4651-81f7-5e63e7e89402",
+          "courseTopic": "Funcionamento da CPU e Arquitetura de Von Neumann"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "cbf0f2e1-37b1-482f-b8cf-3348a0f9689d",
+          "courseTopic": "Memória do Computador: RAM e ROM"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3a95da8b-d54f-4d2b-8f68-c885768077ac",
+          "courseTopic": "Entrada e Saída de Dados"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "62a8f53c-40b1-43db-9fe7-4e5b7db5a799",
+          "courseTopic": "Arquitetura de Processadores: RISC vs. CISC"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "e3a5e0f3-e2f6-408f-9e72-8f5d2de7c3ec",
+          "courseTopic": "Paralelismo e Sistemas Multi-Core"
         }
       ]
     },
     {
       "id": "9bfdf46d-8300-4fd4-b254-5f435f719291",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "Lógica de programação: laços e listas com JavaScript",
+        "Lógica de programação laços e listas com JavaScript",
+        "desenvolvimento de jogos",
+        "animações",
+        "pontuação",
+        "sons em jogos",
+        "imagens em P5.js",
+        "listas em programação",
+        "arrays",
+        "código duplicado",
+        "laços de repetição",
+        "desenvolvimento de habilidades de programação"
+      ],
+      "courseTitle": "Lógica de programação: laços e listas com JavaScript",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/javascript-listas-lacos/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/javascript-listas-lacos",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "03e1df1a-0c12-490e-b9a3-3f93ab65f5b9",
+          "courseTopic": "Introdução ao P5.js e Configuração do Ambiente"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f2b454c4-4700-4dd5-956d-c61f61c3cb90",
+          "courseTopic": "Desenho Básico e Manipulação de Formas"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a6489f8a-5342-4d3b-aaaf-837bb7f67545",
+          "courseTopic": "Controles de Jogos e Interatividade"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a98ec1fc-7b89-4da3-9f14-7b3dd7947b86",
+          "courseTopic": "Detecção de Colisões e Contagem de Pontuação"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "45bfa1f0-74e4-4a3a-bb10-3673444165a3",
+          "courseTopic": "Adicionando Sons e Efeitos de Áudio"
         }
       ]
     },
     {
       "id": "cfbe7269-a781-4905-b943-1633786ab76e",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "Lógica de programação: comece em lógica com o jogo Pong e JavaScript",
+        "Lógica de programação comece em lógica com o jogo Pong e JavaScript",
+        "Lógica de Programação",
+        "desenvolvimento de jogos",
+        "jogo Pong",
+        "JavaScript",
+        "variáveis em JavaScript",
+        "funções em JavaScript",
+        "animações",
+        "controles de jogos",
+        "sons em jogos",
+        "placar de jogos",
+        "código compartilhado no Github",
+        "iniciação em programação"
+      ],
+      "courseTitle": "Lógica de programação: comece em lógica com o jogo Pong e JavaScript",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/pong-javascript/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/pong-javascript",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "1c1e71e2-5482-4f61-aa58-85eeb1a940d8",
+          "courseTopic": "Introdução à Lógica de Programação"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "36c21b6a-7c2a-41d4-bb80-17af724a648e",
+          "courseTopic": "Configuração do Ambiente de Desenvolvimento"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "effe4f69-d06c-4ab3-8b5c-1525e127e3c3",
+          "courseTopic": "Fundamentos de JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "0ab74533-7805-4934-a02d-e09b070d0b71",
+          "courseTopic": "Estruturas de Controle de Fluxo"
         },
         {
-          "id": "",
-          "courseTopic": ""
-        }
-      ]
-    },
-    {
-      "id": "d83b17ad-5681-4dcc-bba6-9d5e596d16e6",
-      "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": ""
+          "id": "3940755d-d376-4ff9-8a47-cc9923093d5d",
+          "courseTopic": "Funções em JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "21d620df-6e5f-4873-9800-b0f9b0b7df62",
+          "courseTopic": "Desenvolvimento do Jogo Pong"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3c9bde0d-7c60-40ce-92ca-1f4f98cd2bb1",
+          "courseTopic": "Adição de Controles, Animações e Placar"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f55c19cf-0b1b-4c56-933a-b99edcb8c8ca",
+          "courseTopic": "Adição de Sons e Efeitos de Áudio"
         },
         {
-          "id": "",
-          "courseTopic": ""
-        }
-      ]
-    },
-    {
-      "id": "5af23c23-0505-4c41-9f76-486159d751e0",
-      "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        }
-      ]
-    },
-    {
-      "id": "c769c41e-db60-4870-b17c-3255bd859c90",
-      "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        }
-      ]
-    },
-    {
-      "id": "03ce7a30-e1a1-416d-a320-57705c0d11e8",
-      "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        }
-      ]
-    },
-    {
-      "id": "9747fe93-c903-406c-894e-bc91c11aa013",
-      "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        }
-      ]
-    },
-    {
-      "id": "03d00852-6c00-43fa-a5fe-378b01cc302d",
-      "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        }
-      ]
-    },
-    {
-      "id": "0e88f1ec-2ca6-45bf-8f43-091269a61556",
-      "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        }
-      ]
-    },
-    {
-      "id": "77747ff7-43f3-4887-bf0f-8facafa75ebd",
-      "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        }
-      ]
-    },
-    {
-      "id": "6838fd80-e996-4fc2-9da8-e5120ef92a83",
-      "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        }
-      ]
-    },
-    {
-      "id": "ebe97fae-6804-442d-ae78-b6cb795ee98d",
-      "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        }
-      ]
-    },
-    {
-      "id": "e98ed8b0-5ccb-47f2-b97a-add464e41e3e",
-      "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        }
-      ]
-    },
-    {
-      "id": "1c3e03d8-da6a-4f4e-a608-29b781621ea4",
-      "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
-      "courseLicensed": "Alura",
-      "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
-      "courseTopics": [
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
+          "id": "665f7851-3a90-40f0-8bb2-85b6be2d2162",
+          "courseTopic": "Publicação e Compartilhamento do Jogo"
         }
       ]
     }
