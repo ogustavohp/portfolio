@@ -2320,608 +2320,907 @@
     {
       "id": "aab7a5be-239f-4c74-af9b-7ca884f62cd7",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "javascript: métodos de array",
+        "javascript métodos de array",
+        "métodos de array em JavaScript",
+        "forEach em JavaScript",
+        "map em JavaScript",
+        "ordenação de arrays em JavaScript",
+        "filtros de arrays em JavaScript",
+        "manipulação do DOM com JavaScript",
+        "desenvolvimento web",
+        "manipulação de dados em arrays",
+        "programação funcional em JavaScript",
+        "melhores práticas em JavaScript",
+        "desenvolvimento de aplicativos web"
+      ],
+      "courseTitle": "JavaScript: métodos de array",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/javascript-metodos-array/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/javascript-metodos-array",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "db5d11a6-1b76-4a42-a731-c09178874b61",
+          "courseTopic": "Utilização dos Principais Métodos de Array no JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "0539aae2-7f7b-49e5-9833-5a01e00e684d",
+          "courseTopic": "Aplicação de Funções em Todos os Elementos da Lista com forEach"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "6a3421ca-8a11-4d3b-b89d-128b7f687bbb",
+          "courseTopic": "Manipulação de Valores para Criar uma Nova Lista com map"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a6b8e90e-52bf-492e-84f9-e04df3518435",
+          "courseTopic": "Aplicação de Ordenação e Filtros em Projetos JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "70ac1609-9b26-493d-a9d7-67a7a0f953c1",
+          "courseTopic": "Manipulação do DOM com Base nos Métodos de Array"
         }
       ]
     },
     {
       "id": "70ec3a73-7f02-4de5-9fa2-7758317a4b0f",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "javascript: consumindo e tratando dados de uma API",
+        "javascript consumindo dados de API",
+        "fetch API em JavaScript",
+        "JavaScript assíncrono",
+        "Promises em JavaScript",
+        "async await em JavaScript",
+        "tratamento de erros em requisições de API",
+        "página dinâmica em JavaScript",
+        "consumo de API com JavaScript",
+        "desenvolvimento web",
+        "programação assíncrona",
+        "manipulação de dados de API",
+        "desenvolvimento de aplicativos web"
+      ],
+      "courseTitle": "JavaScript: consumindo e tratando dados de uma API",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/javascript-consumindo-tratando-dados-api/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/javascript-consumindo-tratando-dados-api",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "75e23c11-c62d-4aa6-9b16-16e49cc3f47c",
+          "courseTopic": "Compreensão do Funcionamento do JavaScript Assíncrono"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "d6f00a42-c5ce-44e0-bd29-c2f8bde9c9d6",
+          "courseTopic": "Consumo da API do ViaCEP Utilizando o Fetch API"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "efa6e408-3e0e-4960-885e-0cd711870f05",
+          "courseTopic": "Conhecimento das Promises e seus Métodos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "772d31f6-6c93-48b6-95cf-70dfefbd1b41",
+          "courseTopic": "Utilização do Async/Await para Criar Funções Assíncronas"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3da7df92-21e0-4a62-a4c6-cc35d0f609bf",
+          "courseTopic": "Tratamento de Possíveis Erros de Requisição Retornados da API"
+        },
+        {
+          "id": "e9b07cc9-3fe4-44a4-83a7-4cc664ac6d9e",
+          "courseTopic": "Transformação de uma Página de Formulário Estática em uma Página Dinâmica"
         }
       ]
     },
     {
       "id": "b6b6e917-898d-4f92-a977-1937eed0fd26",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "javascript: validações e reconhecimento de voz",
+        "javascript validações e reconhecimento de voz",
+        "validações com JavaScript",
+        "projeto web com HTML, CSS e JavaScript",
+        "funções build-in em JavaScript",
+        "reconhecimento de voz com JavaScript",
+        "manipulação de dados em JavaScript",
+        "manipulação de eventos em JavaScript",
+        "manipulação de elementos com JavaScript",
+        "desenvolvimento web",
+        "criação de projetos web",
+        "programação web",
+        "desenvolvimento de aplicativos web"
+      ],
+      "courseTitle": "JavaScript: validações e reconhecimento de voz",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/javascript-validacoes-reconhecimento-voz/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/javascript-validacoes-reconhecimento-voz",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "fcc7d57d-10a3-4ea4-83e2-63df119c603e",
+          "courseTopic": "Aplicação de Validações em Projetos com JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "aa944ac7-c56c-442e-aed7-8b617de89c74",
+          "courseTopic": "Criação de um Projeto com HTML, CSS e JavaScript a partir do Zero"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "256a1ea6-e48d-4c94-a9e5-5c1eb19d2bf2",
+          "courseTopic": "Utilização de Funções Built-in do JavaScript para Funcionalidades do Projeto"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "94b0e50c-4f8d-432b-8f0b-c8019a5b0c6f",
+          "courseTopic": "Aplicação de Reconhecimento de Voz com JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f6a4c0b2-e72e-45c1-8d94-689c3a9c07e4",
+          "courseTopic": "Manipulação de Dados, Eventos e Elementos com JavaScript"
         }
       ]
     },
     {
       "id": "c113d0a8-691a-4b38-bb1b-edb800069279",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "javascript na web: armazenando dados no navegador",
+        "javascript na web armazenando dados no navegador",
+        "interação com o LocalStorage",
+        "armazenamento de dados no navegador com JavaScript",
+        "manipulação de objetos em JavaScript",
+        "registro de dados no LocalStorage",
+        "páginas web que armazenam dados",
+        "comportamento do LocalStorage",
+        "desenvolvimento web",
+        "armazenamento de informações no navegador",
+        "programação web",
+        "desenvolvimento de aplicativos web"
+      ],
+      "courseTitle": "JavaScript na Web: armazenando dados no navegador",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/javascript-web-armazenando-dados-navegador/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/javascript-web-armazenando-dados-navegador",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "02b1b9d1-7d1c-4d11-bc0a-5c700b45b45f",
+          "courseTopic": "Interação com a Página e o LocalStorage"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "d844441b-2b6d-4b1e-b6e7-5e83aa147e07",
+          "courseTopic": "Criação de Objetos no JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7cc1e80b-d2ca-45b9-bfb7-9bde0d6c066d",
+          "courseTopic": "Registro de Dados no LocalStorage"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "8c7b29c7-c3a9-477a-885e-81b62b1eb6de",
+          "courseTopic": "Implementação de Páginas Web que Armazenam Dados"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "ce1a29b0-546c-4904-a439-9cc7f66ac142",
+          "courseTopic": "Compreensão do Comportamento do LocalStorage"
         }
       ]
     },
     {
       "id": "7d6cee10-0ab8-4280-a15a-6c069bc160a5",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "javascript: manipulando o DOM",
+        "javascript manipulando o DOM",
+        "interação do JavaScript com HTML e CSS",
+        "página web dinâmica com JavaScript",
+        "manipulação do DOM com JavaScript",
+        "manipulação de dados em JavaScript",
+        "manipulação de eventos em JavaScript",
+        "desenvolvimento web",
+        "programação web",
+        "desenvolvimento de aplicativos web",
+        "funções em JavaScript"
+      ],
+      "courseTitle": "JavaScript: manipulando o DOM",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/javascript-manipulando-dom/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/javascript-manipulando-dom",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "e10f5f5b-d6fc-4ec0-bb42-f3190e981e8b",
+          "courseTopic": "Interação do JavaScript com HTML e CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "92aef7e7-01d1-4b45-9b3e-ea99c16a5e93",
+          "courseTopic": "Utilização do JavaScript em uma Página Real"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "593f3f6a-1b99-40e1-ae25-e92de99942cf",
+          "courseTopic": "Criação de Páginas Dinâmicas com JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "543a8aae-46f2-4912-a0f4-bd73168ab289",
+          "courseTopic": "Manipulação de Dados, Eventos e Elementos com JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "9a8dab5c-c76c-4644-bdb3-2d399ad25a48",
+          "courseTopic": "Exploração, Criação e Declaração de Funções no JavaScript"
         }
       ]
     },
     {
       "id": "3a70aedf-dbec-476a-8059-bcc45888ad0a",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "css: dispondo elementos com flexbox e grid",
+        "css dispondo elementos com flexbox e grid",
+        "posicionamento de elementos com flexbox",
+        "flexbox e suas propriedades",
+        "layout de cabeçalho com flexbox",
+        "limitações do flexbox",
+        "diferença entre flexbox e grid",
+        "layout de cartão com propriedades do grid",
+        "layout no Figma",
+        "layout responsivo",
+        "resolução de problemas com propriedades de grid",
+        "repetição de código",
+        "unidades de medida em CSS",
+        "vantagens do grid layout",
+        "planejamento de construção de páginas",
+        "design responsivo",
+        "desenvolvimento web",
+        "layout de páginas web"
+      ],
+      "courseTitle": "CSS: dispondo elementos com Flexbox e Grid",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/css-dispondo-elementos-flexbox-grid/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/css-dispondo-elementos-flexbox-grid",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f55d7603-1fbd-4c4a-9300-27f82e4a5d84",
+          "courseTopic": "Relação entre Flexbox e Posicionamento de Elementos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "9f5e2e2d-5ff5-4eb0-92e0-6f5f6550f7ce",
+          "courseTopic": "Utilização do Flexbox para Posicionar Elementos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "8da20c8d-bdd5-4f0a-b53f-6b7a5ce46d48",
+          "courseTopic": "Criação de um Cabeçalho com Ferramentas do Flexbox"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3094b6a7-6b80-4ef5-bbda-96c5437e874c",
+          "courseTopic": "Diferenças entre Flexbox e Grid"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "321c5a2b-72f2-4a4a-8c47-d4c811dadd3a",
+          "courseTopic": "Planejamento de Construção de Páginas com Flexbox e Grid"
         }
       ]
     },
     {
       "id": "9692b981-951f-4f36-ae4b-7c61bceeb268",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "git e github: controle e compartilhe seu código",
+        "git e github controle e compartilhe seu código",
+        "controle de versão com git",
+        "controle de versão com github",
+        "sistema de controle de versão",
+        "salvamento de código em diferentes versões",
+        "recuperação de código em diferentes versões",
+        "resolução de merges e conflitos",
+        "trabalho com branches no git",
+        "desenvolvimento colaborativo com git",
+        "gerenciamento de código fonte",
+        "controle de versão de projetos",
+        "desenvolvimento de software",
+        "controle de código em equipe"
+      ],
+      "courseTitle": "Git e Github: controle e compartilhe seu código",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/git-github-controle-de-versao/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/git-github-controle-de-versao",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "442c4b99-ec29-416a-b3b3-c89bf58e8852",
+          "courseTopic": "Compreensão do Git e do GitHub"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a8d08b3b-9839-4e16-8054-df5c1446c32f",
+          "courseTopic": "Utilização de um Sistema de Controle de Versão"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7d76820b-1b6a-4e85-b198-2d0c5a7e37f2",
+          "courseTopic": "Salvamento e Recuperação de Código em Diferentes Versões"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c28cced0-4a6f-45bf-b1b1-57a7daa0c63e",
+          "courseTopic": "Resolução de Conflitos e Merges"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "31d19af1-482e-4d02-b671-64ecdb8541ec",
+          "courseTopic": "Trabalho com Diferentes Branches"
         }
       ]
     },
     {
       "id": "d88a2cb5-5deb-4ae7-b5ea-7794d8b32b4a",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "javascript e html: pratique lógica com desenhos, animações e um jogo",
+        "javascript e html pratique lógica com desenhos, animações e um jogo",
+        "javascript e html lógica de programação",
+        "prática de lógica com javascript",
+        "uso de funções em javascript",
+        "canvas em javascript",
+        "geração de desenhos e animações com canvas",
+        "revisão de conceitos de programação",
+        "criação de jogos com javascript",
+        "programação de jogos",
+        "desenvolvimento de jogos web",
+        "lógica de programação",
+        "javascript avançado",
+        "desenvolvimento web",
+        "aprendizado prático de javascript",
+        "criação de animações em javascript"
+      ],
+      "courseTitle": "JavaScript e HTML: pratique lógica com desenhos, animações e um jogo",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/logica-programacao-pratica-com-desenho-animacoes-em-jogo/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/logica-programacao-pratica-com-desenho-animacoes-em-jogo",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "1c14b21b-3d12-4313-9b13-3e832c166a33",
+          "courseTopic": "Prática de Lógica com JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a2e974e9-cd54-4c7e-8ddc-52c58f01b4a5",
+          "courseTopic": "Utilização de Funções para Simplificar o Trabalho"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "86753fa4-83e5-4130-b653-09099c64c103",
+          "courseTopic": "Exploração do Canvas para Desenhos e Animações"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "10e108f1-af20-4b66-a045-88d0da0a53ed",
+          "courseTopic": "Revisão de Conceitos Importantes na Programação"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "bf872e9e-9be3-4c1c-9265-580d75e2c128",
+          "courseTopic": "Criação do Primeiro Jogo!"
         }
       ]
     },
     {
       "id": "a2159008-e928-46e7-a3ea-2927b162ee21",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "javascript e html: desenvolva um jogo e pratique lógica de programação",
+        "javascript e html desenvolva um jogo e pratique lógica de programação",
+        "javascript e html desenvolvimento de jogos",
+        "prática de lógica de programação com javascript",
+        "iniciação à programação em javascript",
+        "variáveis em javascript",
+        "uso de variáveis em programação",
+        "laços em javascript",
+        "loops em javascript",
+        "for loop em javascript",
+        "while loop em javascript",
+        "desenvolvimento de jogos web",
+        "aprendizado prático de javascript",
+        "aprendizado de lógica de programação",
+        "programação para iniciantes",
+        "compartilhamento de projetos de programação",
+        "apresentação de programas"
+      ],
+      "courseTitle": "JavaScript e HTML: desenvolva um jogo e pratique lógica de programação",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/logica-programacao-javascript-html/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/logica-programacao-javascript-html",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b001383d-cbf9-47a7-990f-550f0e14e3e0",
+          "courseTopic": "Primeiros Passos na Programação com JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "01d0f14d-0d61-4a6b-98d5-86065f5a4ec3",
+          "courseTopic": "Introdução à Programação no Navegador"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f2d7b8f3-e3a5-4f03-8770-2e84de2be477",
+          "courseTopic": "Entendimento de Variáveis e Seu Uso"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "245f119a-b6b0-4df6-9035-05775a408d61",
+          "courseTopic": "Execução de Tarefas Repetitivas com Laços e Loops"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "48c83c5e-c6f5-4479-92b3-60bb18a18397",
+          "courseTopic": "Compartilhando e Demonstrando Seus Programas"
         }
       ]
     },
     {
       "id": "230e65f7-3967-4607-a1eb-195d81d180d8",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "javascript na web: validação de formulários e html5",
+        "javascript na web validação de formulários e html5",
+        "validação de formulários em html5",
+        "validação de formulários com javascript",
+        "validação de campos de formulário",
+        "customização de validações de formulário",
+        "preenchimento automático de campos de endereço",
+        "requisições à API ViaCEP",
+        "máscara monetária em campos de preço",
+        "desenvolvimento web",
+        "programação web",
+        "validação de entrada de dados",
+        "formulários interativos",
+        "aplicação de máscaras em formulários"
+      ],
+      "courseTitle": "JavaScript na Web: validação de Formulários e HTML5",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/javascript-web-validacao-formularios-html5/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/javascript-web-validacao-formularios-html5",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "eeeb5d41-d9cc-4d33-b7ad-24b857321ab2",
+          "courseTopic": "Validação de Formulários com HTML5"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "8b61a88e-d6d7-47c2-bda3-51e6a71f450b",
+          "courseTopic": "Criação de Validações Personalizadas com JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "e9f2c6f5-86aa-4b74-8791-43224162be45",
+          "courseTopic": "Preenchimento Automático de Campos de Endereço"
         },
         {
-          "id": "",
-          "courseTopic": ""
-        },
-        {
-          "id": "",
-          "courseTopic": ""
+          "id": "3632d68f-eb38-4ac9-8b99-27d40154e255",
+          "courseTopic": "Aplicação de Máscara Monetária em Campos de Preço"
         }
       ]
     },
     {
       "id": "7c0c10fe-82f4-47c4-997a-2463fceff49f",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "expressões regulares: capturando textos de forma mágica",
+        "expressões regulares capturando textos de forma mágica",
+        "regex",
+        "validação com expressões regulares",
+        "formulários HTML",
+        "identificação de CPF",
+        "identificação de CEP",
+        "identificação de emails",
+        "documentos com expressões regulares",
+        "criação de expressões regulares eficientes",
+        "classes em expressões regulares",
+        "âncoras em expressões regulares",
+        "quantifiers em expressões regulares",
+        "grupos em expressões regulares",
+        "uso de expressões regulares em programação",
+        "linguagem de programação",
+        "manipulação de texto com regex"
+      ],
+      "courseTitle": "Expressões regulares: capturando textos de forma mágica",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/expressoes-regulares/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/expressoes-regulares",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3eb9f06d-6826-44c4-8a6b-2044e44bb0c6",
+          "courseTopic": "Introdução às Expressões Regulares"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7ccac2c0-704f-465a-8c22-4c859dd0b0cd",
+          "courseTopic": "Validação de Formulários HTML com Expressões Regulares"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c7983da3-ecf3-43da-b61a-534c0fb87e64",
+          "courseTopic": "Identificação de CPF, CEP, E-mails e Outros Documentos com Expressões Regulares"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "12d1486c-d5e7-45e2-a1bf-049c9a37a272",
+          "courseTopic": "Criação de Expressões Regulares Eficientes"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "d571a4a9-5a69-4a8f-974e-7a9ef91f37c1",
+          "courseTopic": "Utilização de Classes, Âncoras, Quantifiers e Grupos em Expressões Regulares"
         }
       ]
     },
     {
       "id": "ed44c036-673e-4434-9d6d-e30967864287",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "css grid: simplificando layouts",
+        "css grid simplificando layouts",
+        "simplificação de layouts",
+        "criação de layouts com css grid",
+        "posicionamento de elementos",
+        "alinhamento de elementos",
+        "templates com css grid",
+        "eficiência em layouts",
+        "criação de templates com css grid",
+        "posicionamento de elementos com css grid",
+        "início e término de elementos com css grid",
+        "desenvolvimento web",
+        "design de layouts",
+        "web design",
+        "layout responsivo",
+        "aprendizado de css grid"
+      ],
+      "courseTitle": "CSS Grid: simplificando layouts",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/css-grid-layout/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/css-grid-layout",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "4b14a925-e798-44e2-b7a1-60583cfa8577",
+          "courseTopic": "Introdução ao CSS Grid"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "beec69df-597d-45e5-8ff2-7a64a5ec1e4b",
+          "courseTopic": "Posicionamento de Elementos com Facilidade"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "9e27d9a7-557d-4746-8a02-299de4a87d2b",
+          "courseTopic": "Utilização do Grid para Calcular e Alinhar Elementos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c4e0550e-3d23-4b64-84f2-d0a6d890f872",
+          "courseTopic": "Criação de Templates Eficientes e Simples"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "6fb3ce87-6a69-4d58-9e22-480d07ef0c3a",
+          "courseTopic": "Controle Preciso de Posicionamento e Tamanho com o Grid"
         }
       ]
     },
     {
       "id": "72d7790e-b071-44e3-9f5a-682da00f13b4",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "layouts responsivos: trabalhando com layouts mobile",
+        "layouts responsivos trabalhando com layouts mobile",
+        "desenvolvimento de páginas web",
+        "Emmet",
+        "agilização de escrita de código",
+        "variáveis CSS",
+        "códigos semânticos",
+        "acessibilidade",
+        "SEO",
+        "adaptação de layouts",
+        "responsividade web",
+        "desenvolvimento web",
+        "design responsivo",
+        "web design",
+        "melhores práticas em design responsivo",
+        "código semântico em HTML e CSS"
+      ],
+      "courseTitle": "Layouts Responsivos: trabalhando com layouts mobile",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/mobile-first-layouts-responsivos/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/mobile-first-layouts-responsivos",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "cc2a85de-4489-4f6a-9401-e1f6b73a6bf3",
+          "courseTopic": "Introdução ao Desenvolvimento de Páginas Web"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "2e73d865-9e8e-4d64-9b6d-3c14d4243d35",
+          "courseTopic": "Usando o Emmet para Acelerar a Escrita de Códigos"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "4323463a-b2d3-463e-9d6d-507f5f01a71b",
+          "courseTopic": "Melhorando a Manutenção de Códigos com Variáveis CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "9e14b0f9-bf87-48bf-a2f6-10d80a5f7ce7",
+          "courseTopic": "Escrevendo Códigos Semânticos para Acessibilidade e SEO"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "9371a748-4653-4930-b6a1-1d885411e9c7",
+          "courseTopic": "Aprimorando a Responsividade e Adaptação de Layouts"
         }
       ]
     },
     {
       "id": "0431e43a-0941-4bf5-8b90-d9c1644535f2",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "flexbox: posicione elementos na tela",
+        "flexbox posicione elementos na tela",
+        "posicionamento de elementos",
+        "especificação flexible box",
+        "propriedades do flexbox",
+        "layout flexível",
+        "substituição de float",
+        "substituição de inline",
+        "substituição de inline-block",
+        "site responsivo com flexbox",
+        "desenvolvimento web",
+        "design responsivo",
+        "web design",
+        "aprendizado de flexbox"
+      ],
+      "courseTitle": "Flexbox: posicione elementos na tela",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/posicione-elementos-com-flexbox/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/posicione-elementos-com-flexbox",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "e2a5b636-7a0e-4a20-afbe-6c3a5ed37b32",
+          "courseTopic": "Introdução ao Flexbox e suas Vantagens"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "d2f19f47-1d42-4872-b499-6c2e3a8de3a5",
+          "courseTopic": "Explorando Propriedades do Flexbox para Posicionamento"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b5370b9d-501c-42e7-8c4c-891bc0b10d8e",
+          "courseTopic": "Substituição de Float, Inline e Inline-Block com Flexbox"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "72adef57-21b6-41a9-854a-ea10f66c41d2",
+          "courseTopic": "Desenvolvimento de um Site Responsivo com Flexbox"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "9c5a176e-d0f3-4c3b-81cd-c674a90ca81c",
+          "courseTopic": "Dicas e Truques para Usar o Flexbox com Eficiência"
         }
       ]
     },
     {
       "id": "e7150106-9e36-4cd1-88ee-955dd40f5239",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "seo: otimização de sites",
+        "seo otimização de sites",
+        "otimização de sites",
+        "otimização para mecanismos de busca",
+        "algoritmo de busca",
+        "google",
+        "buscadores",
+        "otimizações de seo",
+        "melhores práticas de seo",
+        "melhorar a visibilidade do site",
+        "ranqueamento nos motores de busca",
+        "aumentar o tráfego orgânico",
+        "métricas de seo",
+        "ferramentas de seo",
+        "desenvolvimento web",
+        "marketing digital",
+        "aprendizado de seo"
+      ],
+      "courseTitle": "SEO: otimização de sites",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/seo-otimizacao-sites/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/seo-otimizacao-sites",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "25c11c14-8a0c-4a60-a1a0-2427c1d3c8e1",
+          "courseTopic": "Introdução ao SEO e sua Importância"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "c7f12a44-03ae-4b82-9a85-d36d8265c841",
+          "courseTopic": "Funcionamento dos Algoritmos de Buscadores"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "8b628ffa-97d2-4db6-b3b3-7f244da193e0",
+          "courseTopic": "Principais Técnicas de Otimização de SEO"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "92710c28-1ea3-4cfb-a037-3b6aee642b62",
+          "courseTopic": "Implementação de Otimizações de SEO em um Site"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "440439f6-cfc5-42ab-bbe3-6d9d38c4a8d1",
+          "courseTopic": "Mensuração de Resultados e Ferramentas de SEO"
         }
       ]
     },
     {
       "id": "2b7eb852-d3df-4d93-970e-176dd4bf25fc",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "acessibilidade web parte 1: tornando seu front-end inclusivo",
+        "acessibilidade web parte 1 tornando seu front-end inclusivo",
+        "acessibilidade web parte tornando seu front-end inclusivo",
+        "acessibilidade web tornando seu front-end inclusivo",
+        "acessibilidade web",
+        "inclusão digital",
+        "front-end inclusivo",
+        "leitor de tela",
+        "pessoas com deficiência visual",
+        "acessibilidade na web",
+        "testes de acessibilidade",
+        "NVDA",
+        "desenvolvimento web acessível",
+        "melhorias de acessibilidade",
+        "código acessível",
+        "design inclusivo",
+        "técnicas front-end",
+        "usabilidade",
+        "web design acessível",
+        "aprendizado de acessibilidade web"
+      ],
+      "courseTitle": "Acessibilidade web parte 1: tornando seu front-end inclusivo",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/acessibilidade-web-front-end/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/acessibilidade-web-front-end",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3f01e89f-0f85-4db0-848f-4ac7e68fca7c",
+          "courseTopic": "Introdução à Acessibilidade Web"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "cc417eaa-12d2-4779-b43b-4ee8da14e18d",
+          "courseTopic": "Usando Leitores de Tela para Testar Acessibilidade"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3dcb0ca4-4fc5-4f39-b6f6-330b1559afdd",
+          "courseTopic": "Práticas para Melhorar a Acessibilidade Web"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "1c786a3d-3f7c-41d7-a28f-3486b9e109b0",
+          "courseTopic": "Testando e Corrigindo Problemas de Acessibilidade"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "fcb860ea-4aa4-482a-8ac0-9ca35aa0f45f",
+          "courseTopic": "Implementando Técnicas de Front-end Inclusivo"
         }
       ]
     },
     {
       "id": "424cca83-f47e-45d2-88ff-522fa398f894",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "arquitetura CSS: descomplicando os problemas",
+        "arquitetura CSS descomplicando os problemas",
+        "organização de arquivos CSS",
+        "simplificação de CSS",
+        "boas práticas de CSS",
+        "metodologias de CSS",
+        "CSS responsivo",
+        "desenvolvimento web",
+        "web design",
+        "otimização de CSS",
+        "melhorias de desempenho",
+        "aprendizado de CSS"
+      ],
+      "courseTitle": "Arquitetura CSS: descomplicando os problemas",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/arquitetura-css/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/arquitetura-css",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "2432dccc-4bb1-4b96-8816-d4d49b69e4dd",
+          "courseTopic": "Entendendo a Importância da Arquitetura CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "e4c51c1c-51b0-49c5-92e4-8bf226a72de5",
+          "courseTopic": "Metodologias de Organização de CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "e4eac1ec-20d1-4922-8f3d-8d7e0c812422",
+          "courseTopic": "SASS e Pré-processadores de CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "f1331e52-243a-45b1-9eb2-9f2830c35e10",
+          "courseTopic": "Design Responsivo e CSS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "3dd4ed69-b3d1-419b-98e6-24c1c3080e9e",
+          "courseTopic": "Desenvolvimento de Projetos CSS na Prática"
         }
       ]
     },
     {
       "id": "bced5496-a7ef-452f-acad-a95d5c54eb33",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "javascript: programação orientada a objetos",
+        "javascript programação orientada a objetos",
+        "programação orientada a objetos",
+        "OO em JavaScript",
+        "conceitos de OO",
+        "funções e protótipos em JavaScript",
+        "princípios de classe e objeto",
+        "herança em JavaScript",
+        "encapsulamento",
+        "polimorfismo",
+        "padrões SOLID",
+        "desenvolvimento web",
+        "aprendizado de programação orientada a objetos",
+        "node.js"
+      ],
+      "courseTitle": "JavaScript: programação orientada a objetos",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/javascript-passos-programacao-orientada-objetos/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/javascript-passos-programacao-orientada-objetos",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a1751977-9127-49b9-9b1b-e10911c24f62",
+          "courseTopic": "Introdução à Programação Orientada a Objetos (POO)"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7b01a3c5-29d9-4150-b378-dcf8ef545a88",
+          "courseTopic": "Conceitos Fundamentais de POO em JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "1dbcd871-08a4-4ec4-8df0-62294c59e775",
+          "courseTopic": "Herança e Polimorfismo em JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a9c1e0f0-69d6-4b87-bdfb-6e92981f9d91",
+          "courseTopic": "Encapsulamento e Abstração de Dados"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "98126829-e3e0-4b5d-9f9e-02be10162d1c",
+          "courseTopic": "Princípios SOLID na Programação Orientada a Objetos"
         }
       ]
     },
     {
       "id": "cbca91de-7dcd-41a9-af78-3bb4a4522f35",
       "tags": [""],
-      "filter": [""],
-      "courseTitle": "",
+      "filter": [
+        "NodeJS: criando sua biblioteca",
+        "NodeJS criando sua biblioteca",
+        "desenvolvimento de bibliotecas",
+        "importação de código aberto",
+        "promessas em NodeJS",
+        "código assíncrono",
+        "expressões regulares em JavaScript",
+        "comandos de terminal",
+        "requisições HTTP em NodeJS",
+        "manipulação de respostas HTTP",
+        "testes de unidade com Jest",
+        "desenvolvimento web",
+        "aprendizado de NodeJS"
+      ],
+      "courseTitle": "NodeJS: criando sua biblioteca",
       "courseLicensed": "Alura",
       "licensedLink": "https://www.alura.com.br/",
-      "certificateLink": "",
-      "courseLink": "",
+      "certificateLink": "https://cursos.alura.com.br/user/gustavohpereira1-6/course/nodejs-criando-biblioteca/formalCertificate",
+      "courseLink": "https://cursos.alura.com.br/course/nodejs-criando-biblioteca",
       "courseTopics": [
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "b5447b87-9127-49b9-9b1b-e10911c24f62",
+          "courseTopic": "Importação e Utilização de Código de Repositórios de Código Aberto"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "7a01a3c5-29d9-4150-b378-dcf8ef545a88",
+          "courseTopic": "Trabalhando com Promessas e Código Assíncrono em NodeJS"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "1dcdb871-08a4-4ec4-8df0-62294c59e775",
+          "courseTopic": "Expressões Regulares em JavaScript"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "a9c1e0f0-69d6-4b87-bdfb-6e92981f9d91",
+          "courseTopic": "Criação de Comandos para o Terminal"
         },
         {
-          "id": "",
-          "courseTopic": ""
+          "id": "98126829-e3e0-4b5d-9f9e-02be10162d1c",
+          "courseTopic": "Requisições HTTP e Manipulação de Respostas em NodeJS"
         }
       ]
     },
