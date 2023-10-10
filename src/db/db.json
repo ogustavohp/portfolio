@@ -32,7 +32,7 @@
         {
           "title": "Olá! Eu sou o Gustavo",
           "text": [
-            "Olá, me chamo Gustavo, tenho 24 anos e sou apaixonado por tecnologia e programação. Com 14 anos tive o meu primeiro contato com programação onde fiz um servidor pirata de Metin2 para jogar com alguns amigos e por um tempo eu fiz algumas modificações em alguns addons do WoW (world of warcraft) que são na linguagem lua. Em 2019 entrei na faculdade de engenharia química na UFV(universidade federal de viçosa) onde passei pela disciplina de INF 100 (Introdução à programação) em python, e em 2022 eu decidi me tornar um programador de fato, hoje ja conclui mais de 100 cursos de programação com certificados e trabalho como freelancer."
+            "Olá, me chamo Gustavo, tenho 24 anos e sou apaixonado por tecnologia e programação. Com 14 anos tive o meu primeiro contato com programação onde fiz um servidor pirata de Metin2 para jogar com alguns amigos e por um tempo eu fiz algumas modificações em alguns addons do WoW (world of warcraft) que são na linguagem lua. Em 2019 entrei na faculdade de engenharia química na UFV (universidade federal de viçosa) onde passei pela disciplina de INF 100 (Introdução à programação) em python, e em 2022 eu decidi me tornar um programador de fato, hoje ja conclui mais de 100 cursos de programação com certificados e trabalho como freelancer."
           ],
           "id": "a59c1d4e-2b58-4c44-bde7-fda080264e7b"
         }
@@ -41,7 +41,7 @@
         {
           "title": "Historia e Formação",
           "text": [
-            "Desde os meus primeiros anos, sempre fui fascinado pelo potencial infinito da tecnologia.Aos 9 anos eu ganhei o meu primeiro computador, lembro-me de ter desmontado e remontado ele varias vezes, tentando entender como cada componente se encaixava e fazia a mágica acontecer. No entanto, minha verdadeira paixão pela programação foi acendida aos 14 anos, quando me aventurei a criar um servidor pirata de Metin2 para jogar com alguns amigos. Foi uma experiência desafiadora, mas incrivelmente gratificante, que me mostrou o poder de transformar linhas de código em algo tangível e funcional.",
+            "Desde os meus primeiros anos, sempre fui fascinado pelo potencial infinito da tecnologia. Aos 9 anos eu ganhei o meu primeiro computador, lembro-me de ter desmontado e remontado ele varias vezes, tentando entender como cada componente se encaixava e fazia a mágica acontecer. No entanto, minha verdadeira paixão pela programação foi acendida aos 14 anos, quando me aventurei a criar um servidor pirata de Metin2 para jogar com alguns amigos. Foi uma experiência desafiadora, mas incrivelmente gratificante, que me mostrou o poder de transformar linhas de código em algo tangível e funcional.",
             "Minha jornada educacional me levou à Universidade Federal de Viçosa (UFV), onde iniciei o curso de Engenharia Química em 2019. No entanto, enquanto avançava no curso, ficou cada vez mais claro para mim que minha verdadeira paixão estava em programação. Em 2022, após um período de reflexão e avaliação, tomei a decisão ousada de deixar a engenharia química no oitavo período e me dedicar exclusivamente à programação.",
             "Desde então, mergulhei de cabeça no vasto oceano da programação, navegando por uma miríade de linguagens, frameworks e tecnologias. Concluí mais de 100 cursos de programação, acumulando orgulhosamente certificados de mais de 70 deles. Cada curso, cada projeto e cada desafio me trouxeram um passo mais perto de realizar meu sonho de ser um programador de sucesso.",
             " Minha jornada até aqui tem sido incrivelmente emocionante, repleta de aprendizado, conquistas e uma paixão inabalável pelo que faço. Estou ansioso para trabalhar com você, compartilhar minha história e habilidades, e juntos, fazer do mundo um lugar melhor através da tecnologia."
@@ -508,7 +508,7 @@
       "topics": {
         "id": "b79b3831-b935-4cd7-b605-378bd1d9c684",
         "title": "Back-end",
-        "text": "Como desenvolvedor Node.js, uma das ferramentas que valorizo para criar aplicativos web escaláveis e de alto desempenho é o Fastify. O Fastify é uma estrutura (framework) web de código aberto, construída com foco na velocidade e eficiência, projetada para desenvolver APIs e aplicativos web de forma rápida e segura. Eu utilizo o fastify pois ele me permite criar APIs que precisam atender a altas demandas de tráfego e escalabilidade"
+        "text": "Como desenvolvedor Node.js, uma das ferramentas que valorizo para criar aplicativos web escaláveis e de alto desempenho é o Fastify. O Fastify é uma estrutura (framework) web de código aberto, construída com foco na velocidade e eficiência, projetada para desenvolver APIs e aplicativos web de forma rápida e segura. Eu utilizo o fastify pois ele me permite criar APIs que precisam atender a altas demandas de tráfego e escalabilidade."
       }
     },
     {
