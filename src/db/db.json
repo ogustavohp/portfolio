@@ -26,6 +26,129 @@
     "balloonsCard": {
       "topText": "Inglês",
       "botText": "Intermediário"
+    },
+    "pageText": {
+      "h1": [
+        {
+          "title": "Olá! Eu sou o Gustavo",
+          "text": [
+            "Olá, me chamo Gustavo, tenho 24 anos e sou apaixonado por tecnologia e programação. Com 14 anos tive o meu primeiro contato com programação onde fiz um servidor pirata de Metin2 para jogar com alguns amigos e por um tempo eu fiz algumas modificações em alguns addons do WoW (world of warcraft) que são na linguagem lua. Em 2019 entrei na faculdade de engenharia química na UFV(universidade federal de viçosa) onde passei pela disciplina de INF 100 (Introdução à programação) em python, e em 2022 eu decidi me tornar um programador de fato, hoje ja conclui mais de 100 cursos de programação com certificados e trabalho como freelancer."
+          ],
+          "id": "a59c1d4e-2b58-4c44-bde7-fda080264e7b"
+        }
+      ],
+      "h2": [
+        {
+          "title": "Historia e Formação",
+          "text": [
+            "Desde os meus primeiros anos, sempre fui fascinado pelo potencial infinito da tecnologia.Aos 9 anos eu ganhei o meu primeiro computador, lembro-me de ter desmontado e remontado ele varias vezes, tentando entender como cada componente se encaixava e fazia a mágica acontecer. No entanto, minha verdadeira paixão pela programação foi acendida aos 14 anos, quando me aventurei a criar um servidor pirata de Metin2 para jogar com alguns amigos. Foi uma experiência desafiadora, mas incrivelmente gratificante, que me mostrou o poder de transformar linhas de código em algo tangível e funcional.",
+            "Minha jornada educacional me levou à Universidade Federal de Viçosa (UFV), onde iniciei o curso de Engenharia Química em 2019. No entanto, enquanto avançava no curso, ficou cada vez mais claro para mim que minha verdadeira paixão estava em programação. Em 2022, após um período de reflexão e avaliação, tomei a decisão ousada de deixar a engenharia química no oitavo período e me dedicar exclusivamente à programação.",
+            "Desde então, mergulhei de cabeça no vasto oceano da programação, navegando por uma miríade de linguagens, frameworks e tecnologias. Concluí mais de 100 cursos de programação, acumulando orgulhosamente certificados de mais de 70 deles. Cada curso, cada projeto e cada desafio me trouxeram um passo mais perto de realizar meu sonho de ser um programador de sucesso.",
+            " Minha jornada até aqui tem sido incrivelmente emocionante, repleta de aprendizado, conquistas e uma paixão inabalável pelo que faço. Estou ansioso para trabalhar com você, compartilhar minha história e habilidades, e juntos, fazer do mundo um lugar melhor através da tecnologia."
+          ],
+          "id": "04f00536-70de-4037-bf09-003d6427b04e"
+        }
+      ],
+      "h3": [
+        {
+          "title": "Habilidades",
+          "text": [
+            "Minha jornada como programador me proporcionou uma sólida base de habilidades técnicas e competências que continuamente aprimoro e expando. Algumas das principais habilidades que adquiri incluem:"
+          ],
+          "skills": [
+            {
+              "title": "Linguagens de Programação",
+              "skill": [
+                {
+                  "name": "JavaScript",
+                  "description": "Sou proficiente em JavaScript, usando-o para desenvolvimento front-end e back-end. Também tenho experiência com bibliotecas e frameworks, como React e Node.js."
+                },
+                {
+                  "name": "TypeScript",
+                  "description": "Tenho experiência em TypeScript, uma extensão tipada do JavaScript, que melhora a qualidade e a manutenibilidade do código."
+                },
+                {
+                  "name": "Java e Python",
+                  "description": "Durante meus estudos universitários em Engenharia Química, adquiri conhecimento teórico em Java e Python. Embora não tenha usado essas linguagens de forma prática, compreendo os conceitos fundamentais e estou disposto a ampliar e aplicar esse conhecimento em projetos futuros se necessário."
+                }
+              ]
+            },
+            {
+              "title": "Desenvolvimento Web",
+              "skill": [
+                {
+                  "name": "Front-end",
+                  "description": "Utilizo HTML, CSS e bibliotecas como Bootstrap e Materialize para criar interfaces atraentes e responsivas."
+                },
+                {
+                  "name": "Back-end",
+                  "description": "Tenho experiência em desenvolvimento web, incluindo a criação de APIs RESTful usando Node.js."
+                }
+              ]
+            },
+            {
+              "title": "Desenvolvimento de Aplicativos Móveis",
+              "skill": [
+                {
+                  "name": "Expo",
+                  "description": "Tenho experiência no desenvolvimento de aplicativos móveis com o uso do Expo, uma ferramenta que simplifica o desenvolvimento de aplicativos móveis multiplataforma. Isso me permitiu criar aplicativos para dispositivos iOS e Android de forma eficaz."
+                }
+              ]
+            },
+            {
+              "title": "Banco de Dados",
+              "skill": [
+                {
+                  "name": "Bancos",
+                  "description": "Possuo conhecimento em bancos de dados SQL, incluindo MySQL e PostgreSQL."
+                },
+                {
+                  "name": "ORMs",
+                  "description": "Utilizo ORMs (Object-Relational Mapping) como o Prisma para facilitar a interação com bancos de dados, tornando a manipulação de dados mais eficiente e segura."
+                }
+              ]
+            },
+            {
+              "title": "Resolução de Problemas",
+              "skill": [
+                {
+                  "name": "Abordagem Analítica",
+                  "description": " Abordo desafios de programação com uma abordagem analítica, dividindo problemas complexos em partes menores e resolvendo cada parte de forma eficaz."
+                },
+                {
+                  "name": "Tomada de Decisão Fundamentada",
+                  "description": "Adoto uma abordagem fundamentada na tomada de decisões, pesando cuidadosamente as opções disponíveis antes de escolher a melhor solução."
+                },
+                {
+                  "name": "Aprendizado Contínuo",
+                  "description": "A resolução de problemas exige aprendizado constante, e estou sempre disposto a adquirir novos conhecimentos para enfrentar desafios de maneira mais eficaz."
+                }
+              ]
+            }
+          ],
+          "id": "7774b39a-d12d-41e2-8e98-eb6b80be8514"
+        }
+      ],
+      "h4": [
+        {
+          "title": "Abordagem de Desenvolvimento",
+          "text": [
+            "Encaro cada desafio de programação com uma abordagem analítica, dividindo problemas complexos em partes menores e resolvendo cada parte de forma eficaz.",
+            "Adoto uma abordagem fundamentada na razão, pesando cuidadosamente as opções disponíveis antes de escolher a melhor solução."
+          ],
+          "id": "e3b1bc22-d1f8-4126-85ff-c37da99903d2"
+        },
+        {
+          "title": "Filosofia",
+          "text": [""],
+          "id": "07397092-51a2-436e-a33a-915360ee9a2d"
+        },
+        {
+          "title": "Metas e Interesses Futuros",
+          "text": [""],
+          "id": "184007ef-18e4-4ebf-b382-3f5bf987e5db"
+        }
+      ]
     }
   },
   "skillsAndTechnologies": {
