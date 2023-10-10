@@ -36,7 +36,7 @@ export default function Page() {
             ))}
           </div>
         ))}
-        {aboutMe.h3.map((e) => (
+        {/* {aboutMe.h3.map((e) => (
           <div key={e.id} className="space-y-4">
             <Typography Tag="h3" apparentTag="h1" ornament>
               {e.title}
@@ -62,7 +62,7 @@ export default function Page() {
               </div>
             ))}
           </div>
-        ))}
+        ))} */}
         {aboutMe.h4.map((e) => (
           <div key={e.id} className="space-y-4">
             <Typography Tag="h4" apparentTag="h1" ornament>

@@ -139,13 +139,13 @@
           "id": "e3b1bc22-d1f8-4126-85ff-c37da99903d2"
         },
         {
-          "title": "Filosofia",
-          "text": [""],
-          "id": "07397092-51a2-436e-a33a-915360ee9a2d"
-        },
-        {
           "title": "Metas e Interesses Futuros",
-          "text": [""],
+          "text": [
+            "Minha principal meta é aprimorar constantemente minhas habilidades em programação e desenvolvimento de software. Tenho plena convicção de que o aprendizado é uma jornada interminável, o que me motiva a buscar incessantemente a atualização e a aquisição de conhecimento em novas linguagens, frameworks e tecnologias emergentes.",
+            "Outra meta crucial é dedicar meu tempo e energia para colaborar em projetos desafiadores e impactantes. Aspiro a fazer parte de equipes que estejam focadas em soluções inovadoras com o potencial de causar um impacto positivo na sociedade. Seja através do desenvolvimento de aplicativos que aprimorem a qualidade de vida das pessoas, da criação de soluções para desafios globais ou do envolvimento em projetos de código aberto, estou determinado a utilizar minha habilidade em programação para fazer a diferença.",
+            "Além dessas metas, tenho um forte interesse em compartilhar meu conhecimento e experiência com outros aspirantes a programadores. Tenho planos de participar ativamente de comunidades de desenvolvedores e de escrever artigos técnicos com o intuito de disseminar o conhecimento e fomentar a colaboração dentro da comunidade tecnológica.",
+            "Estou ansioso para encarar novos desafios, aprender continuamente e contribuir para o progresso da tecnologia e da sociedade como um todo."
+          ],
           "id": "184007ef-18e4-4ebf-b382-3f5bf987e5db"
         }
       ]
