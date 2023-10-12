@@ -13,6 +13,7 @@ export default function FormationSection() {
           <Course
             key={e.id}
             tags={e.tags}
+            usedIn={e.usedIn}
             courseTitle={e.courseTitle}
             courseLicensed={e.courseLicensed}
             licensedLink={e.licensedLink}
