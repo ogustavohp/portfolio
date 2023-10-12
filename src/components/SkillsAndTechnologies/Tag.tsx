@@ -26,6 +26,8 @@ export default function Tag({ skillName }: ITag) {
     ESLint: 'bg-indigo-700',
     Prettier: 'bg-cyan-700',
     Docker: 'bg-sky-500',
+    GitHub: 'bg-white',
+    Outros: 'bg-white',
   }
 
   if (
@@ -47,7 +49,9 @@ export default function Tag({ skillName }: ITag) {
     skillName === 'Expo' ||
     skillName === 'ESLint' ||
     skillName === 'Prettier' ||
-    skillName === 'Docker'
+    skillName === 'Docker' ||
+    skillName === 'GitHub' ||
+    skillName === 'Outros'
   ) {
     return (
       <div className="flex items-center gap-2 rounded-3xl border border-iconcolor-500 bg-slate-900 px-4 py-1">
