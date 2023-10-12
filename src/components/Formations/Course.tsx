@@ -1,9 +1,14 @@
 import React from 'react'
 import Button from '../Button'
 import Typography from '../Typography'
+import Tag from '../SkillsAndTechnologies/Tag'
 
 interface CourseProps {
-  tags: string[]
+  usedIn: string
+  tags: {
+    id: string
+    tag: string
+  }[]
   courseTitle: string
   courseLicensed: string
   licensedLink: string
@@ -16,6 +21,7 @@ interface CourseProps {
 }
 
 export default function Course({
+  usedIn,
   tags,
   courseTitle,
   courseLicensed,
@@ -24,7 +30,6 @@ export default function Course({
   courseLink,
   courseTopics,
 }: CourseProps) {
-  console.log(tags)
   return (
     <div className="flex max-w-[23.75rem] flex-col items-start gap-2">
       {/* titulo */}
@@ -34,6 +39,13 @@ export default function Course({
             {courseTitle}
           </Typography>
         </a>
+      </div>
+
+      {/* Tags */}
+      <div className="flex gap-2">
+        {tags.map((e) => (
+          <Tag key={e.id} skillName={e.tag} />
+        ))}
       </div>
 
       {/* licenciado */}
@@ -56,6 +68,10 @@ export default function Course({
           <li key={e.id}>{e.courseTopic}</li>
         ))}
       </ul>
+
+      <p className="text-gray-400">
+        Adquiri conhecimentos aplicáveis principalmente em: {usedIn}
+      </p>
 
       {/* Certificado */}
       <div className="flex">
