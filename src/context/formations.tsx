@@ -6,7 +6,11 @@ const formationsDb = db.formations
 
 interface Formation {
   id: string
-  tags: string[]
+  usedIn: string
+  tags: {
+    id: string
+    tag: string
+  }[]
   filter: string[]
   courseTitle: string
   courseLicensed: string
