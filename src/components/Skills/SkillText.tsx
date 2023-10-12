@@ -29,7 +29,11 @@ export default function SkillText({
       <Typography Tag="p" apparentTag="p">
         {text}
         {link && (
-          <a href={link} target="_blank" className="text-primary-500">
+          <a
+            href={link}
+            target="_blank"
+            className="text-primary-500 transition-all hover:text-primary-200"
+          >
             {linkText}
           </a>
         )}
