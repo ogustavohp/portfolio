@@ -9,7 +9,7 @@ export default function SkillInputSearch() {
   return (
     <InputSearch
       filterFunction={filterSkills}
-      placeholder={'Busque por tecnologia (Ex.: JavaScript, Time Vault)'}
+      placeholder={'Busque por tecnologia (Ex.: JavaScript, CSS3)'}
     />
   )
 }
