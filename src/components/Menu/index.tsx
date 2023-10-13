@@ -6,6 +6,7 @@ import Button from '../Button'
 import db from '@/db/db.json'
 import { Menu as MenuHamburger } from 'lucide-react'
 import colors from '@/db/colors.json'
+import { usePathname } from 'next/navigation'
 
 const menu = db.menu
 
@@ -14,6 +15,12 @@ export default function Menu() {
   function change() {
     setVisible(!visible)
   }
+  function disableMenuHamburger() {
+    setVisible(false)
+  }
+
+  const pathName = usePathname()
+
   return (
     <header>
       {/* parte superior */}
@@ -26,8 +33,13 @@ export default function Menu() {
           />
         </div>
         <div>
-          <Link href={'/'}>
-            <Typography Tag="h1" apparentTag="h1" ornament>
+          <Link href={'/'} onClick={disableMenuHamburger}>
+            <Typography
+              Tag="h1"
+              apparentTag="h1"
+              ornament
+              botBorder={pathName === '/'}
+            >
               Gustavo Pereira
             </Typography>
           </Link>
@@ -37,32 +49,52 @@ export default function Menu() {
             visible ? 'left-0' : '-left-full'
           } md:static md:w-auto md:flex-row md:items-center md:justify-center md:bg-transparent md:pb-0 md:pl-0`}
         >
-          <Link href={'/aboutme'} className="pt-4 md:pt-0" onClick={change}>
-            <Typography Tag="span" apparentTag="cardDifferencesTitle">
+          <Link
+            href={'/aboutme'}
+            className="pt-4 md:pt-0"
+            onClick={disableMenuHamburger}
+          >
+            <Typography
+              Tag="span"
+              apparentTag="cardDifferencesTitle"
+              botBorder={pathName === '/aboutme'}
+            >
               {menu.aboutMe}
             </Typography>
           </Link>
-          <Link href={'/formations'} onClick={change}>
-            <Typography Tag="span" apparentTag="cardDifferencesTitle">
+          <Link href={'/formations'} onClick={disableMenuHamburger}>
+            <Typography
+              Tag="span"
+              apparentTag="cardDifferencesTitle"
+              botBorder={pathName === '/formations'}
+            >
               {menu.formations}
             </Typography>
           </Link>
-          <Link href={'/skills'} onClick={change}>
-            <Typography Tag="span" apparentTag="cardDifferencesTitle">
+          <Link href={'/skills'} onClick={disableMenuHamburger}>
+            <Typography
+              Tag="span"
+              apparentTag="cardDifferencesTitle"
+              botBorder={pathName === '/skills'}
+            >
               {menu.skills}
             </Typography>
           </Link>
-          <Link href={'/projects'} onClick={change}>
-            <Typography Tag="span" apparentTag="cardDifferencesTitle">
+          <Link href={'/projects'} onClick={disableMenuHamburger}>
+            <Typography
+              Tag="span"
+              apparentTag="cardDifferencesTitle"
+              botBorder={pathName === '/projects'}
+            >
               {menu.projects}
             </Typography>
           </Link>
-          <Link href={'#'} onClick={change}>
+          <Link href={'#'} onClick={disableMenuHamburger}>
             <Button large variant="FillSecondary">
               {menu.cv}
             </Button>
           </Link>
-          <Link href={'#contact'} onClick={change}>
+          <Link href={'#contact'} onClick={disableMenuHamburger}>
             <Button variant="primary" large>
               {menu.contact}
             </Button>
