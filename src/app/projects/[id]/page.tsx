@@ -5,13 +5,24 @@ import Typography from '@/components/Typography'
 import Tag from '@/components/SkillsAndTechnologies/Tag'
 import TypeOfProject from '@/components/Projects/TypeOfProject'
 import { Eye, Github } from 'lucide-react'
+import db from '@/db/db.json'
+
+const projects = db.projects.projectsList
 
 interface ParamsType {
   id: string
 }
 
+export async function generateMetadata({ params }: { params: ParamsType }) {
+  const project = projects.find((project) => project.id === params.id)
+  return {
+    title: `Gustavo Pereira | ${project?.title}`,
+  }
+}
+
 export default function Page({ params }: { params: ParamsType }) {
-  console.log(params.id)
+  const project = projects.find((project) => project.id === params.id)
+  console.log(project)
   return (
     <main className="flex flex-col gap-4">
       {/* Imagem */}
