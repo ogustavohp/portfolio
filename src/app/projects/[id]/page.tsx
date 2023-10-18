@@ -6,6 +6,8 @@ import Tag from '@/components/SkillsAndTechnologies/Tag'
 import TypeOfProject from '@/components/Projects/TypeOfProject'
 import { Eye, Github } from 'lucide-react'
 import db from '@/db/db.json'
+import gifLogin from '@/assets/timeVaultGif1.gif'
+import gifRegisterMemory from '@/assets/timeVaultGif2.gif'
 
 const projects = db.projects.projectsList
 
@@ -71,52 +73,63 @@ export default function Page({ params }: { params: ParamsType }) {
         {/* Texto e imagens sobre o projeto */}
         <div className="flex flex-wrap gap-5">
           <Typography Tag="p" apparentTag="p">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
-            hic ducimus eaque dicta vero provident nostrum officia quod? Quae
-            debitis velit quaerat error neque eum eaque. Ipsum molestiae
-            consequatur eaque! Sit, dolore error blanditiis veniam maxime
-            corporis ipsa, delectus ducimus est ea perspiciatis. A velit beatae,
-            iste, esse nulla dolorem excepturi, repudiandae cumque provident
-            aperiam tempore doloribus reiciendis nostrum perferendis! Doloribus
-            autem magnam officiis temporibus nostrum cupiditate laboriosam porro
-            distinctio ipsum eius quam aspernatur delectus corrupti velit,
-            possimus similique sequi adipisci, qui architecto. Exercitationem
-            dignissimos et aliquid soluta quis tenetur.
+            O &quot;Time Vault&quot; é muito mais do que apenas uma aplicação -
+            é um refúgio seguro para suas memórias e lembranças mais preciosas.
+            Desenvolvido com uma ampla gama de tecnologias modernas, incluindo
+            Fastify, Prisma, Next.js, TypeScript, React, Expo, Tailwind CSS,
+            Node.js, ESlint e Prettier, este projeto é a união perfeita entre
+            tecnologia e nostalgia.
           </Typography>
           <Typography Tag="p" apparentTag="p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus minima ad perferendis cum, optio nemo distinctio?
-            Deleniti, excepturi aspernatur veritatis corporis nostrum dolores
-            sequi, voluptatibus, natus minus iste dignissimos! Mollitia.
-            Pariatur recusandae dolor corporis, nulla necessitatibus quos
-            tempore ea commodi nihil consequuntur est enim ut. Et eum rem odit
-            obcaecati at voluptatum. Quasi saepe harum inventore! Ea neque nemo
-            rerum! Dolores vel illo debitis a eum nemo ipsa blanditiis. Aliquam
-            corrupti recusandae nesciunt, nobis assumenda possimus rem dolorem
-            harum magni. Optio quidem eos dolore ipsa! Corporis impedit facilis
-            natus praesentium.
+            Uma das principais características do &quot;Time Vault&quot; é a
+            capacidade de fazer login com sua conta do GitHub, simplificando o
+            acesso à plataforma. Uma vez dentro, você pode começar a cadastrar
+            suas memórias de forma organizada e segura.
+          </Typography>
+          <Image
+            alt="gif logando no projeto pelo github"
+            src={gifLogin}
+            className="m-auto"
+          />
+          <Typography Tag="p" apparentTag="p">
+            Além disso, o &quot;Time Vault&quot; permite que você adicione
+            imagens às suas memórias, dando vida às lembranças de uma maneira
+            única e envolvente. Assim, você pode reviver momentos especiais e
+            compartilhá-los com o mundo ou manter essas memórias preciosas para
+            você.
+          </Typography>
+          <Image
+            alt="gif cadastrando uma memoria no projeto"
+            src={gifRegisterMemory}
+            className="m-auto"
+          />
+          <Typography Tag="p" apparentTag="p">
+            Para colocar o &quot;Time Vault&quot; em produção, seria necessário
+            hospedar o servidor back-end em uma plataforma como Heroku ou
+            Render, e o front-end em um serviço como Vercel. Além disso, para
+            armazenar as imagens cadastradas pelos usuários de maneira escalável
+            e confiável, seriam necessários serviços de armazenamento em nuvem
+            como Amazon S3, Google Cloud Storage ou Cloudflare R2. Infelizmente,
+            esses serviços são pagos e podem acarretar custos significativos ao
+            longo do tempo.
           </Typography>
           <Typography Tag="p" apparentTag="p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            magni. Fugiat modi laboriosam incidunt nisi vitae quasi cum neque
-            saepe? Ipsum animi earum fuga, similique dolorem recusandae quos
-            quis inventore! Officiis explicabo sed consequuntur esse odio, iure
-            voluptatem ullam aperiam et sint necessitatibus provident
-            accusantium nisi dolor. Incidunt doloribus eum, id pariatur quaerat
-            quos dolor, sed impedit ex consequatur reprehenderit.
+            No entanto, uma ótima notícia é que você pode facilmente acessar e
+            executar o projeto &quot;Time Vault&quot; em sua própria máquina
+            local. Para isso, basta seguir o passo a passo fornecido no
+            repositório GitHub do projeto. Isso permitirá que você experimente
+            todas as funcionalidades e recursos do &quot;Time Vault&quot; em um
+            ambiente de desenvolvimento, permitindo que você explore e desfrute
+            de todas as suas capacidades sem custos associados.
           </Typography>
-          <Typography Tag="p" apparentTag="p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-            voluptate voluptatibus veritatis inventore asperiores adipisci
-            veniam aperiam? Minus officia atque debitis eius sint, magni culpa
-            temporibus blanditiis architecto odit autem. Odit aliquid at, ipsa
-            nihil doloribus harum quam obcaecati. Consequatur, id? Sed nulla,
-            odit voluptas blanditiis ut non deserunt modi officiis maxime quidem
-            sunt quaerat neque? Laudantium modi sint ipsa! A vel iure amet
-            accusamus molestias et eaque fuga consequatur. Quod dolorum pariatur
-            culpa similique sunt aut deleniti? Et illum sunt explicabo adipisci!
-            Aperiam omnis sed deserunt totam! Ex, veritatis.
-          </Typography>
+          <div className="m-auto aspect-video w-full max-w-3xl">
+            <iframe
+              className="h-full w-full"
+              src="https://www.youtube.com/embed/oKluokDoWXg?si=0KR-BW3E4IBS-wv6"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
+          </div>
         </div>
       </section>
     </main>
