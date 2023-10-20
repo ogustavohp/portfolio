@@ -28,6 +28,9 @@ export default function RootLayout({
         className={`${firaSans.className} bg-[url(../assets/bg-stars.svg)] bg-repeat`}
       >
         <div className="mx-auto min-h-screen max-w-[1436px]">
+          {/* <span className="fixed right-1/2 m-auto translate-x-1/2 rounded-full border border-primary-500 bg-primary-500 px-2 py-1 text-black">
+            Enviando...
+          </span> */}
           <Menu />
           <ProjectsProvider>
             <SkillsProvider>
