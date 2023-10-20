@@ -6,7 +6,7 @@ import * as React from 'react'
 const resend = new Resend(process.env.RESEND_API_KEY)
 
 export async function POST(req: NextRequest) {
-  const redirectURL = new URL('/', req.url)
+  // const redirectURL = new URL('/', req.url)
   try {
     const body = await req.json()
     const { email, name, message } = body
@@ -23,10 +23,9 @@ export async function POST(req: NextRequest) {
     if (data.id) {
       console.log('enviado com sucesso')
     }
-
-    return NextResponse.redirect(redirectURL)
+    return NextResponse.json(data)
   } catch (error) {
     console.log('error', error)
-    return NextResponse.redirect(redirectURL)
+    return NextResponse.json({ error })
   }
 }
