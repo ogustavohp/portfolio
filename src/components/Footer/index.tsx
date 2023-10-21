@@ -44,7 +44,9 @@ export default function Footer() {
           </Typography>
         </div>
         <div className="ml-5 mt-7 flex flex-col items-start gap-4">
-          <Button variant="primary">{contact.seeAllProjects}</Button>
+          <Button variant="primary" hover>
+            {contact.seeAllProjects}
+          </Button>
           <CurriculumLinks col />
         </div>
       </div>
