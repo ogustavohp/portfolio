@@ -14,13 +14,13 @@ export default function CurriculumLinks({ col = false }: ICurriculum) {
         col ? 'flex-col items-start ' : ''
       }`}
     >
-      <Button>
+      <Button hover>
         <span className="flex gap-2">
           <Eye className="self-center" />
           {db.aboutMe.cvOnline.text}
         </span>
       </Button>
-      <Button variant="FillSecondary">
+      <Button variant="FillSecondary" hover>
         <span className="flex gap-2">
           <Download className="self-center" />
           {db.aboutMe.cvDownload.text}
