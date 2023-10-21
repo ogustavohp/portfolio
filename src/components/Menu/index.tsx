@@ -39,6 +39,7 @@ export default function Menu() {
               apparentTag="h1"
               ornament
               botBorder={pathName === '/'}
+              style={'text-white hover:text-primary-500 transition-all'}
             >
               Gustavo Pereira
             </Typography>
@@ -49,15 +50,12 @@ export default function Menu() {
             visible ? 'left-0' : '-left-full'
           } md:static md:w-auto md:flex-row md:items-center md:justify-center md:bg-transparent md:pb-0 md:pl-0`}
         >
-          <Link
-            href={'/aboutme'}
-            className="pt-4 md:pt-0"
-            onClick={disableMenuHamburger}
-          >
+          <Link href={'/aboutme'} onClick={disableMenuHamburger}>
             <Typography
               Tag="span"
               apparentTag="cardDifferencesTitle"
               botBorder={pathName === '/aboutme'}
+              style={'text-white hover:text-primary-500 transition-all'}
             >
               {menu.aboutMe}
             </Typography>
@@ -67,6 +65,7 @@ export default function Menu() {
               Tag="span"
               apparentTag="cardDifferencesTitle"
               botBorder={pathName === '/formations'}
+              style={'text-white hover:text-primary-500 transition-all'}
             >
               {menu.formations}
             </Typography>
@@ -76,6 +75,7 @@ export default function Menu() {
               Tag="span"
               apparentTag="cardDifferencesTitle"
               botBorder={pathName === '/skills'}
+              style={'text-white hover:text-primary-500 transition-all'}
             >
               {menu.skills}
             </Typography>
@@ -85,17 +85,18 @@ export default function Menu() {
               Tag="span"
               apparentTag="cardDifferencesTitle"
               botBorder={pathName === '/projects'}
+              style={'text-white hover:text-primary-500 transition-all'}
             >
               {menu.projects}
             </Typography>
           </Link>
           <Link href={'#'} onClick={disableMenuHamburger}>
-            <Button large variant="FillSecondary">
+            <Button large variant="FillSecondary" hover>
               {menu.cv}
             </Button>
           </Link>
           <Link href={'#contact'} onClick={disableMenuHamburger}>
-            <Button variant="primary" large>
+            <Button variant="primary" large hover>
               {menu.contact}
             </Button>
           </Link>

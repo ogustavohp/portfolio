@@ -9,7 +9,13 @@ export default function SkillsAndTechnologies() {
   return (
     <section className="flex flex-col items-center gap-3">
       <Link href={'/skills'}>
-        <Typography Tag="h2" apparentTag="h2" ornament botBorder>
+        <Typography
+          Tag="h2"
+          apparentTag="h2"
+          ornament
+          botBorder
+          style={'text-white hover:text-primary-500 transition-all'}
+        >
           {db.skillsAndTechnologies.title1} <OrnamentE />{' '}
           {db.skillsAndTechnologies.title2}
         </Typography>

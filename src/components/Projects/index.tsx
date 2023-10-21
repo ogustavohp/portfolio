@@ -25,7 +25,13 @@ export default function Projects({
     <section className="flex flex-col items-center gap-3">
       {!noProjectTitle && (
         <Link href={'/projects'}>
-          <Typography Tag="h2" apparentTag="h1" ornament botBorder>
+          <Typography
+            Tag="h2"
+            apparentTag="h1"
+            ornament
+            botBorder
+            style={'text-white hover:text-primary-500 transition-all'}
+          >
             {db.projects.title}
           </Typography>
         </Link>

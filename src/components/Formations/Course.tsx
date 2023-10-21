@@ -76,7 +76,9 @@ export default function Course({
       {/* Certificado */}
       <div className="flex">
         <a href={certificateLink} target="_blank">
-          <Button variant="FillSecondary">Certificado</Button>
+          <Button variant="FillSecondary" hover>
+            Certificado
+          </Button>
         </a>
       </div>
     </div>
