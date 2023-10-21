@@ -18,7 +18,7 @@ export default function Page() {
           conversarmos!
         </p>
         <Link href={'/'} className="self-start">
-          <Button variant="FillSecondary" large>
+          <Button variant="FillSecondary" large hover>
             Voltar para o início
           </Button>
         </Link>
