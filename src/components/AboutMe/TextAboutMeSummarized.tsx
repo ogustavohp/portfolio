@@ -7,7 +7,13 @@ export default function TextAboutMeSummarized() {
   return (
     <>
       <Link href={'/aboutme'}>
-        <Typography Tag="h2" apparentTag="h1" ornament botBorder>
+        <Typography
+          Tag="h2"
+          apparentTag="h1"
+          ornament
+          botBorder
+          style={'text-white hover:text-primary-500 transition-all'}
+        >
           {db.aboutMe.title}
         </Typography>
       </Link>
@@ -16,7 +22,7 @@ export default function TextAboutMeSummarized() {
       </Typography>
       <Link
         href={'/aboutme'}
-        className="self-start font-bold leading-relaxed text-primary-500"
+        className="self-start font-bold leading-relaxed text-primary-500 hover:underline"
       >
         {db.aboutMe.readMore}
       </Link>
