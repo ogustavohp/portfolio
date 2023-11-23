@@ -7,12 +7,16 @@ const projectsDb = db.projects.projectsList
 interface Projects {
   id: string
   title: string
+  pasteName: string
   filter: string[]
   image: string
   sideProject: boolean
   inProgress: boolean
   shortDescription: string
-  fullDescription: string
+  fullDescription: {
+    text: string
+    gif: string
+  }[]
   technologies: {
     id: string
     skillName: string

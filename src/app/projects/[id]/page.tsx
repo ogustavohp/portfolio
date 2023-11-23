@@ -1,5 +1,4 @@
 import React from 'react'
-import bannerTimeVault from '@/assets/banner_timeVault.png'
 import Image from 'next/image'
 import Typography from '@/components/Typography'
 import Tag from '@/components/SkillsAndTechnologies/Tag'
@@ -22,16 +21,28 @@ export async function generateMetadata({ params }: { params: ParamsType }) {
   }
 }
 
+export async function getStaticPaths() {
+  const paths = db.projects.projectsList.map((e) => {
+    return { params: { id: `${e.id}` } }
+  })
+  return {
+    paths,
+    fallback: false,
+  }
+}
+
 export default function Page({ params }: { params: ParamsType }) {
   const project = projects.find((project) => project.id === params.id)
-  console.log(project)
+
   return (
     <main className="flex flex-col gap-4">
       {/* Imagem */}
       <div className="relative">
         <Image
           alt="Banner do projeto"
-          src={bannerTimeVault}
+          src={'/timeVault/banner.png'}
+          width={1436}
+          height={0}
           className="w-full"
         />
         <div className="absolute inset-0">
@@ -44,7 +55,7 @@ export default function Page({ params }: { params: ParamsType }) {
         {/* Titulo */}
         <div>
           <Typography Tag="h1" apparentTag="h1" ornament>
-            Time Vault
+            {project?.title}
           </Typography>
         </div>
         {/* Tags */}
@@ -135,3 +146,4 @@ export default function Page({ params }: { params: ParamsType }) {
     </main>
   )
 }
+// }

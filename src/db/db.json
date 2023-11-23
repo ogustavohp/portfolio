@@ -324,12 +324,16 @@
       {
         "id": "cccaf838-1831-48b1-8026-d3fd5164d4a9",
         "title": "Time Vault",
+        "pasteName": "timeVault",
         "filter": [""],
         "image": "link",
         "sideProject": true,
         "inProgress": false,
         "shortDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus non eveniet animi. Vitae unde sed tenetur vero nesciunt, est tempore non, sapiente dolores architecto maiores ducimus beatae dicta reiciendis recusandae.",
-        "fullDescription": "dawdakwjdlkawjdlajwdlajwdlawd",
+        "fullDescription": [
+          { "text": "loremloremlreoremo remo rem r", "gif": "gif1" },
+          { "text": "loremloremlreoremo remo rem r", "gif": "gif1" }
+        ],
         "technologies": [
           {
             "id": "2564566d-a7c8-4870-ad81-5965324c3d88",
@@ -384,12 +388,16 @@
       {
         "id": "9c37f145-9889-40f6-8057-61e5539ad15f",
         "title": "Time Vault",
+        "pasteName": "timeVault",
         "filter": [""],
         "image": "link",
         "sideProject": true,
         "inProgress": false,
         "shortDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus non eveniet animi. Vitae unde sed tenetur vero nesciunt, est tempore non, sapiente dolores architecto maiores ducimus beatae dicta reiciendis recusandae.",
-        "fullDescription": "dawdakwjdlkawjdlajwdlajwdlawd",
+        "fullDescription": [
+          { "text": "loremloremlreoremo remo rem r", "gif": "gif1" },
+          { "text": "loremloremlreoremo remo rem r", "gif": "gif1" }
+        ],
         "technologies": [
           {
             "id": "2564566d-a7c8-4870-ad81-5965324c3d88",
@@ -2170,7 +2178,9 @@
     {
       "id": "1c242331-e525-4c5a-94a7-84d5279d7c45",
       "usedIn": "Back-end e Front-end",
-      "tags": [{ "id": "cf8a2f2e-19ac-4603-85a2-1232817d15d1", "tag": "TypeScript" }],
+      "tags": [
+        { "id": "cf8a2f2e-19ac-4603-85a2-1232817d15d1", "tag": "TypeScript" }
+      ],
       "filter": [
         "typescript parte 3: mais técnicas e boas práticas",
         "typescript parte 3 mais técnicas e boas práticas",
@@ -2230,7 +2240,9 @@
     {
       "id": "b890d505-9fc3-40b5-9fd9-c6b1b9efaf10",
       "usedIn": "Back-end e Front-end",
-      "tags": [{ "id": "ae01ca2e-f0a9-4a20-80a5-83584babfea6", "tag": "TypeScript" }],
+      "tags": [
+        { "id": "ae01ca2e-f0a9-4a20-80a5-83584babfea6", "tag": "TypeScript" }
+      ],
       "filter": [
         "typescript parte 2: avançando na linguagem",
         "typescript avançando na linguagem",
@@ -2282,7 +2294,9 @@
     {
       "id": "e8403fc5-0240-46c5-a43c-5f47bf858b63",
       "usedIn": "Back-end e Front-end",
-      "tags": [{ "id": "97d59998-38fa-4678-8c0c-f71fa95d558c", "tag": "TypeScript" }],
+      "tags": [
+        { "id": "97d59998-38fa-4678-8c0c-f71fa95d558c", "tag": "TypeScript" }
+      ],
       "filter": [
         "typescript parte 1: evoluindo seu JavaScript",
         "typescript evoluindo seu JavaScript",
@@ -2678,7 +2692,9 @@
     {
       "id": "3d959f51-39ba-438f-b24a-921869a3dff4",
       "usedIn": "Front-end",
-      "tags": [{ "id": "aba2062a-4559-4a80-9da4-848818fb7d2f", "tag": "JavaScript" }],
+      "tags": [
+        { "id": "aba2062a-4559-4a80-9da4-848818fb7d2f", "tag": "JavaScript" }
+      ],
       "filter": [
         "javascript: validando formulários",
         "javascript validando formulários",
@@ -2734,7 +2750,9 @@
     {
       "id": "f1ae4951-e289-4d11-ae29-7c7948bfef5f",
       "usedIn": "Front-end e Back-end",
-      "tags": [{ "id": "7ec1f78d-763c-4d5f-bf62-783acee83eb4", "tag": "JavaScript" }],
+      "tags": [
+        { "id": "7ec1f78d-763c-4d5f-bf62-783acee83eb4", "tag": "JavaScript" }
+      ],
       "filter": [
         "javascript: criando requisições",
         "javascript criando requisições",
@@ -2792,7 +2810,9 @@
     {
       "id": "aab7a5be-239f-4c74-af9b-7ca884f62cd7",
       "usedIn": "Back-end e Front-end",
-      "tags": [{ "id": "6096e812-baa2-49dc-b49d-6d69ca76a596", "tag": "JavaScript" }],
+      "tags": [
+        { "id": "6096e812-baa2-49dc-b49d-6d69ca76a596", "tag": "JavaScript" }
+      ],
       "filter": [
         "javascript: métodos de array",
         "javascript métodos de array",
@@ -2847,7 +2867,9 @@
     {
       "id": "70ec3a73-7f02-4de5-9fa2-7758317a4b0f",
       "usedIn": "Back-end e Front-end",
-      "tags": [{ "id": "09a8a760-7d47-4eda-83dc-4a9eb8be17c6", "tag": "JavaScript" }],
+      "tags": [
+        { "id": "09a8a760-7d47-4eda-83dc-4a9eb8be17c6", "tag": "JavaScript" }
+      ],
       "filter": [
         "javascript: consumindo e tratando dados de uma API",
         "javascript consumindo dados de API",
@@ -2906,7 +2928,9 @@
     {
       "id": "b6b6e917-898d-4f92-a977-1937eed0fd26",
       "usedIn": "Back-end e Front-end",
-      "tags": [{ "id": "04257583-2b63-47a8-b3df-44bf24734500", "tag": "JavaScript" }],
+      "tags": [
+        { "id": "04257583-2b63-47a8-b3df-44bf24734500", "tag": "JavaScript" }
+      ],
       "filter": [
         "javascript: validações e reconhecimento de voz",
         "javascript validações e reconhecimento de voz",
@@ -2961,7 +2985,9 @@
     {
       "id": "c113d0a8-691a-4b38-bb1b-edb800069279",
       "usedIn": "Front-end",
-      "tags": [{ "id": "44a00595-cfa1-4183-a014-3152a2503127", "tag": "JavaScript" }],
+      "tags": [
+        { "id": "44a00595-cfa1-4183-a014-3152a2503127", "tag": "JavaScript" }
+      ],
       "filter": [
         "javascript na web: armazenando dados no navegador",
         "javascript na web armazenando dados no navegador",
@@ -3011,7 +3037,9 @@
     {
       "id": "7d6cee10-0ab8-4280-a15a-6c069bc160a5",
       "usedIn": "Front-end",
-      "tags": [{ "id": "a10b41e7-125a-4f0e-a492-51a15d11648f", "tag": "JavaScript" }],
+      "tags": [
+        { "id": "a10b41e7-125a-4f0e-a492-51a15d11648f", "tag": "JavaScript" }
+      ],
       "filter": [
         "javascript: manipulando o DOM",
         "javascript manipulando o DOM",
@@ -3567,7 +3595,9 @@
     {
       "id": "e7150106-9e36-4cd1-88ee-955dd40f5239",
       "usedIn": "Front-end",
-      "tags": [{ "id": "d179e119-c535-46a7-9d3d-b2f4cdcde94b", "tag": "HTML5" }],
+      "tags": [
+        { "id": "d179e119-c535-46a7-9d3d-b2f4cdcde94b", "tag": "HTML5" }
+      ],
       "filter": [
         "seo: otimização de sites",
         "seo otimização de sites",
