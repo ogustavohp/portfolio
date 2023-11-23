@@ -40,7 +40,8 @@ export default function Page({ params }: { params: ParamsType }) {
       <div className="relative">
         <Image
           alt="Banner do projeto"
-          src={'/timeVault/banner.png'}
+          src={`/${project?.pasteName}/banner.png`}
+          priority={true}
           width={1436}
           height={0}
           className="w-full"
@@ -60,12 +61,16 @@ export default function Page({ params }: { params: ParamsType }) {
         </div>
         {/* Tags */}
         <div className="flex flex-wrap gap-2">
-          <Tag skillName="HTML5" />
-          <Tag skillName="CSS3" />
-          <Tag skillName="Sass" />
+          {project?.technologies.map((e) => (
+            <Tag skillName={e.skillName} key={e.id} />
+          ))}
         </div>
         {/* buttons e pseudo buttons */}
-        <TypeOfProject sideProject />
+        <TypeOfProject
+          sideProject={project?.sideProject}
+          inProgress={project?.inProgress}
+        />
+
         <div className="flex gap-6">
           <div className="flex gap-2 rounded-full bg-primary-500 px-2">
             <Github className="self-center" />
@@ -97,11 +102,11 @@ export default function Page({ params }: { params: ParamsType }) {
             acesso à plataforma. Uma vez dentro, você pode começar a cadastrar
             suas memórias de forma organizada e segura.
           </Typography>
-          <Image
+          {/* <Image
             alt="gif logando no projeto pelo github"
             src={gifLogin}
             className="m-auto"
-          />
+          /> */}
           <Typography Tag="p" apparentTag="p">
             Além disso, o &quot;Time Vault&quot; permite que você adicione
             imagens às suas memórias, dando vida às lembranças de uma maneira
@@ -109,11 +114,11 @@ export default function Page({ params }: { params: ParamsType }) {
             compartilhá-los com o mundo ou manter essas memórias preciosas para
             você.
           </Typography>
-          <Image
+          {/* <Image
             alt="gif cadastrando uma memoria no projeto"
             src={gifRegisterMemory}
             className="m-auto"
-          />
+          /> */}
           <Typography Tag="p" apparentTag="p">
             Para colocar o &quot;Time Vault&quot; em produção, seria necessário
             hospedar o servidor back-end em uma plataforma como Heroku ou
@@ -135,11 +140,11 @@ export default function Page({ params }: { params: ParamsType }) {
           </Typography>
           <div className="m-auto aspect-video w-full max-w-3xl">
             <iframe
-              className="h-full w-full"
+              className="h-full w-full touch-none"
               src="https://www.youtube.com/embed/oKluokDoWXg?si=0KR-BW3E4IBS-wv6"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            ></iframe>
+            />
           </div>
         </div>
       </section>
