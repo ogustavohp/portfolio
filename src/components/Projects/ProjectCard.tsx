@@ -27,12 +27,12 @@ export default function ProjectCard({
   inProgress = false,
 }: IProjectCard) {
   return (
-    <Link href={`/projects/${id}`}>
+    <Link href={`/projects/${id}`} className="flex grow">
       <div className="flex w-72 flex-col hover:scale-105">
         {/* Imagem do card */}
         <Image alt="Imagem do Projeto" src={imgBanner} className="w-full" />
         {/* Parte de baixo do Card */}
-        <div className="rounded-b-[10px] border border-iconcolor-500 bg-gradient-to-b from-slate-900 to-bgcolor-500">
+        <div className="grow rounded-b-[10px] border border-iconcolor-500 bg-gradient-to-b from-slate-900 to-bgcolor-500">
           <div className="m-2">
             <Typography
               Tag="h3"

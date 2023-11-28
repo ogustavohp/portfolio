@@ -5,8 +5,7 @@ import Tag from '@/components/SkillsAndTechnologies/Tag'
 import TypeOfProject from '@/components/Projects/TypeOfProject'
 import { Eye, Github } from 'lucide-react'
 import db from '@/db/db.json'
-import gifLogin from '@/assets/timeVaultGif1.gif'
-import gifRegisterMemory from '@/assets/timeVaultGif2.gif'
+import Link from 'next/link'
 
 const projects = db.projects.projectsList
 
@@ -40,7 +39,7 @@ export default function Page({ params }: { params: ParamsType }) {
       <div className="relative">
         <Image
           alt="Banner do projeto"
-          src={`/${project?.pasteName}/banner.png`}
+          src={`${project?.pasteName}`}
           priority={true}
           width={1436}
           height={0}
@@ -59,12 +58,14 @@ export default function Page({ params }: { params: ParamsType }) {
             {project?.title}
           </Typography>
         </div>
+
         {/* Tags */}
         <div className="flex flex-wrap gap-2">
           {project?.technologies.map((e) => (
             <Tag skillName={e.skillName} key={e.id} />
           ))}
         </div>
+
         {/* buttons e pseudo buttons */}
         <TypeOfProject
           sideProject={project?.sideProject}
@@ -72,72 +73,45 @@ export default function Page({ params }: { params: ParamsType }) {
         />
 
         <div className="flex gap-6">
-          <div className="flex gap-2 rounded-full bg-primary-500 px-2">
+          <Link
+            href={`${project?.gitHubLink}`}
+            className="flex gap-2 rounded-full bg-primary-500 px-2 transition-all hover:bg-blue-400"
+          >
             <Github className="self-center" />
             <Typography Tag="span" apparentTag="p" style={'text-slate-900'}>
               GitHub
             </Typography>
-          </div>
-          <div className="flex gap-2 rounded-full bg-secondary-500 px-2">
+          </Link>
+          <Link
+            href={`${project?.projectLink}`}
+            className="flex gap-2 rounded-full bg-secondary-500 px-2 transition-all hover:bg-blue-400"
+          >
             <Eye className="self-center" />
             <Typography Tag="span" apparentTag="p" style={'text-slate-900'}>
               Ver Projeto Online
             </Typography>
-          </div>
-          {/* text */}
+          </Link>
         </div>
+
         {/* Texto e imagens sobre o projeto */}
-        <div className="flex flex-wrap gap-5">
-          <Typography Tag="p" apparentTag="p">
-            O &quot;Time Vault&quot; é muito mais do que apenas uma aplicação -
-            é um refúgio seguro para suas memórias e lembranças mais preciosas.
-            Desenvolvido com uma ampla gama de tecnologias modernas, incluindo
-            Fastify, Prisma, Next.js, TypeScript, React, Expo, Tailwind CSS,
-            Node.js, ESlint e Prettier, este projeto é a união perfeita entre
-            tecnologia e nostalgia.
-          </Typography>
-          <Typography Tag="p" apparentTag="p">
-            Uma das principais características do &quot;Time Vault&quot; é a
-            capacidade de fazer login com sua conta do GitHub, simplificando o
-            acesso à plataforma. Uma vez dentro, você pode começar a cadastrar
-            suas memórias de forma organizada e segura.
-          </Typography>
-          {/* <Image
-            alt="gif logando no projeto pelo github"
-            src={gifLogin}
-            className="m-auto"
-          /> */}
-          <Typography Tag="p" apparentTag="p">
-            Além disso, o &quot;Time Vault&quot; permite que você adicione
-            imagens às suas memórias, dando vida às lembranças de uma maneira
-            única e envolvente. Assim, você pode reviver momentos especiais e
-            compartilhá-los com o mundo ou manter essas memórias preciosas para
-            você.
-          </Typography>
-          {/* <Image
-            alt="gif cadastrando uma memoria no projeto"
-            src={gifRegisterMemory}
-            className="m-auto"
-          /> */}
-          <Typography Tag="p" apparentTag="p">
-            Para colocar o &quot;Time Vault&quot; em produção, seria necessário
-            hospedar o servidor back-end em uma plataforma como Heroku ou
-            Render, e o front-end em um serviço como Vercel. Além disso, para
-            armazenar as imagens cadastradas pelos usuários de maneira escalável
-            e confiável, seriam necessários serviços de armazenamento em nuvem
-            como Amazon S3, Google Cloud Storage ou Cloudflare R2. Infelizmente,
-            esses serviços são pagos e podem acarretar custos significativos ao
-            longo do tempo.
-          </Typography>
-          <Typography Tag="p" apparentTag="p">
-            No entanto, uma ótima notícia é que você pode facilmente acessar e
-            executar o projeto &quot;Time Vault&quot; em sua própria máquina
-            local. Para isso, basta seguir o passo a passo fornecido no
-            repositório GitHub do projeto. Isso permitirá que você experimente
-            todas as funcionalidades e recursos do &quot;Time Vault&quot; em um
-            ambiente de desenvolvimento, permitindo que você explore e desfrute
-            de todas as suas capacidades sem custos associados.
-          </Typography>
+        <div className="flex flex-col flex-wrap gap-5">
+          {project?.fullDescription.map((description) => (
+            <span key={description.text} className="space-y-5">
+              <Typography Tag="p" apparentTag="p">
+                {description.text}
+              </Typography>
+              {description.gif && (
+                <Image
+                  alt={description.gif.gifAlt}
+                  src={description.gif.gifLink}
+                  width={0}
+                  height={0}
+                  className="m-auto h-auto w-auto"
+                />
+              )}
+            </span>
+          ))}
+
           <div className="m-auto aspect-video w-full max-w-3xl">
             <iframe
               className="h-full w-full touch-none"

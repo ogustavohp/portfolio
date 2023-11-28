@@ -40,7 +40,7 @@ export default function Projects({
       {/* Botão ver todos os projetos */}
       <div></div>
       {/* Card */}
-      <div className="flex flex-wrap justify-center gap-3 ">
+      <div className="flex flex-wrap justify-center gap-3">
         {projects.map((e) => (
           <ProjectCard
             key={e.id}

@@ -324,15 +324,21 @@
       {
         "id": "cccaf838-1831-48b1-8026-d3fd5164d4a9",
         "title": "Time Vault",
-        "pasteName": "timeVault",
+        "pasteName": "/timeVault/banner.png",
         "filter": [""],
         "image": "link",
         "sideProject": true,
         "inProgress": false,
+        "gitHubLink": "#",
+        "projectLink": "#",
         "shortDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus non eveniet animi. Vitae unde sed tenetur vero nesciunt, est tempore non, sapiente dolores architecto maiores ducimus beatae dicta reiciendis recusandae.",
         "fullDescription": [
-          { "text": "loremloremlreoremo remo rem r", "gif": "gif1" },
-          { "text": "loremloremlreoremo remo rem r", "gif": "gif1" }
+          {
+            "text": "loremlordwadwaoremo remo rem r"
+          },
+          {
+            "text": "loremloremlrdawdadwao rem r"
+          }
         ],
         "technologies": [
           {
@@ -388,15 +394,38 @@
       {
         "id": "9c37f145-9889-40f6-8057-61e5539ad15f",
         "title": "Time Vault",
-        "pasteName": "timeVault",
+        "pasteName": "/timeVault/banner.png",
         "filter": [""],
         "image": "link",
         "sideProject": true,
         "inProgress": false,
-        "shortDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus non eveniet animi. Vitae unde sed tenetur vero nesciunt, est tempore non, sapiente dolores architecto maiores ducimus beatae dicta reiciendis recusandae.",
+        "gitHubLink": "#",
+        "projectLink": "#",
+        "shortDescription": "O ''Time Vault'' é muito mais do que apenas uma aplicação é um refúgio seguro para suas memórias e lembranças mais preciosas. Desenvolvido com uma ampla gama de tecnologias modernas...",
         "fullDescription": [
-          { "text": "loremloremlreoremo remo rem r", "gif": "gif1" },
-          { "text": "loremloremlreoremo remo rem r", "gif": "gif1" }
+          {
+            "text": "O ''Time Vault'' é muito mais do que apenas uma aplicação é um refúgio seguro para suas memórias e lembranças mais preciosas. Desenvolvido com uma ampla gama de tecnologias modernas, incluindo Fastify, Prisma, Next.js, TypeScript, React, Expo, Tailwind CSS, Node.js, ESlint e Prettier, este projeto é a união perfeita entre tecnologia e nostalgia."
+          },
+          {
+            "text": "Uma das principais características do ''Time Vault'' é a capacidade de fazer login com sua conta do GitHub, simplificando o acesso à plataforma. Uma vez dentro, você pode começar a cadastrar suas memórias de forma organizada e segura.",
+            "gif": {
+              "gifLink": "/timeVault/gif1.gif",
+              "gifAlt": "gif logando no projeto pelo github"
+            }
+          },
+          {
+            "text": "Além disso, o ''Time Vault'' permite que você adicione imagens às suas memórias, dando vida às lembranças de uma maneira única e envolvente. Assim, você pode reviver momentos especiais e compartilhá-los com o mundo ou manter essas memórias preciosas para você.",
+            "gif": {
+              "gifLink": "/timeVault/gif2.gif",
+              "gifAlt": "gif cadastrando uma memoria no projeto"
+            }
+          },
+          {
+            "text": "Para colocar o ''Time Vault'' em produção, seria necessário hospedar o servidor back-end em uma plataforma como Heroku ou Render, e o front-end em um serviço como Vercel. Além disso, para armazenar as imagens cadastradas pelos usuários de maneira escalável e confiável, seriam necessários serviços de armazenamento em nuvem como Amazon S3, Google Cloud Storage ou Cloudflare R2. Infelizmente, esses serviços são pagos e podem acarretar custos significativos ao longo do tempo."
+          },
+          {
+            "text": "No entanto, uma ótima notícia é que você pode facilmente acessar e executar o projeto ''Time Vault'' em sua própria máquina local. Para isso, basta seguir o passo a passo fornecido no repositório GitHub do projeto. Isso permitirá que você experimente todas as funcionalidades e recursos do ''Time Vault'' em um ambiente de desenvolvimento, permitindo que você explore e desfrute de todas as suas capacidades sem custos associados."
+          }
         ],
         "technologies": [
           {

@@ -12,10 +12,15 @@ interface Projects {
   image: string
   sideProject: boolean
   inProgress: boolean
+  gitHubLink: string
+  projectLink: string
   shortDescription: string
   fullDescription: {
     text: string
-    gif: string
+    gif?: {
+      gifLink: string
+      gifAlt: string
+    }
   }[]
   technologies: {
     id: string
