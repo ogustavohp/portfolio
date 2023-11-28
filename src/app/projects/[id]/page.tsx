@@ -6,6 +6,7 @@ import TypeOfProject from '@/components/Projects/TypeOfProject'
 import { Eye, Github } from 'lucide-react'
 import db from '@/db/db.json'
 import Link from 'next/link'
+import { redirect } from 'next/navigation'
 
 const projects = db.projects.projectsList
 
@@ -20,18 +21,20 @@ export async function generateMetadata({ params }: { params: ParamsType }) {
   }
 }
 
-export async function getStaticPaths() {
-  const paths = db.projects.projectsList.map((e) => {
-    return { params: { id: `${e.id}` } }
-  })
-  return {
-    paths,
-    fallback: false,
-  }
-}
+// export async function getStaticPaths() {
+//   const paths = db.projects.projectsList.map((e) => {
+//     return { params: { id: `${e.id}` } }
+//   })
+//   return {
+//     paths,
+//     fallback: false,
+//   }
+// }
 
 export default function Page({ params }: { params: ParamsType }) {
   const project = projects.find((project) => project.id === params.id)
+
+  if (!project) redirect('/404')
 
   return (
     <main className="flex flex-col gap-4">
@@ -39,7 +42,7 @@ export default function Page({ params }: { params: ParamsType }) {
       <div className="relative">
         <Image
           alt="Banner do projeto"
-          src={`${project?.pasteName}`}
+          src={`${project.pasteName}`}
           priority={true}
           width={1436}
           height={0}
@@ -55,26 +58,26 @@ export default function Page({ params }: { params: ParamsType }) {
         {/* Titulo */}
         <div>
           <Typography Tag="h1" apparentTag="h1" ornament>
-            {project?.title}
+            {project.title}
           </Typography>
         </div>
 
         {/* Tags */}
         <div className="flex flex-wrap gap-2">
-          {project?.technologies.map((e) => (
+          {project.technologies.map((e) => (
             <Tag skillName={e.skillName} key={e.id} />
           ))}
         </div>
 
         {/* buttons e pseudo buttons */}
         <TypeOfProject
-          sideProject={project?.sideProject}
-          inProgress={project?.inProgress}
+          sideProject={project.sideProject}
+          inProgress={project.inProgress}
         />
 
         <div className="flex gap-6">
           <Link
-            href={`${project?.gitHubLink}`}
+            href={`${project.gitHubLink}`}
             className="flex gap-2 rounded-full bg-primary-500 px-2 transition-all hover:bg-blue-400"
           >
             <Github className="self-center" />
@@ -83,7 +86,7 @@ export default function Page({ params }: { params: ParamsType }) {
             </Typography>
           </Link>
           <Link
-            href={`${project?.projectLink}`}
+            href={`${project.projectLink}`}
             className="flex gap-2 rounded-full bg-secondary-500 px-2 transition-all hover:bg-blue-400"
           >
             <Eye className="self-center" />
@@ -95,7 +98,7 @@ export default function Page({ params }: { params: ParamsType }) {
 
         {/* Texto e imagens sobre o projeto */}
         <div className="flex flex-col flex-wrap gap-5">
-          {project?.fullDescription.map((description) => (
+          {project.fullDescription.map((description) => (
             <span key={description.text} className="space-y-5">
               <Typography Tag="p" apparentTag="p">
                 {description.text}
