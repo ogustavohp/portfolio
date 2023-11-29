@@ -448,6 +448,9 @@
           },
           {
             "text": "No entanto, uma ótima notícia é que você pode facilmente acessar e executar o projeto ''Time Vault'' em sua própria máquina local. Para isso, basta seguir o passo a passo fornecido no repositório GitHub do projeto. Isso permitirá que você experimente todas as funcionalidades e recursos do ''Time Vault'' em um ambiente de desenvolvimento, permitindo que você explore e desfrute de todas as suas capacidades sem custos associados."
+          },
+          {
+            "text": "OBS: Às vezes, alguns quadrados podem aparecer rapidamente ao redor dos componentes. Isso ocorre porque eu não desativei a ferramenta de desenvolvedor do meu navegador ao gravar o vídeo, mas esse fenômeno não ocorre durante o uso normal da aplicação."
           }
         ],
         "technologies": [
