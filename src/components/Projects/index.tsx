@@ -1,7 +1,6 @@
 'use client'
 import React, { useEffect } from 'react'
 import Typography from '../Typography'
-import cardBanner from '@/assets/Banner Card.png'
 import ProjectCard from './ProjectCard'
 import Link from 'next/link'
 import db from '@/db/db.json'
@@ -44,7 +43,7 @@ export default function Projects({
         {projects.map((e) => (
           <ProjectCard
             key={e.id}
-            imgBanner={cardBanner}
+            imgBanner={e.imageBannerUrl}
             title={e.title}
             id={e.id}
             technologies={e.technologies}
