@@ -365,6 +365,54 @@
         ],
         "technologies": [
           {
+            "id": "43740dcb-81a9-429c-94d3-808c1ca9ad4d",
+            "skillName": "Next.js"
+          },
+          {
+            "id": "02635fbf-a259-405a-b18b-3c170f501587e",
+            "skillName": "React"
+          },
+          {
+            "id": "ca403dbb-a68e-4a32-9973-68dddbf76e49",
+            "skillName": "TypeScript"
+          },
+          {
+            "id": "b758f7e4-0659-41b1-831e-90ab5f5cde8f",
+            "skillName": "Tailwind CSS"
+          },
+          {
+            "id": "6eb93d3d-b30b-49a1-b576-ec52cf224681",
+            "skillName": "Fastify"
+          },
+          {
+            "id": "313ad016-d2e0-4faf-98c0-394e45fc99bf",
+            "skillName": "Prisma"
+          },
+          {
+            "id": "e7b4b3a1-af76-432c-8bcf-54336a00cca9",
+            "skillName": "Node.js"
+          },
+          {
+            "id": "11548e4f-6fd3-4e51-9cad-c4e1de9bf96a",
+            "skillName": "JavaScript"
+          },
+          {
+            "id": "7c0e4453-4031-4a65-a4d1-94630edf7c2a",
+            "skillName": "CSS3"
+          },
+          {
+            "id": "773cfa4f-8738-464b-8d7b-c0dda58289a1",
+            "skillName": "HTML5"
+          },
+          {
+            "id": "5595399b-a7d8-415a-89cc-50e36d68e0fd",
+            "skillName": "Git"
+          },
+          {
+            "id": "00aa59e7-7be3-4426-8bd5-066658d713b983",
+            "skillName": "GitHub"
+          },
+          {
             "id": "2564566d-a7c8-4870-ad81-5965324c3d88",
             "skillName": "ESLint"
           },
@@ -373,44 +421,8 @@
             "skillName": "Prettier"
           },
           {
-            "id": "7c0e4453-4031-4a65-a4d1-94630edf7c2a",
-            "skillName": "CSS3"
-          },
-          {
-            "id": "5595399b-a7d8-415a-89cc-50e36d68e0fd",
-            "skillName": "Git"
-          },
-          {
-            "id": "76e13a8f-c319-4c0c-bfe6-6158ba72c250",
-            "skillName": "Expo"
-          },
-          {
-            "id": "6eb93d3d-b30b-49a1-b576-ec52cf224681",
-            "skillName": "Fastify"
-          },
-          {
-            "id": "773cfa4f-8738-464b-8d7b-c0dda58289a1",
-            "skillName": "HTML5"
-          },
-          {
-            "id": "43740dcb-81a9-429c-94d3-808c1ca9ad4d",
-            "skillName": "Next.js"
-          },
-          {
-            "id": "e7b4b3a1-af76-432c-8bcf-54336a00cca9",
-            "skillName": "Node.js"
-          },
-          {
-            "id": "ca403dbb-a68e-4a32-9973-68dddbf76e49",
-            "skillName": "TypeScript"
-          },
-          {
-            "id": "11548e4f-6fd3-4e51-9cad-c4e1de9bf96a",
-            "skillName": "JavaScript"
-          },
-          {
-            "id": "e555938c-b6d7-4708-9aa3-85f30ed2b2cf",
-            "skillName": "React"
+            "id": "e61f5718-1d7f-4ad6-bd54-dffa31748253",
+            "skillName": "Outros"
           }
         ]
       },
@@ -455,6 +467,62 @@
         ],
         "technologies": [
           {
+            "id": "43740dcb-81a9-429c-94d3-808c1ca9ad4d",
+            "skillName": "Next.js"
+          },
+          {
+            "id": "e555938c-b6d7-4708-9aa3-85f30ed2b2cf",
+            "skillName": "React"
+          },
+          {
+            "id": "ca403dbb-a68e-4a32-9973-68dddbf76e49",
+            "skillName": "TypeScript"
+          },
+          {
+            "id": "3235c978-3a88-43d5-afc1-7f7f0a296537",
+            "skillName": "Tailwind CSS"
+          },
+          {
+            "id": "6eb93d3d-b30b-49a1-b576-ec52cf224681",
+            "skillName": "Fastify"
+          },
+          {
+            "id": "fb7959e0-4f0a-4e3a-b122-69dcdba654ff",
+            "skillName": "Prisma"
+          },
+          {
+            "id": "e7b4b3a1-af76-432c-8bcf-54336a00cca9",
+            "skillName": "Node.js"
+          },
+          {
+            "id": "76e13a8f-c319-4c0c-bfe6-6158ba72c250",
+            "skillName": "Expo"
+          },
+          {
+            "id": "605ec77f-9665-450a-ac5c-c54f8d29b245",
+            "skillName": "React Native"
+          },
+          {
+            "id": "11548e4f-6fd3-4e51-9cad-c4e1de9bf96a",
+            "skillName": "JavaScript"
+          },
+          {
+            "id": "7c0e4453-4031-4a65-a4d1-94630edf7c2a",
+            "skillName": "CSS3"
+          },
+          {
+            "id": "773cfa4f-8738-464b-8d7b-c0dda58289a1",
+            "skillName": "HTML5"
+          },
+          {
+            "id": "5595399b-a7d8-415a-89cc-50e36d68e0fd",
+            "skillName": "Git"
+          },
+          {
+            "id": "7d721b48-e5ac-4d2f-b742-2d48ecc66e10",
+            "skillName": "GitHub"
+          },
+          {
             "id": "2564566d-a7c8-4870-ad81-5965324c3d88",
             "skillName": "ESLint"
           },
@@ -463,44 +531,8 @@
             "skillName": "Prettier"
           },
           {
-            "id": "7c0e4453-4031-4a65-a4d1-94630edf7c2a",
-            "skillName": "CSS3"
-          },
-          {
-            "id": "5595399b-a7d8-415a-89cc-50e36d68e0fd",
-            "skillName": "Git"
-          },
-          {
-            "id": "76e13a8f-c319-4c0c-bfe6-6158ba72c250",
-            "skillName": "Expo"
-          },
-          {
-            "id": "6eb93d3d-b30b-49a1-b576-ec52cf224681",
-            "skillName": "Fastify"
-          },
-          {
-            "id": "773cfa4f-8738-464b-8d7b-c0dda58289a1",
-            "skillName": "HTML5"
-          },
-          {
-            "id": "43740dcb-81a9-429c-94d3-808c1ca9ad4d",
-            "skillName": "Next.js"
-          },
-          {
-            "id": "e7b4b3a1-af76-432c-8bcf-54336a00cca9",
-            "skillName": "Node.js"
-          },
-          {
-            "id": "ca403dbb-a68e-4a32-9973-68dddbf76e49",
-            "skillName": "TypeScript"
-          },
-          {
-            "id": "11548e4f-6fd3-4e51-9cad-c4e1de9bf96a",
-            "skillName": "JavaScript"
-          },
-          {
-            "id": "e555938c-b6d7-4708-9aa3-85f30ed2b2cf",
-            "skillName": "React"
+            "id": "e61f5718-1d7f-4ad6-bd54-dffa31748253",
+            "skillName": "Outros"
           }
         ]
       }
