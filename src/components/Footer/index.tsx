@@ -6,6 +6,7 @@ import CurriculumLinks from '../AboutMe/CurriculumLinks'
 import { Phone, Mail, Linkedin, Github } from 'lucide-react'
 import colors from '@/db/colors.json'
 import Form from './Form'
+import Link from 'next/link'
 
 const contact = db.contact
 const findMeOn = db.findMeOn
@@ -44,9 +45,11 @@ export default function Footer() {
           </Typography>
         </div>
         <div className="ml-5 mt-7 flex flex-col items-start gap-4">
-          <Button variant="primary" hover>
-            {contact.seeAllProjects}
-          </Button>
+          <Link href={'/projects'}>
+            <Button variant="primary" hover>
+              {contact.seeAllProjects}
+            </Button>
+          </Link>
           <CurriculumLinks col />
         </div>
       </div>
