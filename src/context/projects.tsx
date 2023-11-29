@@ -7,13 +7,13 @@ const projectsDb = db.projects.projectsList
 interface Projects {
   id: string
   title: string
-  pasteName: string
+  imageBannerUrl: string
   filter: string[]
-  image: string
   sideProject: boolean
   inProgress: boolean
   gitHubLink: string
   projectLink: string
+  youTubeLink: string
   shortDescription: string
   fullDescription: {
     text: string
