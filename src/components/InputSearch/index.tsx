@@ -32,7 +32,7 @@ export default function InputSearch({
         onChange={(e) => setSearch(e.target.value)}
         value={search}
         placeholder={placeholder}
-        className="w-full  bg-transparent px-2 py-1 text-base text-white placeholder:text-iconcolor-400"
+        className="w-full bg-transparent px-2 py-1 text-base text-white placeholder:text-iconcolor-400 focus:outline-none"
       />
       <Search color={colors.iconColor[400]} />
     </div>
