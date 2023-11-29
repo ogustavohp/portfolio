@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React, { ReactNode } from 'react'
 import Typography from '../Typography'
-import Image, { StaticImageData } from 'next/image'
+import Image from 'next/image'
 import { ITag } from '@/lib/tag'
 import Tag from '../SkillsAndTechnologies/Tag'
 import TypeOfProject from './TypeOfProject'
@@ -10,7 +10,7 @@ import db from '@/db/db.json'
 interface IProjectCard {
   title: string
   children: ReactNode
-  imgBanner: StaticImageData
+  imgBanner: string
   technologies: ITag[]
   sideProject?: boolean
   inProgress?: boolean
@@ -30,7 +30,13 @@ export default function ProjectCard({
     <Link href={`/projects/${id}`} className="flex grow">
       <div className="flex w-72 flex-col hover:scale-105">
         {/* Imagem do card */}
-        <Image alt="Imagem do Projeto" src={imgBanner} className="w-full" />
+        <Image
+          alt="Imagem do Projeto"
+          src={imgBanner}
+          width={269}
+          height={0}
+          className="w-full rounded-t-[10px] border-l border-r border-t border-iconcolor-500"
+        />
         {/* Parte de baixo do Card */}
         <div className="grow rounded-b-[10px] border border-iconcolor-500 bg-gradient-to-b from-slate-900 to-bgcolor-500">
           <div className="m-2">
