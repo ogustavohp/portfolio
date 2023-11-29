@@ -323,21 +323,44 @@
     "projectsList": [
       {
         "id": "cccaf838-1831-48b1-8026-d3fd5164d4a9",
-        "title": "Time Vault",
-        "pasteName": "/timeVault/banner.png",
+        "title": "VidMind.ai",
+        "imageBannerUrl": "/vidMindAi/banner.png",
         "filter": [""],
-        "image": "link",
         "sideProject": true,
         "inProgress": false,
-        "gitHubLink": "#",
-        "projectLink": "#",
-        "shortDescription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus non eveniet animi. Vitae unde sed tenetur vero nesciunt, est tempore non, sapiente dolores architecto maiores ducimus beatae dicta reiciendis recusandae.",
+        "gitHubLink": "https://github.com/ogustavohp/vidmind-ai",
+        "projectLink": "",
+        "youTubeLink": "https://www.youtube.com/embed/Lk-EpJBYsjA?si=lmO3NBsTXFc_GcZl",
+        "shortDescription": "O ''VidMind.ai'' representa uma inovação disruptiva ao unir a potência da inteligência artificial à riqueza do conteúdo audiovisual. Desenvolvido para atender criadores de conteúdo...",
         "fullDescription": [
           {
-            "text": "loremlordwadwaoremo remo rem r"
+            "text": "O ''VidMind.ai'' representa uma inovação disruptiva ao unir a potência da inteligência artificial à riqueza do conteúdo audiovisual. Desenvolvido para atender criadores de conteúdo, influenciadores e entusiastas, este projeto incorpora diversas tecnologias modernas, incluindo Next.js (React), Prisma, TypeScript, Fastify, Zod, ESLint + Prettier, FFmpeg, Tailwind CSS, Shadcn/UI (Radix), PostCSS e WebAssembly. O resultado é uma plataforma repleta de funcionalidades inovadoras que transformam a interação com vídeos, proporcionando novas maneiras de potencializar seu conteúdo."
           },
           {
-            "text": "loremloremlrdawdadwao rem r"
+            "text": "Esta aplicação, habilmente projetada, tem a capacidade única de criar títulos, descrições, resumos e responder a perguntas com base em vídeos enviados pelos usuários. O processo inicia-se com a transformação do vídeo em áudio, seguido pela compressão utilizando WebAssembly. Essa abordagem não apenas elimina completamente os custos do servidor associados a esse processo, mas também reduz os custos de armazenamento em aproximadamente 99.7534% ou seja de 954.321.202 bytes(910 MB) para 2.353.814 bytes(2.24 MB)."
+          },
+          {
+            "text": "O áudio resultante é encaminhado ao modelo Whisper da OpenAI, onde uma transcrição é gerada. O usuário tem a oportunidade de inserir um prompt de transcrição, fornecendo informações específicas que podem ser cruciais para a compreensão da AI, como nomes próprios, termos incomuns, etc. Essa transcrição é então armazenada no banco de dados, junto com o áudio comprimido, criando uma base robusta de dados.",
+            "gif": {
+              "gifLink": "/vidMindAi/gif1.gif",
+              "gifAlt": "gif enviando um video, convertendo em audio, comprimindo o audio, gerando a transcrição."
+            }
+          },
+          {
+            "text": "Após essa fase, o usuário pode escolher ou editar um prompt existente, como a geração de um título para um vídeo do YouTube. Em seguida, seleciona o modelo de IA a ser utilizado, ajustando a temperatura da AI, determinando assim o nível de criatividade que será aplicado na geração do conteúdo solicitado no prompt. O Studio VidMind.ai, portanto, não apenas simplifica, mas revoluciona a forma como os criadores de conteúdo interagem e potencializam seus vídeos, proporcionando uma experiência única e eficiente.",
+            "gif": {
+              "gifLink": "/vidMindAi/gif2.gif",
+              "gifAlt": "gif gerando títulos para um video do YouTube com base no video enviado."
+            }
+          },
+          {
+            "text": "Para colocar o ''VidMind.ai'' em produção, seria necessário hospedar o servidor back-end em uma plataforma como Heroku ou Render, e o front-end em um serviço como Vercel. Além disso, é importante considerar os custos associados ao uso frequente da API da OpenAI, infelizmente, esses serviços são pagos e podem acarretar custos significativos ao longo do tempo."
+          },
+          {
+            "text": "No entanto, uma ótima notícia é que você pode facilmente acessar e executar o projeto ''VidMind.ai'' em sua própria máquina local. Para isso, basta seguir o passo a passo fornecido no repositório GitHub do projeto. Isso permitirá que você experimente todas as funcionalidades e recursos do ''VidMind.ai'' em um ambiente de desenvolvimento, permitindo que você explore e desfrute de todas as suas capacidades sem custos associados."
+          },
+          {
+            "text": "OBS: o video utilizado de exemplo foi o video ''NANAMI e os 5 traços de MATURIDADE'' tirado do canal ''@PsicologiadosAnimes''."
           }
         ],
         "technologies": [
@@ -394,13 +417,13 @@
       {
         "id": "9c37f145-9889-40f6-8057-61e5539ad15f",
         "title": "Time Vault",
-        "pasteName": "/timeVault/banner.png",
+        "imageBannerUrl": "/timeVault/banner.png",
         "filter": [""],
-        "image": "link",
         "sideProject": true,
         "inProgress": false,
-        "gitHubLink": "#",
-        "projectLink": "#",
+        "gitHubLink": "https://github.com/ogustavohp/timevault",
+        "projectLink": "",
+        "youTubeLink": "https://www.youtube.com/embed/oKluokDoWXg?si=5pQjktHCSEyFqlA3",
         "shortDescription": "O ''Time Vault'' é muito mais do que apenas uma aplicação é um refúgio seguro para suas memórias e lembranças mais preciosas. Desenvolvido com uma ampla gama de tecnologias modernas...",
         "fullDescription": [
           {
