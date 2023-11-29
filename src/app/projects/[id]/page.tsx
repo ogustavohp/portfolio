@@ -42,7 +42,7 @@ export default function Page({ params }: { params: ParamsType }) {
       <div className="relative">
         <Image
           alt="Banner do projeto"
-          src={`${project.pasteName}`}
+          src={`${project.imageBannerUrl}`}
           priority={true}
           width={1436}
           height={0}
@@ -78,22 +78,25 @@ export default function Page({ params }: { params: ParamsType }) {
         <div className="flex gap-6">
           <Link
             href={`${project.gitHubLink}`}
-            className="flex gap-2 rounded-full bg-primary-500 px-2 transition-all hover:bg-blue-400"
+            target="_blank"
+            className="flex gap-2 rounded-full bg-secondary-400 px-2 transition-all hover:bg-blue-400"
           >
             <Github className="self-center" />
             <Typography Tag="span" apparentTag="p" style={'text-slate-900'}>
               GitHub
             </Typography>
           </Link>
-          <Link
-            href={`${project.projectLink}`}
-            className="flex gap-2 rounded-full bg-secondary-500 px-2 transition-all hover:bg-blue-400"
-          >
-            <Eye className="self-center" />
-            <Typography Tag="span" apparentTag="p" style={'text-slate-900'}>
-              Ver Projeto Online
-            </Typography>
-          </Link>
+          {project.projectLink && (
+            <Link
+              href={`${project.projectLink}`}
+              className="flex gap-2 rounded-full bg-primary-500 px-2 transition-all hover:bg-blue-400"
+            >
+              <Eye className="self-center" />
+              <Typography Tag="span" apparentTag="p" style={'text-slate-900'}>
+                Ver Projeto Online
+              </Typography>
+            </Link>
+          )}
         </div>
 
         {/* Texto e imagens sobre o projeto */}
@@ -118,7 +121,7 @@ export default function Page({ params }: { params: ParamsType }) {
           <div className="m-auto aspect-video w-full max-w-3xl">
             <iframe
               className="h-full w-full touch-none"
-              src="https://www.youtube.com/embed/oKluokDoWXg?si=0KR-BW3E4IBS-wv6"
+              src={project.youTubeLink}
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             />
