@@ -39,7 +39,6 @@ export function SkillsProvider({ children }: { children: ReactNode }) {
         )
       }),
     )
-    console.log('a')
   }
 
   return (
