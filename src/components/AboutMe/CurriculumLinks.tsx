@@ -2,7 +2,6 @@ import React from 'react'
 import Button from '../Button'
 import db from '@/db/db.json'
 import { Eye, Download } from 'lucide-react'
-import Link from 'next/link'
 
 interface ICurriculum {
   col?: boolean
@@ -23,18 +22,14 @@ export default function CurriculumLinks({ col = false }: ICurriculum) {
           </span>
         </Button>
       </a>
-      <Link
-        href={'/cv.pdf'}
-        download={'currículoGustavoHenrique'}
-        target="_blank"
-      >
+      <a href={'/cv.pdf'} download={'currículoGustavoHenrique'} target="_blank">
         <Button variant="FillSecondary" hover>
           <span className="flex gap-2">
             <Download className="self-center" />
             {db.aboutMe.cvDownload.text}
           </span>
         </Button>
-      </Link>
+      </a>
     </div>
   )
 }
