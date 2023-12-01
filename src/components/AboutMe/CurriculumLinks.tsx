@@ -22,7 +22,7 @@ export default function CurriculumLinks({ col = false }: ICurriculum) {
           </span>
         </Button>
       </a>
-      <a href={'/cv.pdf'} download={'currículoGustavoHenrique'} target="_blank">
+      <a href={'/cv.pdf'} download={'CVGustavoHenrique'} target="_blank">
         <Button variant="FillSecondary" hover>
           <span className="flex gap-2">
             <Download className="self-center" />
