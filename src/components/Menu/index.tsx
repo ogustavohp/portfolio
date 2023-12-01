@@ -90,11 +90,11 @@ export default function Menu() {
               {menu.projects}
             </Typography>
           </Link>
-          <Link href={'/cv.pdf'} target="_blank" onClick={disableMenuHamburger}>
+          <a href={'/cv.pdf'} target="_blank" onClick={disableMenuHamburger}>
             <Button large variant="FillSecondary" hover>
               {menu.cv}
             </Button>
-          </Link>
+          </a>
           <Link href={'#contact'} onClick={disableMenuHamburger}>
             <Button variant="primary" large hover>
               {menu.contact}
