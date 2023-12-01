@@ -15,14 +15,14 @@ export default function CurriculumLinks({ col = false }: ICurriculum) {
         col ? 'flex-col items-start ' : ''
       }`}
     >
-      <Link href={'/cv.pdf'} target="_blank">
+      <a href={'/cv.pdf'} target="_blank">
         <Button hover>
           <span className="flex gap-2">
             <Eye className="self-center" />
             {db.aboutMe.cvOnline.text}
           </span>
         </Button>
-      </Link>
+      </a>
       <Link
         href={'/cv.pdf'}
         download={'currículoGustavoHenrique'}
