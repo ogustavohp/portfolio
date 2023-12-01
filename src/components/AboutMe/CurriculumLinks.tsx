@@ -25,7 +25,7 @@ export default function CurriculumLinks({ col = false }: ICurriculum) {
       </Link>
       <Link
         href={'/cv.pdf'}
-        download={'currículoGustavoPereira'}
+        download={'currículoGustavoHenrique'}
         target="_blank"
       >
         <Button variant="FillSecondary" hover>
