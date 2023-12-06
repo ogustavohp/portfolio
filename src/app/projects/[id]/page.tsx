@@ -117,7 +117,28 @@ export default function Page({ params }: { params: ParamsType }) {
               )}
             </span>
           ))}
+          <Typography Tag="p" apparentTag="p">
+            {`No entanto, uma ótima notícia é que você pode facilmente acessar e
+            executar o projeto "${project.title}" em sua própria máquina local. Para
+            isso, basta seguir o passo a passo fornecido no repositório`}
+            {
+              <Link
+                href={`${project.gitHubLink}`}
+                target="_blank"
+                className="text-primary-500 transition-all hover:text-primary-200"
+              >
+                {' [GitHub] '}
+              </Link>
+            }
+            {`do projeto. Isso permitirá que você experimente todas as
+            funcionalidades e recursos do "${project.title}" em um ambiente de
+            desenvolvimento, permitindo que você explore e desfrute de todas as
+            suas capacidades sem custos associados.`}
+          </Typography>
 
+          <Typography Tag="p" apparentTag="p">
+            {project.note}
+          </Typography>
           <div className="m-auto aspect-video w-full max-w-3xl">
             <iframe
               className="h-full w-full touch-none"

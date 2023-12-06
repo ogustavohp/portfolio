@@ -15,6 +15,7 @@ interface Projects {
   projectLink: string
   youTubeLink: string
   shortDescription: string
+  note: string
   fullDescription: {
     text: string
     gif?: {

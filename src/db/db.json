@@ -355,14 +355,9 @@
           },
           {
             "text": "Para colocar o ''VidMind.ai'' em produção, seria necessário hospedar o servidor back-end em uma plataforma como Heroku ou Render, e o front-end em um serviço como Vercel. Além disso, é importante considerar os custos associados ao uso frequente da API da OpenAI, infelizmente, esses serviços são pagos e podem acarretar custos significativos ao longo do tempo."
-          },
-          {
-            "text": "No entanto, uma ótima notícia é que você pode facilmente acessar e executar o projeto ''VidMind.ai'' em sua própria máquina local. Para isso, basta seguir o passo a passo fornecido no repositório GitHub do projeto. Isso permitirá que você experimente todas as funcionalidades e recursos do ''VidMind.ai'' em um ambiente de desenvolvimento, permitindo que você explore e desfrute de todas as suas capacidades sem custos associados."
-          },
-          {
-            "text": "OBS: o video utilizado de exemplo foi o video ''NANAMI e os 5 traços de MATURIDADE'' tirado do canal ''@PsicologiadosAnimes''."
           }
         ],
+        "note": "OBS: o video utilizado de exemplo foi o video ''NANAMI e os 5 traços de MATURIDADE'' tirado do canal ''@PsicologiadosAnimes''.",
         "technologies": [
           {
             "id": "43740dcb-81a9-429c-94d3-808c1ca9ad4d",
@@ -457,14 +452,9 @@
           },
           {
             "text": "Para colocar o ''Time Vault'' em produção, seria necessário hospedar o servidor back-end em uma plataforma como Heroku ou Render, e o front-end em um serviço como Vercel. Além disso, para armazenar as imagens cadastradas pelos usuários de maneira escalável e confiável, seriam necessários serviços de armazenamento em nuvem como Amazon S3, Google Cloud Storage ou Cloudflare R2. Infelizmente, esses serviços são pagos e podem acarretar custos significativos ao longo do tempo."
-          },
-          {
-            "text": "No entanto, uma ótima notícia é que você pode facilmente acessar e executar o projeto ''Time Vault'' em sua própria máquina local. Para isso, basta seguir o passo a passo fornecido no repositório GitHub do projeto. Isso permitirá que você experimente todas as funcionalidades e recursos do ''Time Vault'' em um ambiente de desenvolvimento, permitindo que você explore e desfrute de todas as suas capacidades sem custos associados."
-          },
-          {
-            "text": "OBS: Às vezes, alguns quadrados podem aparecer rapidamente ao redor dos componentes. Isso ocorre porque eu não desativei a ferramenta de desenvolvedor do meu navegador ao gravar o vídeo, mas esse fenômeno não ocorre durante o uso normal da aplicação."
           }
         ],
+        "note": "OBS: Às vezes, alguns quadrados podem aparecer rapidamente ao redor dos componentes. Isso ocorre porque eu não desativei a ferramenta de desenvolvedor do meu navegador ao gravar o vídeo, mas esse fenômeno não ocorre durante o uso normal da aplicação.",
         "technologies": [
           {
             "id": "43740dcb-81a9-429c-94d3-808c1ca9ad4d",
