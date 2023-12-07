@@ -15,7 +15,7 @@ export default function CurriculumLinks({ col = false }: ICurriculum) {
         col ? 'flex-col items-start ' : ''
       }`}
     >
-      <Link href={'/cv.pdf'} prefetch={false} target="_blank">
+      <Link href={'/GustavoHenriqueCV.pdf'} prefetch={false} target="_blank">
         <Button hover>
           <span className="flex gap-2">
             <Eye className="self-center" />
@@ -24,9 +24,9 @@ export default function CurriculumLinks({ col = false }: ICurriculum) {
         </Button>
       </Link>
       <Link
-        href={'/cv.pdf'}
+        href={'/GustavoHenriqueCV.pdf'}
         prefetch={false}
-        download={'CVGustavoHenrique'}
+        download={'GustavoHenriqueCV'}
         target="_blank"
       >
         <Button variant="FillSecondary" hover>

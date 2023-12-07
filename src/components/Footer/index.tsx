@@ -33,7 +33,7 @@ export default function Footer() {
         <div className="ml-5 mt-5 flex gap-2">
           <Phone color={colors.primary[500]} className="self-center" />
           <Typography Tag="span" apparentTag="contact">
-            +55 (11) 93333-3333
+            {contact.tel}
           </Typography>
         </div>
 
@@ -41,7 +41,7 @@ export default function Footer() {
         <div className="ml-5 flex gap-2">
           <Mail color={colors.primary[500]} className="self-center" />
           <Typography Tag="span" apparentTag="contact">
-            email@gmail.com
+            {contact.myEmail}
           </Typography>
         </div>
         <div className="ml-5 mt-7 flex flex-col items-start gap-4">
@@ -60,20 +60,20 @@ export default function Footer() {
           {findMeOn.title}
         </Typography>
         <div className="my-5 flex items-center gap-3">
-          <a
-            href="#"
+          <Link
+            href={findMeOn.linkLinkedIn}
             target="_blank"
-            className="flex h-14 w-14 justify-center rounded-full bg-othersIconColors-1"
+            className="flex h-14 w-14 justify-center rounded-full bg-othersIconColors-1 transition-all hover:bg-primary-700"
           >
             <Linkedin size={38} className="self-center" strokeWidth={1.5} />
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href={findMeOn.linkGitHub}
             target="_blank"
-            className="flex h-14 w-14 justify-center rounded-full bg-othersIconColors-1"
+            className="flex h-14 w-14 justify-center rounded-full bg-othersIconColors-1 transition-all hover:bg-primary-700"
           >
             <Github className="self-center" size={44} strokeWidth={1.5} />
-          </a>
+          </Link>
         </div>
       </div>
     </footer>

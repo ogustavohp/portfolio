@@ -9,7 +9,7 @@
   },
   "aboutMe": {
     "title": "Olá! Eu sou o Gustavo",
-    "bio": "Olá, me chamo Gustavo, tenho 24 anos e sou apaixonado por tecnologia e programação. Com 14 anos tive o meu primeiro contato com programação onde fiz um servidor pirata de Metin2 para jogar com alguns amigos e por um tempo eu fiz algumas modificações em alguns addons do WoW (world of warcraft) que são na linguagem lua. Em 2019 entrei na faculdade de engenharia química na UFV(universidade federal de viçosa) onde passei pela disciplina de INF 100 (Introdução à programação) em python, e em 2022 eu decidi me tornar um programador de fato, hoje ja conclui mais de 100 cursos de programação com certificados e trabalho como freelancer.",
+    "bio": "Olá, me chamo Gustavo, tenho 24 anos e sou apaixonado por tecnologia e programação. Com 14 anos tive o meu primeiro contato com programação onde fiz um servidor pirata de Metin2 para jogar com alguns amigos e por um tempo eu fiz algumas modificações em alguns addons do WoW (World of Warcraft) que são na linguagem lua. Em 2019 entrei na faculdade de engenharia química na UFV(Universidade Federal de Viçosa) onde passei pela disciplina de INF 100 (Introdução à programação) em python. No ano de 2022, tomei a decisão de me dedicar integralmente à programação. Hoje, já concluí mais de 100 cursos e, atualmente, atuo como freelancer.",
     "readMore": "Ver mais",
     "cvOnline": {
       "text": "Ver Currículo Online",
@@ -536,10 +536,14 @@
     "emailPlaceholder": "email@exemplo.com",
     "message": "Mensagem",
     "messagePlaceHolder": "Digite o seu texto",
-    "seeAllProjects": "Ver todos os projetos"
+    "seeAllProjects": "Ver todos os projetos",
+    "tel": "+55 (32) 9 9924-8015",
+    "myEmail": "ogustavohp@gmail.com"
   },
   "findMeOn": {
-    "title": "Me encontre em:"
+    "title": "Me encontre em:",
+    "linkLinkedIn":"https://www.linkedin.com/in/ogustavohp/",
+    "linkGitHub": "https://github.com/ogustavohp"
   },
   "skills": [
     {

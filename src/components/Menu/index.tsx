@@ -41,7 +41,7 @@ export default function Menu() {
               botBorder={pathName === '/'}
               style={'text-white hover:text-primary-500 transition-all'}
             >
-              Gustavo Pereira
+              Gustavo Henrique
             </Typography>
           </Link>
         </div>
@@ -91,7 +91,7 @@ export default function Menu() {
             </Typography>
           </Link>
           <Link
-            href={'/cv.pdf'}
+            href={'/GustavoHenriqueCV.pdf'}
             prefetch={false}
             target="_blank"
             onClick={disableMenuHamburger}
