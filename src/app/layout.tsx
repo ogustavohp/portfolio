@@ -10,7 +10,7 @@ import { SkillsProvider } from '@/context/skills'
 const firaSans = FiraSans({ subsets: ['latin'], weight: ['400', '700'] })
 
 export const metadata: Metadata = {
-  title: 'Gustavo Pereira',
+  title: 'Gustavo Henrique',
   description: 'ogustavohp portfólio',
 }
 
