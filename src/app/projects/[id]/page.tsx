@@ -17,7 +17,7 @@ interface ParamsType {
 export async function generateMetadata({ params }: { params: ParamsType }) {
   const project = projects.find((project) => project.id === params.id)
   return {
-    title: `Gustavo Pereira | ${project?.title}`,
+    title: `Gustavo Henrique | ${project?.title}`,
   }
 }
 
