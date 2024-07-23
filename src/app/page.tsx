@@ -1,8 +1,8 @@
-import AboutMe from '@/components/AboutMe';
-import SkillsAndTechnologies from '@/components/SkillsAndTechnologies';
-import Differences from '@/components/Differences';
-import WhatIDo from '@/components/WhatIDo';
-import Projects from '@/components/Projects';
+import AboutMe from '@/components/AboutMe'
+import SkillsAndTechnologies from '@/components/SkillsAndTechnologies'
+import Differences from '@/components/Differences'
+import WhatIDo from '@/components/WhatIDo'
+import Projects from '@/components/Projects'
 
 export default function Home() {
   return (
@@ -17,5 +17,5 @@ export default function Home() {
 
       <Projects />
     </main>
-  );
+  )
 }

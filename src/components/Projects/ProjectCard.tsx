@@ -1,20 +1,20 @@
-import Link from 'next/link';
-import React, { ReactNode } from 'react';
-import Typography from '../Typography';
-import Image from 'next/image';
-import { ITag } from '@/lib/tag';
-import Tag from '../SkillsAndTechnologies/Tag';
-import TypeOfProject from './TypeOfProject';
-import db from '@/db/db.json';
+import Link from 'next/link'
+import React, { ReactNode } from 'react'
+import Typography from '../Typography'
+import Image from 'next/image'
+import { ITag } from '@/lib/tag'
+import Tag from '../SkillsAndTechnologies/Tag'
+import TypeOfProject from './TypeOfProject'
+import db from '@/db/db.json'
 
 interface IProjectCard {
-  title: string;
-  children: ReactNode;
-  imgBanner: string;
-  technologies: ITag[];
-  sideProject?: boolean;
-  inProgress?: boolean;
-  id: string;
+  title: string
+  children: ReactNode
+  imgBanner: string
+  technologies: ITag[]
+  sideProject?: boolean
+  inProgress?: boolean
+  id: string
 }
 
 export default function ProjectCard({
@@ -29,7 +29,7 @@ export default function ProjectCard({
   return (
     <Link href={`/projects/${id}`} className="flex grow justify-center">
       <div className="flex w-72 flex-col hover:scale-105">
-        {/* Imagem do card */}
+        {/* Card image */}
         <Image
           alt="Imagem do Projeto"
           src={imgBanner}
@@ -37,7 +37,7 @@ export default function ProjectCard({
           height={0}
           className="w-full rounded-t-[10px] border-l border-r border-t border-iconcolor-500"
         />
-        {/* Parte de baixo do Card */}
+
         <div className="grow rounded-b-[10px] border border-iconcolor-500 bg-gradient-to-b from-slate-900 to-bgcolor-500">
           <div className="m-2">
             <Typography
@@ -47,9 +47,7 @@ export default function ProjectCard({
             >
               {title}
             </Typography>
-            {/* Tipo do projeto */}
             <TypeOfProject inProgress={inProgress} sideProject={sideProject} />
-            {/* Texto */}
             <div>
               <Typography Tag="p" apparentTag="p">
                 {children}
@@ -68,5 +66,5 @@ export default function ProjectCard({
         </div>
       </div>
     </Link>
-  );
+  )
 }
