@@ -1,20 +1,20 @@
-import Link from 'next/link'
-import React, { ReactNode } from 'react'
-import Typography from '../Typography'
-import Image from 'next/image'
-import { ITag } from '@/lib/tag'
-import Tag from '../SkillsAndTechnologies/Tag'
-import TypeOfProject from './TypeOfProject'
-import db from '@/db/db.json'
+import Link from 'next/link';
+import React, { ReactNode } from 'react';
+import Typography from '../Typography';
+import Image from 'next/image';
+import { ITag } from '@/lib/tag';
+import Tag from '../SkillsAndTechnologies/Tag';
+import TypeOfProject from './TypeOfProject';
+import db from '@/db/db.json';
 
 interface IProjectCard {
-  title: string
-  children: ReactNode
-  imgBanner: string
-  technologies: ITag[]
-  sideProject?: boolean
-  inProgress?: boolean
-  id: string
+  title: string;
+  children: ReactNode;
+  imgBanner: string;
+  technologies: ITag[];
+  sideProject?: boolean;
+  inProgress?: boolean;
+  id: string;
 }
 
 export default function ProjectCard({
@@ -27,7 +27,7 @@ export default function ProjectCard({
   inProgress = false,
 }: IProjectCard) {
   return (
-    <Link href={`/projects/${id}`} className="flex grow">
+    <Link href={`/projects/${id}`} className="flex grow justify-center">
       <div className="flex w-72 flex-col hover:scale-105">
         {/* Imagem do card */}
         <Image
@@ -68,5 +68,5 @@ export default function ProjectCard({
         </div>
       </div>
     </Link>
-  )
+  );
 }
